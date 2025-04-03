@@ -5,7 +5,7 @@ import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 from telethon.sync import TelegramClient
 from telethon.tl.functions.channels import JoinChannelRequest
-from telethon.errors import FloodWaitError, ChannelPrivateError
+from telethon.errors import FloodWaitError, ChannelPrivateError, UserAlreadyParticipantError, UsernameInvalidError, UsernameNotOccupiedError
 from telethon.tl.types import Channel, User, Channel, Chat
 import multiprocessing
 from functools import partial
@@ -16,6 +16,8 @@ import signal
 import os
 from datetime import datetime
 from colorama import init, Fore, Back, Style
+import sys
+import ipaddress
 
 init(autoreset=True)
 
@@ -95,10 +97,24 @@ def ensure_nltk_data():
 
 # Extract Telegram channel links from messages
 def extract_channel_links(text):
-    if not text or not isinstance(text, str):
+    """Extract Telegram channel links from text"""
+    if not isinstance(text, str):
         return []
-    pattern = r't\.me/(?:joinchat/)?[a-zA-Z0-9_-]+'
-    return re.findall(pattern, text)
+    
+    links = []
+    # Match t.me links
+    tme_links = re.findall(r'(?:https?://)?t\.me/([a-zA-Z]\w{3,30}[a-zA-Z\d])', text)
+    links.extend([f"@{username}" for username in tme_links])
+    
+    # Match direct @ mentions
+    mentions = re.findall(r'@([a-zA-Z]\w{3,30}[a-zA-Z\d])', text)
+    links.extend([f"@{username}" for username in mentions])
+    
+    # Match channel links
+    channel_links = re.findall(r'(?:https?://)?(?:www\.)?telegram\.me/([a-zA-Z]\w{3,30}[a-zA-Z\d])', text)
+    links.extend([f"@{username}" for username in channel_links])
+    
+    return list(set(links))  # Remove duplicates
 
 # Clean and format channel links
 def clean_link(link):
@@ -125,105 +141,112 @@ def clean_link(link):
 class ChannelManager:
     def __init__(self):
         self.discovered_channels = set()
-        self.joined_channels = set()
         self.processed_channels = set()
-        self.channel_affiliations = {}
-        self.initial_channels = set()
-
+        self.channel_sources = {}
+    
     def add_channel(self, link, source_channel=None):
-        cleaned_link = clean_link(link)
-        if cleaned_link and cleaned_link not in self.joined_channels and cleaned_link not in self.processed_channels:
-            self.discovered_channels.add(cleaned_link)
-            if source_channel:
-                self.channel_affiliations[cleaned_link] = source_channel
-            else:
-                self.initial_channels.add(cleaned_link)  # Mark as initial channel if no source
-
-    def mark_as_joined(self, link):
-        cleaned_link = clean_link(link)
-        if cleaned_link:
-            self.joined_channels.add(cleaned_link)
-            self.discovered_channels.discard(cleaned_link)
-
-    def mark_as_processed(self, link):
-        cleaned_link = clean_link(link)
-        if cleaned_link:
-            self.processed_channels.add(cleaned_link)
-            self.discovered_channels.discard(cleaned_link)
-
-    def has_unprocessed_channels(self):
-        return len(self.discovered_channels) > 0
-
+        """Add a channel to be processed"""
+        if not isinstance(link, str):
+            return
+        
+        # Clean up the link
+        link = link.strip()
+        if not link:
+            return
+        
+        # Validate username format
+        username = link[1:] if link.startswith('@') else link
+        if not re.match(r'^[a-zA-Z]\w{3,30}[a-zA-Z\d]$', username):
+            return
+        
+        # Add to discovered channels
+        self.discovered_channels.add(f"@{username}")
+        if source_channel:
+            self.channel_sources[f"@{username}"] = source_channel
+    
     def get_next_channel(self):
-        if self.discovered_channels:
-            return self.discovered_channels.pop()
-        return None
-
-    def get_affiliation(self, link):
-        cleaned_link = clean_link(link)
-        return self.channel_affiliations.get(cleaned_link, None)
-
-    def display_status(self):
-        print_subheader("Channel Status")
-        print(f"  Channels waiting to be processed: {len(self.discovered_channels)}")
-        print(f"  Channels joined: {len(self.joined_channels)}")
-        print(f"  Channels processed: {len(self.processed_channels)}")
+        """Get the next unprocessed channel"""
+        unprocessed = self.discovered_channels - self.processed_channels
+        return next(iter(unprocessed)) if unprocessed else None
+    
+    def mark_as_processed(self, link):
+        """Mark a channel as processed"""
+        if isinstance(link, str):
+            link = link.strip()
+            username = link[1:] if link.startswith('@') else link
+            self.processed_channels.add(f"@{username}")
+    
+    def has_unprocessed_channels(self):
+        """Check if there are unprocessed channels"""
+        return bool(self.discovered_channels - self.processed_channels)
+    
+    def get_new_channels(self):
+        """Get newly discovered channels"""
+        return self.discovered_channels - self.processed_channels
 
 # Join channel by url
-async def join_channel(client, channel_manager, link, max_retries=3):
-    cleaned_link = clean_link(link)
-    if not cleaned_link:
-        print_warning(f"Invalid link format: {link}")
-        return False
-
-    retries = 0
-    while retries < max_retries:
-        try:
-            entity = await client.get_entity(cleaned_link)
-            entity_name = await get_entity_name(entity)
-            
-            if isinstance(entity, (Channel, Chat)):
-                if entity.username:
-                    await client(JoinChannelRequest(entity))
-                else:
-                    print_warning(f"Cannot join private channel {entity_name} without an invite link")
-                    return False
-            elif isinstance(entity, User):
-                print_info(f"Entity {entity_name} is a user, no need to join")
-            else:
-                print_warning(f"Unknown entity type for {entity_name}")
-                return False
-            
-            print_success(f"Successfully processed entity: {entity_name}")
-            channel_manager.mark_as_joined(cleaned_link)
-            return True
-
-        except FloodWaitError as e:
-            wait_time = min(e.seconds, 30)
-            print_warning(f"FloodWaitError encountered. Waiting for {wait_time} seconds. (Attempt {retries + 1}/{max_retries})")
-            await asyncio.sleep(wait_time)
-        except Exception as e:
-            print_error(f"Failed to process entity {cleaned_link}: {e}")
+async def join_channel(client, channel_manager, link):
+    """Join a Telegram channel"""
+    try:
+        # Clean up the link format
+        if link.startswith('https://t.me/'):
+            username = link.split('/')[-1]
+            link = f"@{username}"
+        elif link.startswith('https://telegram.me/'):
+            username = link.split('/')[-1]
+            link = f"@{username}"
+        elif not link.startswith('@'):
+            link = f"@{link}"
         
-        retries += 1
-        await asyncio.sleep(1)
-
-    print_warning(f"Max retries exceeded. Failed to process entity: {cleaned_link}")
-    return False
+        # Validate username format
+        username = link[1:] if link.startswith('@') else link
+        if not re.match(r'^[a-zA-Z]\w{3,30}[a-zA-Z\d]$', username):
+            print_warning(f"Invalid username format: {link}")
+            return False
+        
+        try:
+            await client(JoinChannelRequest(link))
+            print_success(f"Successfully joined channel: {link}")
+            return True
+        except UserAlreadyParticipantError:
+            print_info(f"Already a member of channel: {link}")
+            return True
+        except (UsernameInvalidError, UsernameNotOccupiedError):
+            print_warning(f"Invalid or non-existent channel: {link}")
+            return False
+        except FloodWaitError as e:
+            print_warning(f"FloodWaitError while joining {link}: {e}")
+            await asyncio.sleep(e.seconds)
+            return False
+        except Exception as e:
+            print_error(f"Error joining channel {link}: {str(e)}")
+            return False
+    except Exception as e:
+        print_error(f"Unexpected error joining channel {link}: {str(e)}")
+        return False
 
 # Load configuration
 def load_config(config_path):
-    if os.path.exists(config_path):
+    try:
         with open(config_path, 'r') as f:
-            return json.load(f)
-    return None
+            config = json.load(f)
+            return config
+    except FileNotFoundError:
+        print_error(f"Config file not found at {config_path}")
+        return create_default_config(config_path)
+    except json.JSONDecodeError:
+        print_error(f"Invalid JSON in config file {config_path}")
+        return create_default_config(config_path)
 
-# Create a default config file, if no config present (providing one anyways for clarity sake)
+# Create a default config file, if no config present 
 def create_default_config(config_path):
     default_config = {
         "initial_channel_links": [],
         "message_keywords": [],
-        "batch_size": 100
+        "batch_size": 100,
+        "api_id": "",
+        "api_hash": "",
+        "phone_number": ""
     }
     with open(config_path, 'w') as f:
         json.dump(default_config, f, indent=4)
@@ -231,7 +254,7 @@ def create_default_config(config_path):
     print_info("Please edit this file with your channel links and keywords.")
     return default_config
 
-# Home made sentiment lexicon (this is my first time doing this, it may suck)
+# Home made sentiment lexicon 
 class CybersecuritySentimentAnalyzer:
     def __init__(self):
         self.sia = SentimentIntensityAnalyzer()
@@ -275,207 +298,241 @@ def signal_handler(sig, frame):
 
 # Save current batch to CSV
 def save_current_batch(batch, batch_counter):
-    if batch:
-        df = pd.DataFrame(batch, columns=['Sender ID', 'Date', 'Message', 'Sentiment', 'Compound_Sentiment'])
-        
-        # If sentiment analysis hasn't been done, do it now
-        if df['Sentiment'].isnull().all():
-            cybersecurity_sia = CybersecuritySentimentAnalyzer()
-            df['Sentiment'] = df['Message'].apply(cybersecurity_sia.polarity_scores)
-            df['Compound_Sentiment'] = df['Sentiment'].apply(lambda x: x['compound'] if isinstance(x, dict) else None)
-        
-        batch_filename = f"telegram_scraped_messages_batch_{batch_counter}.csv"
-        df.to_csv(batch_filename, index=False)
-        print_success(f"Saved batch {batch_counter} with {len(batch)} messages to {batch_filename}")
-    else:
-        print_info(f"No messages in the current batch.")
-
-# generate sentiment report
-def generate_sentiment_report(df):
+    """Save the current batch of messages to a CSV file"""
+    data_dir = "data"
+    if not os.path.exists(data_dir):
+        os.makedirs(data_dir)
+    
     try:
-        # Ensure Compound_Sentiment is float
-        df['Compound_Sentiment'] = pd.to_numeric(df['Compound_Sentiment'], errors='coerce')
+        # Convert batch data to DataFrame
+        df = pd.DataFrame(batch)
         
-        # Calculate average sentiment scores
-        avg_sentiment = pd.DataFrame(df['Sentiment'].dropna().tolist()).mean()
+        # Clean and normalize data
+        df['Message'] = df['Message'].apply(lambda x: x.encode('utf-8', errors='ignore').decode('utf-8') if isinstance(x, str) else str(x))
+        df['Channel Name'] = df['Channel Name'].apply(lambda x: x.encode('utf-8', errors='ignore').decode('utf-8') if isinstance(x, str) else str(x))
+        df['Affiliated Channel'] = df['Affiliated Channel'].apply(lambda x: x.encode('utf-8', errors='ignore').decode('utf-8') if isinstance(x, str) else str(x))
         
-        # Categorise messages based on compound sentiment
-        df['Sentiment_Category'] = df['Compound_Sentiment'].apply(lambda x: 
-            'High Alert' if x <= -0.5 else
-            'Potential Threat' if -0.5 < x <= -0.1 else
-            'Neutral' if -0.1 < x < 0.1 else
-            'Potentially Positive' if 0.1 <= x < 0.5 else
-            'Very Positive'
-        )
-        sentiment_counts = df['Sentiment_Category'].value_counts()
-        total_messages = len(df)
-
-        # Calculate overall sentiment score
-        overall_score = avg_sentiment.get('compound', 0) * 100
-
-        report = f"""
-Sentiment Analysis Report
-{'-' * 50}
-Total messages analyzed: {total_messages}
-
-Overall Sentiment Score: {overall_score:.1f}/100
-Interpretation: 
-{interpret_overall_score(overall_score)}
-
-Message Sentiment Breakdown:
-"""
-
-        categories = [
-            ('High Alert', "Severe Threats"),
-            ('Potential Threat', "Potential Threats"),
-            ('Neutral', "Neutral Messages"),
-            ('Potentially Positive', "Potentially Positive"),
-            ('Very Positive', "Strong Security Indicators")
-        ]
-
-        for category, description in categories:
-            count = sentiment_counts.get(category, 0)
-            percentage = (count / total_messages) * 100
-            report += f"{category} ({description}): {count} messages ({percentage:.1f}%)\n"
-
-        report += f"\nTop 5 Most Concerning Messages (Potential Threats):\n"
-
-        for _, row in df.nsmallest(5, 'Compound_Sentiment').iterrows():
-            threat_level = abs(row['Compound_Sentiment']) * 100
-            report += f"- {row['Message'][:100]}... (Threat Level: {threat_level:.1f}/100)\n"
-
-        report += f"\nTop 5 Most Positive Messages (Potential Security Improvements):\n"
-
-        for _, row in df.nlargest(5, 'Compound_Sentiment').iterrows():
-            positivity_level = row['Compound_Sentiment'] * 100
-            report += f"- {row['Message'][:100]}... (Positivity Level: {positivity_level:.1f}/100)\n"
-
-        with open('sentiment_report.txt', 'w', encoding='utf-8') as f:
-            f.write(report)
-
-        print_success("Sentiment analysis report generated and saved to 'sentiment_report.txt'")
-        
-        # Print the sentiment category counts to the console with colors
-        print_info("Sentiment Category Counts:")
-        for category, description in categories:
-            count = sentiment_counts.get(category, 0)
-            percentage = (count / total_messages) * 100
-            color = get_category_color(category)
-            print(f"{color}{category}: {count} ({percentage:.1f}%){Style.RESET_ALL}")
-
+        # Save to CSV with proper encoding
+        filename = os.path.join(data_dir, f'telegram_scraped_messages_batch_{batch_counter}.csv')
+        df.to_csv(filename, index=False, encoding='utf-8')
+        print_success(f"Saved batch {batch_counter} with {len(batch)} messages to {filename}")
+        return True
     except Exception as e:
-        print_error(f"Error generating sentiment report: {e}")
-        print_error(f"DataFrame info:\n{df.info()}")
+        print_error(f"Error saving batch {batch_counter}: {str(e)}")
+        return False
 
-def get_category_color(category):
-    color_map = {
-        'High Alert': Fore.RED,
-        'Potential Threat': Fore.YELLOW,
-        'Neutral': Fore.WHITE,
-        'Potentially Positive': Fore.LIGHTGREEN_EX,
-        'Very Positive': Fore.GREEN
-    }
-    return color_map.get(category, '')
-
-def interpret_overall_score(score):
-    if score <= -50:
-        return "Critical situation. Numerous severe threats detected. Immediate action required."
-    elif -50 < score <= -10:
-        return "Concerning situation. Multiple potential threats identified. Heightened vigilance needed."
-    elif -10 < score < 10:
-        return "Neutral situation. No significant threats or improvements detected. Maintain standard security measures."
-    elif 10 <= score < 50:
-        return "Positive situation. Some potential security improvements identified. Consider implementing suggested measures."
-    else:
-        return "Very positive situation. Strong security indicators present. Continue current security practices and look for areas of improvement."
-
-def analyze_sentiment(cybersecurity_sia, message):
-    return cybersecurity_sia.polarity_scores(message)
-
-def process_messages(messages, num_processes=multiprocessing.cpu_count()):
-    df = pd.DataFrame(messages, columns=['Sender ID', 'Date', 'Message', 'Sentiment', 'Compound_Sentiment'])
-    
-    cybersecurity_sia = CybersecuritySentimentAnalyzer()
-    
-    # Parallelize sentiment analysis
-    with multiprocessing.Pool(processes=num_processes) as pool:
-        partial_analyze = partial(analyze_sentiment, cybersecurity_sia)
-        df['Sentiment'] = pool.map(partial_analyze, df['Message'])
-    
-    df['Compound_Sentiment'] = df['Sentiment'].apply(lambda x: x['compound'])
-    
-    generate_sentiment_report(df)
-    return df
-
-async def get_entity_name(entity):
-    if isinstance(entity, User):
-        return f"@{entity.username}" if entity.username else f"User({entity.id})"
-    elif isinstance(entity, (Channel, Chat)):
-        return entity.title or f"Channel({entity.id})"
-    else:
-        return f"Unknown({type(entity).__name__})"
-
-async def scrape_messages(client, entity, message_limit, keywords, channel_manager, affiliated_channel=None):
+async def scrape_messages(client, entity, message_depth, keywords, channel_manager):
+    """Scrape messages from a channel"""
     messages = []
     try:
-        entity_name = await get_entity_name(entity)
-        async for message in client.iter_messages(entity, limit=message_limit):
-            if message.text:
-                if affiliated_channel:
-                    print_info(f"Message from {Fore.CYAN}{Style.BRIGHT}{entity_name}{Style.RESET_ALL}.{Fore.YELLOW}{Style.BRIGHT} <-- {affiliated_channel}{Style.RESET_ALL}: {message.text}")
-                else:
-                    print_info(f"Message from {Fore.CYAN}{Style.BRIGHT}{entity_name}{Style.RESET_ALL}: {message.text}")
-                messages.append([message.sender_id, message.date, message.text, None, None])
-                
-                # Process t.me links in the message
-                links = extract_channel_links(message.text)
-                for link in links:
-                    channel_manager.add_channel(link, source_channel=entity_name)
+        async for message in client.iter_messages(entity, limit=message_depth):
+            if not message or not message.text:
+                continue
             
-            await asyncio.sleep(0.1)
-    except FloodWaitError as e:
-        print_warning(f"FloodWaitError in scrape_messages: {e}")
-        await asyncio.sleep(min(e.seconds, 30))
-    except Exception as e:
-        print_error(f"Error scraping entity {entity_name}: {e}")
-    
-    return messages, entity_name
-
-async def process_channels(client, channel_manager, message_depth, keywords, batch_processor):
-    while channel_manager.has_unprocessed_channels():
-        link = channel_manager.get_next_channel()
-        affiliated_channel = channel_manager.get_affiliation(link)
-        try:
-            join_success = await retry_with_backoff(join_channel(client, channel_manager, link))
-            if join_success:
-                entity = await client.get_entity(link)
-                entity_messages, channel_name = await scrape_messages(client, entity, message_depth, keywords, channel_manager, affiliated_channel)
-                
-                # Add messages to batch processor with channel name and affiliation
-                batch_processor.add_messages(entity_messages, channel_name, affiliated_channel)
-            else:
-                print_warning(f"Skipping entity {link} due to joining failure")
-        except Exception as e:
-            print_error(f"Failed to process entity {link}: {e}")
-        finally:
-            channel_manager.mark_as_processed(link)
+            # Check if message contains any keywords
+            if not any(keyword.lower() in message.text.lower() for keyword in keywords):
+                continue
+            
+            # Extract message data
+            message_data = {
+                'Sender ID': str(message.sender_id) if message.sender_id else 'Unknown',
+                'Date': message.date.strftime('%Y-%m-%d %H:%M:%S'),
+                'Message': message.text,
+                'Channel Name': entity.title if hasattr(entity, 'title') else str(entity.id),
+                'Affiliated Channel': None  # Will be set by the batch processor
+            }
+            messages.append(message_data)
+            
+            # Extract and add new channels
+            new_links = extract_channel_links(message.text)
+            for link in new_links:
+                channel_manager.add_channel(link, source_channel=entity.title if hasattr(entity, 'title') else str(entity.id))
         
-        await asyncio.sleep(1)  # Small delay between processing channels
+        if messages:
+            print_success(f"Found {len(messages)} relevant messages in {entity.title if hasattr(entity, 'title') else str(entity.id)}")
+        return messages
+    
+    except Exception as e:
+        print_error(f"Error scraping messages: {str(e)}")
+        return []
 
 async def process_single_channel(client, channel_manager, link, message_depth, keywords):
+    """Process a single Telegram channel"""
     try:
+        # Clean up and validate the link
+        if isinstance(link, str):
+            link = link.strip()
+            if not link:
+                return []
+        else:
+            print_warning(f"Invalid link type: {type(link)}")
+            return []
+        
         join_success = await retry_with_backoff(join_channel(client, channel_manager, link))
         if join_success:
-            entity = await client.get_entity(link)
-            entity_name = await get_entity_name(entity)
-            print_info(f"Scraping messages from: {entity_name}")
-            entity_messages = await scrape_messages(client, entity, message_depth, keywords, channel_manager)
-            return entity_messages
+            try:
+                entity = await client.get_entity(link)
+                if hasattr(entity, 'title'):
+                    print_info(f"Scraping messages from: {entity.title}")
+                else:
+                    print_info(f"Scraping messages from: {link}")
+                
+                messages = await scrape_messages(client, entity, message_depth, keywords, channel_manager)
+                if messages:
+                    print_success(f"Successfully scraped {len(messages)} messages from {entity.title if hasattr(entity, 'title') else link}")
+                return messages
+            except ValueError as e:
+                if "Could not find the input entity" in str(e):
+                    print_warning(f"Channel not found: {link}")
+                else:
+                    print_error(f"Failed to process entity {link}: {str(e)}")
+                channel_manager.mark_as_processed(link)
+                return []
+            except Exception as e:
+                print_error(f"Failed to process entity {link}: {str(e)}")
+                channel_manager.mark_as_processed(link)
+                return []
         else:
-            print_warning(f"Skipping entity {link} due to joining failure")
+            print_warning(f"Could not join channel: {link}")
+            channel_manager.mark_as_processed(link)
+            return []
     except Exception as e:
-        print_error(f"Failed to process entity {link}: {e}")
-    return []
+        print_error(f"Error processing channel {link}: {str(e)}")
+        channel_manager.mark_as_processed(link)
+        return []
+
+class BatchProcessor:
+    def __init__(self, batch_size=1000, cybersecurity_sia=None):
+        self.batch = []
+        self.batch_size = batch_size
+        self.batch_counter = 1
+        self.total_messages = 0
+        self.cybersecurity_sia = cybersecurity_sia or CybersecuritySentimentAnalyzer()
+        self.data_dir = "data"
+        # Create data directory if it doesn't exist
+        if not os.path.exists(self.data_dir):
+            os.makedirs(self.data_dir)
+        self.all_messages_df = pd.DataFrame(columns=[
+            'Sender ID', 'Date', 'Message', 'Sentiment', 'Compound_Sentiment',
+            'Channel Name', 'Affiliated Channel', 'URLs', 'IP_Addresses', 'Hashes'
+        ])
+
+    def add_messages(self, messages, channel_name, affiliated_channel):
+        """Add messages to the current batch"""
+        if not messages:
+            return
+
+        for message in messages:
+            # Extract IOCs
+            urls = extract_urls(message['Message'])
+            ips = extract_ips(message['Message'])
+            hashes = extract_hashes(message['Message'])
+            
+            # Calculate sentiment
+            sentiment = self.cybersecurity_sia.polarity_scores(message['Message'])
+            
+            message_data = {
+                'Sender ID': message['Sender ID'],
+                'Date': message['Date'],
+                'Message': message['Message'],
+                'Sentiment': sentiment,
+                'Compound_Sentiment': sentiment['compound'],
+                'Channel Name': message['Channel Name'],
+                'Affiliated Channel': message['Affiliated Channel'],
+                'URLs': urls,
+                'IP_Addresses': ips,
+                'Hashes': hashes
+            }
+            self.batch.append(message_data)
+            self.total_messages += 1
+
+            if len(self.batch) >= self.batch_size:
+                self.save_batch()
+
+    def save_batch(self):
+        """Save the current batch to a CSV file"""
+        if not self.batch:
+            return
+        
+        try:
+            # Convert batch to DataFrame
+            batch_df = pd.DataFrame(self.batch)
+            
+            # Convert lists to strings for CSV storage
+            list_columns = ['URLs', 'IP_Addresses', 'Hashes']
+            for col in list_columns:
+                if col in batch_df.columns:
+                    batch_df[col] = batch_df[col].apply(lambda x: ','.join(x) if isinstance(x, list) else str(x))
+            
+            # Save batch
+            filename = os.path.join(self.data_dir, f'telegram_scraped_messages_batch_{self.batch_counter}.csv')
+            batch_df.to_csv(filename, index=False, encoding='utf-8')
+            print_success(f"Saved batch {self.batch_counter} with {len(self.batch)} messages to {filename}")
+            
+            # Update complete dataset
+            self.all_messages_df = pd.concat([self.all_messages_df, batch_df], ignore_index=True)
+            
+            # Reset batch
+            self.batch = []
+            self.batch_counter += 1
+        except Exception as e:
+            print_error(f"Error saving batch {self.batch_counter}: {str(e)}")
+
+    def generate_final_report(self):
+        """Generate the final report and save complete dataset"""
+        # Save any remaining messages
+        if self.batch:
+            self.save_batch()
+        
+        if len(self.all_messages_df) == 0:
+            print_warning("No messages collected. Skipping final report generation.")
+            return
+        
+        try:
+            # Save complete dataset
+            final_file = os.path.join(self.data_dir, 'complete_dataset.csv')
+            self.all_messages_df.to_csv(final_file, index=False, encoding='utf-8')
+            print_success(f"Saved complete dataset with {len(self.all_messages_df)} messages to {final_file}")
+            
+            # Generate threat report
+            report_file = os.path.join(self.data_dir, 'threat_report.json')
+            
+            # Basic statistics
+            stats = {
+                'total_messages': len(self.all_messages_df),
+                'unique_channels': self.all_messages_df['Channel Name'].nunique(),
+                'date_range': {
+                    'start': self.all_messages_df['Date'].min(),
+                    'end': self.all_messages_df['Date'].max()
+                },
+                'threat_levels': {
+                    'high': len(self.all_messages_df[self.all_messages_df['Compound_Sentiment'] <= -0.5]),
+                    'medium': len(self.all_messages_df[(self.all_messages_df['Compound_Sentiment'] > -0.5) & 
+                                                     (self.all_messages_df['Compound_Sentiment'] < -0.2)]),
+                    'low': len(self.all_messages_df[self.all_messages_df['Compound_Sentiment'] >= -0.2])
+                },
+                'ioc_summary': {
+                    'total_urls': self.all_messages_df['URLs'].str.count(',').sum() + len(self.all_messages_df[self.all_messages_df['URLs'] != '']),
+                    'total_ips': self.all_messages_df['IP_Addresses'].str.count(',').sum() + len(self.all_messages_df[self.all_messages_df['IP_Addresses'] != '']),
+                    'total_hashes': self.all_messages_df['Hashes'].str.count(',').sum() + len(self.all_messages_df[self.all_messages_df['Hashes'] != ''])
+                }
+            }
+            
+            with open(report_file, 'w', encoding='utf-8') as f:
+                json.dump(stats, f, indent=2, default=str)
+            print_success(f"Generated threat report: {report_file}")
+            
+        except Exception as e:
+            print_error(f"Error generating final report: {str(e)}")
+
+    def finalize(self):
+        """Finalize processing and generate reports"""
+        self.generate_final_report()
+
+    def __del__(self):
+        """Ensure all data is saved when object is destroyed"""
+        if self.batch:
+            self.save_batch()
 
 async def retry_with_backoff(coroutine, max_retries=5, base_delay=1, max_delay=60):
     retries = 0
@@ -493,185 +550,167 @@ async def retry_with_backoff(coroutine, max_retries=5, base_delay=1, max_delay=6
             print_error(f"Unexpected error: {e}")
             raise
 
-
-
-class BatchProcessor:
-    def __init__(self, batch_size=1000, cybersecurity_sia=None):
-        self.batch = []
-        self.batch_size = batch_size
-        self.batch_counter = 1
-        self.total_messages = 0
-        self.cybersecurity_sia = cybersecurity_sia or CybersecuritySentimentAnalyzer()
-        self.all_messages_df = pd.DataFrame(columns=['Sender ID', 'Date', 'Message', 'Sentiment', 'Compound_Sentiment', 'Channel Name', 'Affiliated Channel'])
-
-    def add_messages(self, messages, channel_name, affiliated_channel):
-        messages_with_info = [
-            message + [channel_name, affiliated_channel if affiliated_channel else "Initial Config"]
-            for message in messages
-        ]
-        self.batch.extend(messages_with_info)
-        self.total_messages += len(messages)
-        if len(self.batch) >= self.batch_size:
-            self.save_batch()
-
-    def save_batch(self):
-        if self.batch:
-            df = pd.DataFrame(self.batch, columns=['Sender ID', 'Date', 'Message', 'Sentiment', 'Compound_Sentiment', 'Channel Name', 'Affiliated Channel'])
-            df['Sentiment'] = df['Message'].apply(self.cybersecurity_sia.polarity_scores)
-            df['Compound_Sentiment'] = df['Sentiment'].apply(lambda x: x['compound']).astype(float)
-            
-            batch_filename = f"telegram_scraped_messages_batch_{self.batch_counter}.csv"
-            df.to_csv(batch_filename, index=False)
-            print_success(f"Saved batch {self.batch_counter} with {len(self.batch)} messages to {batch_filename}")
-            
-            # Ensure consistent dtypes
-            for col in df.columns:
-                if col in self.all_messages_df.columns:
-                    df[col] = df[col].astype(self.all_messages_df[col].dtype)
-            
-            self.all_messages_df = pd.concat([self.all_messages_df, df], ignore_index=True)
-            
-            self.batch = []
-            self.batch_counter += 1
-
-    def generate_final_report(self):
-        print_info(f"Generating final report. Total messages: {len(self.all_messages_df)}")
-        
-        if self.all_messages_df.empty:
-            print_warning("No messages to generate report from.")
-            return
-        
-        generate_sentiment_report(self.all_messages_df)
-
-    def finalize(self):
-        self.save_batch()  # Save any remaining messages
-        self.generate_final_report()
-
-    def __del__(self):
-        self.save_batch()  # Save any remaining messages when the object is destroyed
-
-# pretty much our main func at this point
-async def run_scraper(config, message_depth, channel_depth):
-    await client.start()
+def extract_urls(text):
+    """Extract URLs from text"""
+    if not isinstance(text, str):
+        return []
     
-    signal.signal(signal.SIGINT, signal_handler)
+    # URL pattern matching common protocols
+    url_pattern = r'https?://(?:[-\w.]|(?:%[\da-fA-F]{2}))+'
+    return re.findall(url_pattern, text)
+
+def extract_ips(text):
+    """Extract IP addresses from text"""
+    if not isinstance(text, str):
+        return []
     
+    # IPv4 pattern
+    ipv4_pattern = r'\b(?:\d{1,3}\.){3}\d{1,3}\b'
+    # IPv6 pattern
+    ipv6_pattern = r'(?:[0-9a-fA-F]{1,4}:){7}[0-9a-fA-F]{1,4}'
+    
+    ips = re.findall(ipv4_pattern, text)
+    ips.extend(re.findall(ipv6_pattern, text))
+    return [ip for ip in ips if is_valid_ip(ip)]
+
+def extract_hashes(text):
+    """Extract common hash values (MD5, SHA1, SHA256) from text"""
+    if not isinstance(text, str):
+        return []
+    
+    # Hash patterns
+    md5_pattern = r'\b[a-fA-F0-9]{32}\b'
+    sha1_pattern = r'\b[a-fA-F0-9]{40}\b'
+    sha256_pattern = r'\b[a-fA-F0-9]{64}\b'
+    
+    hashes = []
+    hashes.extend(re.findall(md5_pattern, text))
+    hashes.extend(re.findall(sha1_pattern, text))
+    hashes.extend(re.findall(sha256_pattern, text))
+    return hashes
+
+def is_valid_ip(ip):
+    """Validate IP address"""
     try:
+        if ':' in ip:  # IPv6
+            ipaddress.IPv6Address(ip)
+        else:  # IPv4
+            ipaddress.IPv4Address(ip)
+        return True
+    except ValueError:
+        return False
+
+async def run_scraper(config, message_depth, channel_depth):
+    try:
+        start_time = datetime.now()  # Initialize start_time
+        
+        api_id = int(config.get('api_id'))
+        api_hash = config.get('api_hash')
+        phone_number = config.get('phone_number')
+        initial_channels = config.get('initial_channel_links', [])
+        keywords = config.get('message_keywords', [])
+        batch_size = config.get('batch_size', 100)
+
+        if not all([api_id, api_hash, phone_number]):
+            print_error("Missing required configuration. Please check config.json")
+            return
+
+        print_info("Connecting to Telegram...")
+        client = TelegramClient('telehunting_session', api_id, api_hash)
+        
+        try:
+            await client.connect()
+            if not await client.is_user_authorized():
+                print_info("First time login, sending code request...")
+                await client.send_code_request(phone_number)
+                code = input('Enter the code you received: ')
+                await client.sign_in(phone_number, code)
+            print_success("Successfully connected to Telegram!")
+        except Exception as e:
+            print_error(f"Authentication error: {str(e)}")
+            return
+
+        # Initialize managers and processors
         channel_manager = ChannelManager()
-        cybersecurity_sia = CybersecuritySentimentAnalyzer()
-        batch_processor = BatchProcessor(cybersecurity_sia=cybersecurity_sia)
-        
-        # Add initial channels from config
-        for link in config['initial_channel_links']:
+        batch_processor = BatchProcessor(batch_size=batch_size)
+
+        # Add initial channels
+        for link in initial_channels:
             channel_manager.add_channel(link)
-        
-        start_time = datetime.now()
-        print_header(f"Scraping started at {start_time}")
 
-        depth = 0
-        while channel_manager.has_unprocessed_channels() and depth < channel_depth:
-            print_subheader(f"Crawling at depth {depth + 1}/{channel_depth}")
-            channel_manager.display_status()
-            
-            await process_channels(client, channel_manager, message_depth, config['message_keywords'], batch_processor)
-            
-            depth += 1
-            
-            # Allow time for rate limiting
-            await asyncio.sleep(5)
+        print_info("\nProcessing Initial Channels")
+        print_info("-----------------------")
         
-        end_time = datetime.now()
-        duration = end_time - start_time
-        print_header(f"Scraping completed at {end_time}")
-        print_info(f"Total duration: {duration}")
-        print_info(f"Total messages scraped: {batch_processor.total_messages}")
-        print_info(f"Total channels processed: {len(channel_manager.processed_channels)}")
+        try:
+            # Process initial channels first
+            for link in initial_channels:
+                try:
+                    messages = await process_single_channel(client, channel_manager, link, message_depth, keywords)
+                    if messages:
+                        batch_processor.add_messages(messages, link, None)
+                        print_success(f"Successfully processed {len(messages)} messages from {link}")
+                    else:
+                        print_warning(f"No messages found in channel: {link}")
+                except Exception as e:
+                    print_error(f"Error processing channel {link}: {str(e)}")
+                    continue
 
-        # Finalize batch processing and generate report
-        batch_processor.finalize()
+            # Process discovered channels up to the specified depth
+            depth = 1
+            while depth < channel_depth and channel_manager.has_unprocessed_channels():
+                print_info(f"\nProcessing Depth {depth}")
+                print_info("-" * (18 + len(str(depth))))
+                
+                channels_at_depth = list(channel_manager.get_new_channels())
+                for link in channels_at_depth:
+                    try:
+                        messages = await process_single_channel(client, channel_manager, link, message_depth, keywords)
+                        if messages:
+                            source = channel_manager.channel_sources.get(link)
+                            batch_processor.add_messages(messages, link, source)
+                            print_success(f"Successfully processed {len(messages)} messages from {link}")
+                        else:
+                            print_warning(f"No messages found in channel: {link}")
+                    except Exception as e:
+                        print_error(f"Error processing channel {link}: {str(e)}")
+                        continue
+                
+                depth += 1
+
+        except Exception as e:
+            print_error(f"Error during channel processing: {str(e)}")
+        finally:
+            # Generate final report
+            print_info("\nGenerating Final Report")
+            print_info("-----------------------")
+            batch_processor.finalize()
+            
+            # Disconnect client
+            await client.disconnect()
+            print_success(f"Completed in {datetime.now() - start_time}")
 
     except Exception as e:
-        print_error(f"An error occurred during scraping: {e}")
-    finally:
-        await client.disconnect()
-
-async def process_all_channels(client, channel_manager, message_depth, keywords):
-    all_messages = []
-    channels_to_process = list(channel_manager.discovered_channels)
-    
-    for link in channels_to_process:
-        try:
-            join_success = await retry_with_backoff(join_channel(client, channel_manager, link))
-            if join_success:
-                entity = await client.get_entity(link)
-                entity_name = await get_entity_name(entity)
-                print_info(f"Scraping messages from: {entity_name}")
-                entity_messages = await scrape_messages(client, entity, message_depth, keywords, channel_manager)
-                all_messages.extend(entity_messages)
-                
-                # Process newly discovered channels
-                new_channels = channel_manager.get_new_channels()
-                for new_link in new_channels:
-                    channel_manager.add_channel(new_link)
-            else:
-                print_warning(f"Skipping entity {link} due to joining failure")
-        except Exception as e:
-            print_error(f"Failed to process entity {link}: {e}")
-        
-        await asyncio.sleep(1)  # Small delay between processing channels
-    
-    return all_messages
-
-async def process_discovered_channels(client, channel_manager, message_depth, keywords, max_channels_per_depth):
-    channels_processed = 0
-    while channel_manager.discovered_channels and channels_processed < max_channels_per_depth:
-        link = channel_manager.get_next_channel()
-        if await join_channel(client, channel_manager, link):
-            try:
-                channel = await client.get_entity(link)
-                print_info(f"Scraping messages from newly discovered channel: {channel.title}")
-                await scrape_messages(client, channel, message_depth, keywords, channel_manager)
-                channels_processed += 1
-            except Exception as e:
-                print_error(f"Failed to scrape newly discovered channel {link}: {e}")
-        
-        await asyncio.sleep(2)
+        print_error(f"Fatal error: {str(e)}")
+        if 'client' in locals():
+            await client.disconnect()
 
 if __name__ == "__main__":
     banner()
     ensure_nltk_data()
 
-    parser = argparse.ArgumentParser(description='Telegram Content Crawler')
-    parser.add_argument('--config', type=str, default='config.json', help='Path to the configuration file')
-    parser.add_argument('--message-depth', type=int, default=1000, help='Number of messages to crawl per channel')
-    parser.add_argument('--channel-depth', type=int, default=2, help='Depth of channel crawling')
-    parser.add_argument('--api-id', type=str, help='API ID for Telegram client')
-    parser.add_argument('--api-hash', type=str, help='API hash for Telegram client')
-    parser.add_argument('--phone-number', type=str, help='Phone number for Telegram client')
+    parser = argparse.ArgumentParser(description='Telegram Channel Message Scraper')
+    parser.add_argument('--config', default='config.json', help='Path to config file')
+    parser.add_argument('--message-depth', type=int, help='Number of messages to scrape per channel')
+    parser.add_argument('--channel-depth', type=int, help='Depth of channel discovery')
+    parser.add_argument('--verbose', action='store_true', help='Enable verbose output')
+
     args = parser.parse_args()
-
+    
     config = load_config(args.config)
-    if config is None:
-        user_input = input(f"Config file '{args.config}' not found. Create a default config? (y/n): ")
-        if user_input.lower() == 'y':
-            config = create_default_config(args.config)
-        else:
-            print_error("Please provide a valid config file. Exiting.")
-            exit(1)
+    if not config:
+        sys.exit(1)
 
-    API_ID = ""
-    API_HASH = ""
-    PHONE_NUMBER = ""
+    message_depth = args.message_depth or config.get('message_depth', 1000)
+    channel_depth = args.channel_depth or config.get('channel_depth', 2)
 
-    api_id = args.api_id or API_ID
-    api_hash = args.api_hash or API_HASH
-    phone_number = args.phone_number or PHONE_NUMBER
-
-    if not api_id or not api_hash or not phone_number:
-        print_error("API credentials are missing. Please provide them either as command-line arguments or in the script. (Line 664-666)")
-        exit(1)
-
-    client = TelegramClient('session_name', api_id, api_hash)
-
-    with client:
-        client.loop.run_until_complete(run_scraper(config, args.message_depth, args.channel_depth))
+    asyncio.run(run_scraper(config, message_depth, channel_depth))

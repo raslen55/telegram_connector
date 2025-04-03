@@ -1,0 +1,140 @@
+Sender ID,Date,Message,Sentiment,Compound_Sentiment,Channel Name,Affiliated Channel,URLs,IP_Addresses,Hashes
+478514542,2025-03-11 17:54:20,"The AI race: Dark AI is in the lead, but good AI is catching up
+https://www.bleepingcomputer.com/news/security/the-ai-race-dark-ai-is-in-the-lead-but-good-ai-is-catching-up/
+
+Cybercriminals are using AI for help in planning and conducting cyberattacks—but cybersecurity vendors are fighting back. Learn from Acronis Threat Research Unit about how AI-powered security solutions are closing the gap in the battle against AI-driven cyber threats. [...]","{'neg': 0.196, 'neu': 0.641, 'pos': 0.163, 'compound': -0.5267}",-0.5267,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-03-11 17:53:36,"PowerSchool previously hacked in August, months before data breach
+https://www.bleepingcomputer.com/news/security/powerschool-previously-hacked-in-august-months-before-data-breach/
+
+PowerSchool has published a long-awaited CrowdStrike investigation into its massive December 2024 data breach, which determined that the company was previously hacked over 4 months earlier, in August, and then again in September. [...]","{'neg': 0.281, 'neu': 0.675, 'pos': 0.044, 'compound': -0.9325}",-0.9325,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-03-11 17:52:33,"CISA tags critical Ivanti EPM flaws as actively exploited in attacks
+https://www.bleepingcomputer.com/news/security/cisa-tags-critical-ivanti-epm-flaws-as-actively-exploited-in-attacks/
+
+CISA warned U.S. federal agencies to secure their networks against attacks exploiting three critical vulnerabilities affecting Ivanti Endpoint Manager (EPM) appliances. [...]","{'neg': 0.398, 'neu': 0.477, 'pos': 0.125, 'compound': -0.8934}",-0.8934,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-03-11 09:05:12,"Apache Tomcat Flaw Could Allow RCE Attacks on Servers
+https://gbhackers.com/apache-tomcat-flaw/
+
+Apache Tomcat, a widely used open-source web server software, has faced numerous security vulnerabilities in recent years. Some critical issues put servers at risk of remote code execution (RCE) and other attacks. These vulnerabilities highlight the importance of keeping software up-to-date and properly configured to prevent potential exploits. Detailed Vulnerabilities: Below is a formatted table […]
+The post Apache Tomcat Flaw Could Allow RCE Attacks on Servers (https://gbhackers.com/apache-tomcat-flaw/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.184, 'neu': 0.644, 'pos': 0.172, 'compound': -0.34}",-0.34,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-11 09:04:13,"Latest Chrome Update Addresses Multiple High-Risk Security Issues
+https://gbhackers.com/latest-chrome-update/
+
+Google has released a critical update for its Chrome browser, advancing the stable channel to version 134.0.6998.88 for Windows, Mac, and Linux, and 134.0.6998.89 for Windows and Mac on the Extended Stable channel. This update includes several high-priority security fixes to safeguard users against potential threats. The rollout will occur over the coming days and […]
+The post Latest Chrome Update Addresses Multiple High-Risk Security Issues (https://gbhackers.com/latest-chrome-update/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.05, 'neu': 0.753, 'pos': 0.197, 'compound': 0.9001}",0.9001,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-11 04:35:46,"Critical Microsoft’s Time Travel Debugging Tool Vulnerability Let Attackers Mask Detection
+https://gbhackers.com/critical-microsofts-time-travel-debugging-tool-vulnerability-let-attackers-mask-detection/
+
+Microsoft’s Time Travel Debugging (TTD) framework, a powerful tool for recording and replaying Windows program executions, has been found to harbor subtle yet significant bugs in its CPU instruction emulation process, according to a new report from Mandiant. These flaws could undermine security analyses, mask vulnerabilities, and even allow attackers to evade detection, posing serious […]
+The post Critical Microsoft’s Time Travel Debugging Tool Vulnerability Let Attackers Mask Detection (https://gbhackers.com/critical-microsofts-time-travel-debugging-tool-vulnerability-let-attackers-mask-detection/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.176, 'neu': 0.642, 'pos': 0.182, 'compound': -0.0516}",-0.0516,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-11 04:34:45,"ServiceNow Acquires Moveworks for $2.85 Billion to Boost AI Capabilities
+https://gbhackers.com/servicenow-acquires-moveworks/
+
+In a landmark move to strengthen its position in the rapidly evolving artificial intelligence landscape, ServiceNow, a leading provider of digital workflow solutions, has announced its acquisition of Moveworks, an AI startup, for $2.85 billion. The deal, revealed on Monday, marks the largest acquisition in ServiceNow’s history and underscores the growing importance of AI-driven automation […]
+The post ServiceNow Acquires Moveworks for $2.85 Billion to Boost AI Capabilities (https://gbhackers.com/servicenow-acquires-moveworks/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.0, 'neu': 0.761, 'pos': 0.239, 'compound': 0.9643}",0.9643,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-11 04:33:47,"Apple iOS 18.4 Beta 3 Released – What’s New!
+https://gbhackers.com/apple-ios-18-4-beta-3-released/
+
+Apple has rolled out iOS 18.4 Beta 3, available to developers as of March 10, 2025, with the build number 22E5222f. This release is part of the ongoing beta testing phase, with the final version anticipated in early April 2025. Given the lack of detailed reports on new features, it appears this beta is primarily […]
+The post Apple iOS 18.4 Beta 3 Released – What’s New! (https://gbhackers.com/apple-ios-18-4-beta-3-released/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.025, 'neu': 0.879, 'pos': 0.096, 'compound': 0.6892}",0.6892,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-10 22:49:42,"X hit by ‘massive cyberattack’ amid Dark Storm’s DDoS claims
+https://www.bleepingcomputer.com/news/security/x-hit-by-massive-cyberattack-amid-dark-storms-ddos-claims/
+
+The Dark Storm hacktivist group claims to be behind DDoS attacks causing multiple X worldwide outages on Monday, leading the company to enable DDoS protections from Cloudflare. [...]","{'neg': 0.075, 'neu': 0.925, 'pos': 0.0, 'compound': -0.4404}",-0.4404,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-03-10 19:23:53,"New Linux Kernel Code Written in Rust Aims to Eliminate Memory Safety Bugs
+https://gbhackers.com/new-linux-kernel-code-written-in-rust-aims/
+
+The integration of Rust into the Linux kernel is a significant step forward in enhancing memory safety, a critical aspect of kernel development. This effort, known as Rust for Linux, began in 2021 with the publication of an RFC by Miguel Ojeda, the project’s primary maintainer. The goal is not to rewrite the entire kernel […]
+The post New Linux Kernel Code Written in Rust Aims to Eliminate Memory Safety Bugs (https://gbhackers.com/new-linux-kernel-code-written-in-rust-aims/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.021, 'neu': 0.82, 'pos': 0.159, 'compound': 0.9186}",0.9186,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+604262457,2025-03-10 18:51:21,"CISA Adds Five Known Exploited Vulnerabilities to Catalog
+https://www.cisa.gov/news-events/alerts/2025/03/10/cisa-adds-five-known-exploited-vulnerabilities-catalog
+
+CISA has added five new vulnerabilities to its Known Exploited Vulnerabilities Catalog (https://www.cisa.gov/known-exploited-vulnerabilities-catalog), based on evidence of active exploitation.
+
+CVE-2025-25181 (https://www.cve.org/CVERecord?id=CVE-2025-25181) Advantive VeraCore SQL Injection Vulnerability
+CVE-2024-57968 (https://www.cve.org/CVERecord?id=CVE-2024-57968) Advantive VeraCore Unrestricted File Upload Vulnerability
+CVE-2024-13159 (https://www.cve.org/CVERecord?id=CVE-2024-13159) Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability
+CVE-2024-13160 (https://www.cve.org/CVERecord?id=CVE-2024-13160) Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability
+CVE-2024-13161 (https://www.cve.org/CVERecord?id=CVE-2024-13161) Ivanti Endpoint Manager (EPM) Absolute Path Traversal Vulnerability
+
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities (https://www.cisa.gov/binding-operational-directive-22-01) established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet (https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf) for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities (https://www.cisa.gov/known-exploited-vulnerabilities-catalog) as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria (https://www.cisa.gov/known-exploited-vulnerabilities).","{'neg': 0.159, 'neu': 0.706, 'pos': 0.135, 'compound': 0.4137}",0.4137,Israel Cyber Alerts,,"https://www.cisa.gov,https://www.cisa.gov,https://www.cve.org,https://www.cve.org,https://www.cve.org,https://www.cve.org,https://www.cve.org,https://www.cisa.gov,https://www.cisa.gov,https://www.cisa.gov,https://www.cisa.gov",,
+478514542,2025-03-10 17:06:02,"Google paid $12 million in bug bounties last year to security researchers
+https://www.bleepingcomputer.com/news/security/google-paid-12-million-in-bug-bounties-last-year-to-security-researchers/
+
+Google paid almost $12 million in bug bounty rewards to 660 security researchers who reported security bugs through the company's Vulnerability Reward Program (VRP) in 2024. [...]","{'neg': 0.0, 'neu': 0.683, 'pos': 0.317, 'compound': 0.93}",0.93,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-03-10 16:40:50,"North Korean IT Workers Linked to 2,400 Astrill VPN IP Addresses
+https://gbhackers.com/north-korean-workers-linked-astrill-vpn-ip-addresses/
+
+new data has emerged linking over 2,400 IP addresses associated with Astrill VPN to individuals believed to be North Korean IT workers. These findings were reported by a cyber security source, who obtained the information from http://Spur.us, a platform known for tracking and exposing malicious online activity. This development raises serious concerns about the extent to […]
+The post North Korean IT Workers Linked to 2,400 Astrill VPN IP Addresses (https://gbhackers.com/north-korean-workers-linked-astrill-vpn-ip-addresses/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.034, 'neu': 0.876, 'pos': 0.091, 'compound': 0.6908}",0.6908,Israel Cyber Alerts,,"https://gbhackers.com,http://Spur.us,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-10 16:39:52,"Laravel Framework Flaw Allows Attackers to Execute Malicious JavaScript
+https://gbhackers.com/laravel-framework-flaw/
+
+A significant vulnerability has been identified in the Laravel framework, specifically affecting versions between 11.9.0 and 11.35.1. The issue revolves around improper encoding of request parameters on the error page when the application is running in debug mode, leading to reflected cross-site scripting (XSS). This flaw has been assigned the CVE identifier CVE-2024-13918 and has […]
+The post Laravel Framework Flaw Allows Attackers to Execute Malicious JavaScript (https://gbhackers.com/laravel-framework-flaw/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.097, 'neu': 0.788, 'pos': 0.114, 'compound': -0.0516}",-0.0516,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-10 14:30:32,"Quantum leap: Passwords in the new era of computing security
+https://www.bleepingcomputer.com/news/security/quantum-leap-passwords-in-the-new-era-of-computing-security/
+
+Quantum computing threatens to break traditional encryption, putting sensitive data at risk. Learn more from Specops Software about the risks of quantum computing and how to prepare for them. [...]","{'neg': 0.142, 'neu': 0.753, 'pos': 0.105, 'compound': -0.2023}",-0.2023,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-03-10 11:35:05,"Critical Vulnerabilities in Moxa Switches Enable Unauthorized Access
+https://gbhackers.com/critical-vulnerabilities-in-moxa-switches/
+
+A critical vulnerability identified as CVE-2024-12297 has been discovered in Moxa’s PT series of network switches, affecting multiple models across different product lines. This security flaw involves an authorization logic disclosure that can be exploited to bypass authentication mechanisms, allowing malicious actors to gain unauthorized access to sensitive configurations, potentially disrupting network services. The vulnerability, […]
+The post Critical Vulnerabilities in Moxa Switches Enable Unauthorized Access (https://gbhackers.com/critical-vulnerabilities-in-moxa-switches/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.121, 'neu': 0.681, 'pos': 0.198, 'compound': 0.8555}",0.8555,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-10 11:34:05,"Cobalt Strike Exploitation by Hackers Drops, Report Reveals
+https://gbhackers.com/cobalt-strike-exploitation-by-hackers-drops/
+
+A collaborative initiative involving Microsoft’s Digital Crimes Unit (DCU), Fortra, and the Health Information Sharing and Analysis Center (Health-ISAC) has reported a major drop in the use of unauthorized versions of the cyber tool Cobalt Strike by hackers. Since the partnership began in 2023, these organizations have worked tirelessly to combat the misuse of Cobalt […]
+The post Cobalt Strike Exploitation by Hackers Drops, Report Reveals (https://gbhackers.com/cobalt-strike-exploitation-by-hackers-drops/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.093, 'neu': 0.805, 'pos': 0.102, 'compound': 0.4404}",0.4404,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+7450844921,2025-03-03 02:07:55,Who can help me remove the UI from a old door dash table?? I have a kali Linux virtual machine that I can use for hacking it but I can’t get the table to connect to the VM so I can do an ADB,"{'neg': 0.0, 'neu': 0.944, 'pos': 0.056, 'compound': 0.2982}",0.2982,IT Security Talk,,,,
+7120556107,2025-02-22 00:00:00,I need an ethical hacker,"{'neg': 0.0, 'neu': 0.476, 'pos': 0.524, 'compound': 0.5106}",0.5106,IT Security Talk,,,,
+1388539503,2024-12-09 11:07:48,Hlo everyone anyone to help a friend of a hacked WhatsApp account,"{'neg': 0.173, 'neu': 0.449, 'pos': 0.378, 'compound': 0.4939}",0.4939,IT Security Talk,,,,
+196915009,2024-07-20 17:53:48,"I would agree though that if we used the term ""vulnerability"" very loosely then we could apply it to the process of how they interact with their customers machines but again, not really the reason for this channel and thats a loose application.","{'neg': 0.068, 'neu': 0.892, 'pos': 0.04, 'compound': -0.296}",-0.296,IT Security Talk,,,,
+196915009,2024-07-20 17:49:37,"Thats not exactly a vulnerability though. Its a bug in an update they pushed out that bricked many Windows machines with the software installed. 
+
+A vulnerability is more so a backdoor or issue that allows security threats like remote access, priviledge escelation, etc that is present in functioning software/systems.","{'neg': 0.233, 'neu': 0.688, 'pos': 0.079, 'compound': -0.8665}",-0.8665,IT Security Talk,,,,
+5105698209,2024-07-20 17:17:10,"Oops - Crowdstrike just demonstrated a serious vulnerability - directly internet-connected critical systems are updated with neither testing nor a backout plan...
+Of course all those third party sw vendors have equally rigorous protection 🙂","{'neg': 0.157, 'neu': 0.687, 'pos': 0.157, 'compound': 0.25}",0.25,IT Security Talk,,,,
+-1001158468542,2023-12-20 10:42:13,"After two days of hacking from the country's gas station
+
+The stations have not yet been set up and gasoline is only calculated at the rate ...
+
+This means rising gas prices to the mullahs' policy
+
+« #گنجشک_درنده » 
+
+https://t.me/GonjeshkeDarande","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,کانال گنجشک درنده,,https://t.me,,
+-1001158468542,2022-10-19 15:45:11,"🔻we're watching you.
+Infiltrating CCTV cameras and hacking them
+
+ما شمارا تماشا میکنیم
+نفوذ به دوربین های مداربسته و هک آنها
+
+« #گنجشک_درنده » 
+
+https://t.me/GonjeshkeDarande","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,کانال گنجشک درنده,,https://t.me,,
+-1001158468542,2022-10-15 23:08:10,"Dear people of IRAN, Evin prison has no website and we cannot do anything
+The hacking of its cameras by Adalat Ali was due to the presence of an infiltrator in the prison.
+We do not have any influence in Iran
+And it is very likely that all the cameras in Evin prison are off now.
+
+➖➖➖➖➖
+
+مردم عزیز ایران ، زندان اوین هیچ سایتی نداره و ما نمیتوانیم کاری کنیم
+هک شدن دوربین های آن توسط عدالت علی به علت وجود عامل نفوذی در زندان بود.
+ما هیچ عامل نفوذی در ایران نداریم
+و به احتمال بسیار بالا تمامی دوربین های زندان اوین الان خاموش هستند.
+
+- #اوین « #گنجشک_درنده » -
+
+https://t.me/GonjeshkeDarande","{'neg': 0.104, 'neu': 0.874, 'pos': 0.022, 'compound': -0.8591}",-0.8591,کانال گنجشک درنده,,https://t.me,,
+-1001600023263,2022-03-08 19:34:46,"Працюємо спільно з нашими колегами по топовій цілі:
+
+Атака на сервера ok.ru (російська соц. мережа)
+—
+Hop on with other hacker groups on the top target ok.ru the social network in Russia. 
+
+5.61.23.11 : 80 HTTP / 443 HTTPS
+217.20.155.13 : 80 HTTP / 443 HTTPS
+217.20.147.1 : 80 HTTP / 443 HTTPS","{'neg': 0.0, 'neu': 0.961, 'pos': 0.039, 'compound': 0.2023}",0.2023,IT ARMY of UKRAINE,,,"5.61.23.11,217.20.155.13,217.20.147.1",

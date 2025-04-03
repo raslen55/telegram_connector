@@ -1,0 +1,3 @@
+pycti==5.12.5
+python-dateutil
+stix2

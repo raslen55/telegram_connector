@@ -1,9 +1,14 @@
 {
+    "api_id": "25174052",
+    "api_hash": "9e3ab7195cd124943bdfc609fe1fdace",
+    "phone_number": "+216 97093224",
     "initial_channel_links": [
-      "https://t.me/",
-      "https://t.me/",
-      "https://t.me/"
+        "https://t.me/BLOODNET_RUS",
+        "https://t.me/itsecalert",
+        "https://t.me/IsraelCyberAlerts"
     ],
-    "message_keywords": ["hack", "carding", "malware", "exploit", "cracking"],
-    "batch_size": 100
-  }
+    "message_keywords": ["hack", "carding", "malware", "exploit", "cracking", "vulnerability", "breach", "ransomware", "zero-day", "threat"],
+    "batch_size": 100,
+    "message_depth": 10,
+    "channel_depth": 2
+}

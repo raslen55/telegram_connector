@@ -1,0 +1,496 @@
+Sender ID,Date,Message,Sentiment,Compound_Sentiment,Channel Name,Affiliated Channel,URLs,IP_Addresses,Hashes
+478514542,2025-03-03 14:33:51,"Hackers Abused Google and PayPal’s Infrastructure to Steal Users Personal Data
+https://gbhackers.com/hackers-abused-google-and-paypals-infrastructure/
+
+Cybersecurity researchers have uncovered a sophisticated phishing campaign leveraging Google Ads and PayPal’s infrastructure to deceive users and steal sensitive personal data. The attackers exploited vulnerabilities in Google’s ad policies and PayPal’s “no-code checkout” feature to create fraudulent payment links that appeared legitimate, tricking victims into engaging with fake customer support agents. Exploitation of Google […]
+The post Hackers Abused Google and PayPal’s Infrastructure to Steal Users Personal Data (https://gbhackers.com/hackers-abused-google-and-paypals-infrastructure/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.302, 'neu': 0.554, 'pos': 0.144, 'compound': -0.9712}",-0.9712,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-03 14:32:52,"Njrat Exploits Microsoft Dev Tunnels for C2 Communication
+https://gbhackers.com/njrat-exploits-microsoft-dev-tunnels/
+
+A new campaign involving the notorious remote access trojan (RAT) Njrat has been uncovered, leveraging Microsoft’s Dev Tunnels service for command-and-control (C2) communication. This service, intended to help developers securely expose local services to the internet for testing and debugging, is being exploited by attackers to establish covert connections with their C2 servers. The abuse […]
+The post Njrat Exploits Microsoft Dev Tunnels for C2 Communication (https://gbhackers.com/njrat-exploits-microsoft-dev-tunnels/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.186, 'neu': 0.701, 'pos': 0.113, 'compound': -0.8402}",-0.8402,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-03 14:31:51,"North Korean IT Workers Hide Their IPs Using Astrill VPN
+https://gbhackers.com/north-korean-it-workers-hide-their-ips/
+
+Security researchers have uncovered new evidence that North Korean threat actors, particularly the Lazarus Group, are actively using Astrill VPN to conceal their true IP addresses during cyberattacks and fraudulent IT worker schemes. Silent Push, a cybersecurity firm, recently acquired infrastructure and logs from the Lazarus subgroup known as “Contagious Interview” or “Famous Chollima,” confirming […]
+The post North Korean IT Workers Hide Their IPs Using Astrill VPN (https://gbhackers.com/north-korean-it-workers-hide-their-ips/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.091, 'neu': 0.775, 'pos': 0.134, 'compound': 0.5574}",0.5574,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-03 14:30:51,"Paragon Partition Manager Vulnerabilities Allow Attackers to Escalate Privileges and Trigger DoS Attacks
+https://gbhackers.com/paragon-partition-manager-vulnerabilities-allow-attackers/
+
+Security researchers have uncovered five significant vulnerabilities in Paragon Partition Manager’s BioNTdrv.sys driver, affecting versions prior to 2.0.0. These flaws, identified as CVE-2025-0285, CVE-2025-0286, CVE-2025-0287, CVE-2025-0288, and CVE-2025-0289, pose serious security risks, enabling attackers to escalate privileges to SYSTEM level and potentially cause denial-of-service (DoS) scenarios. Multiple Critical Flaws Discovered in BioNTdrv.sys Driver The vulnerabilities, […]
+The post Paragon Partition Manager Vulnerabilities Allow Attackers to Escalate Privileges and Trigger DoS Attacks (https://gbhackers.com/paragon-partition-manager-vulnerabilities-allow-attackers/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.224, 'neu': 0.587, 'pos': 0.189, 'compound': -0.6705}",-0.6705,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-03 14:29:52,"Space Pirates Hackers Attacking IT Organizations With LuckyStrike Using OneDrive
+https://gbhackers.com/space-pirates-hackers-attacking-it-organizations/
+
+A recent investigation by cybersecurity experts has unveiled a series of advanced cyberattacks orchestrated by the notorious Advanced Persistent Threat (APT) group known as “Space Pirates.” Leveraging their customized malware arsenal, including the LuckyStrike Agent backdoor, the group has been targeting IT organizations and government agencies across Russia and neighboring regions. The attacks have been […]
+The post Space Pirates Hackers Attacking IT Organizations With LuckyStrike Using OneDrive (https://gbhackers.com/space-pirates-hackers-attacking-it-organizations/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.202, 'neu': 0.7, 'pos': 0.098, 'compound': -0.9287}",-0.9287,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-02 07:08:43,"Hackers can Crack Into Car Cameras Within Minutes Exploiting Vulnerabilities
+https://gbhackers.com/hackers-can-crack-into-car-cameras/
+
+At the upcoming Black Hat Asia 2025 conference, cybersecurity experts will unveil a groundbreaking vulnerability in modern dashcam technology, exposing how hackers can exploit these devices to breach privacy and steal sensitive data. The session, titled DriveThru Car Hacking: Fast Food, Faster Data Breach, will be held on April 3, 2025, at Marina Bay Sands, […]
+The post Hackers can Crack Into Car Cameras Within Minutes Exploiting Vulnerabilities (https://gbhackers.com/hackers-can-crack-into-car-cameras/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.241, 'neu': 0.673, 'pos': 0.086, 'compound': -0.9595}",-0.9595,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-02 00:39:34,"Ransomware gangs exploit Paragon Partition Manager bug in BYOVD attacks
+https://www.bleepingcomputer.com/news/security/ransomware-gangs-exploit-paragon-partition-manager-bug-in-byovd-attacks/
+
+Microsoft had discovered five Paragon Partition Manager BioNTdrv.sys driver flaws, with one used by ransomware gangs in zero-day attacks to gain SYSTEM privileges in Windows. [...]","{'neg': 0.415, 'neu': 0.485, 'pos': 0.1, 'compound': -0.9674}",-0.9674,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-03-01 01:58:43,"U.S. recovers $31 million stolen in 2021 Uranium Finance hack
+https://www.bleepingcomputer.com/news/cryptocurrency/us-recovers-31-million-stolen-in-2021-uranium-finance-hack/
+
+U.S. authorities recovered $31 million in cryptocurrency stolen in 2021 cyberattacks on Uranium Finance, a Binance Smart Chain-based DeFi protocol. [...]","{'neg': 0.24, 'neu': 0.691, 'pos': 0.069, 'compound': -0.7717}",-0.7717,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-28 23:39:54,"Notorious Malware, Spam Host “Prospero” Moves to Kaspersky Lab
+https://krebsonsecurity.com/2025/02/notorious-malware-spam-host-prospero-moves-to-kaspersky-lab/
+
+One of the most notorious providers of abuse-friendly ""bulletproof"" web hosting for cybercriminals has started routing its operations through networks run by the Russian antivirus and security firm Kaspersky Lab, KrebsOnSecurity has learned.","{'neg': 0.239, 'neu': 0.723, 'pos': 0.038, 'compound': -0.8908}",-0.8908,Israel Cyber Alerts,,https://krebsonsecurity.com,,
+478514542,2025-02-28 20:33:19,"Chinese Hackers Breach Belgium State Security Service as Investigation Continues
+https://gbhackers.com/chinese-hackers-breach-belgium-state-security-service/
+
+Belgium’s State Security Service (VSSE) has suffered what is being described as its most severe security breach to date. For nearly two years, a group of Chinese hackers exploited a vulnerability in Barracuda’s Email Security Gateway Appliance, a cybersecurity tool used by the VSSE, to access approximately 10% of the agency’s email traffic. The breach, […]
+The post Chinese Hackers Breach Belgium State Security Service as Investigation Continues (https://gbhackers.com/chinese-hackers-breach-belgium-state-security-service/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.239, 'neu': 0.597, 'pos': 0.164, 'compound': -0.9455}",-0.9455,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 20:32:20,"Hacktivist Groups Emerge With Powerful Tools for Large-Scale Cyber Operations
+https://gbhackers.com/hacktivist-groups-emerge-with-powerful-tools/
+
+Hacktivism, once synonymous with symbolic website defacements and distributed denial-of-service (DDoS) attacks, has evolved into a sophisticated tool for cyber warfare and influence operations. Recent research highlights how state-sponsored actors are increasingly leveraging hacktivist tactics to conduct large-scale cyber campaigns, blurring the lines between grassroots activism and government-directed operations. These groups, often cloaked in anonymity […]
+The post Hacktivist Groups Emerge With Powerful Tools for Large-Scale Cyber Operations (https://gbhackers.com/hacktivist-groups-emerge-with-powerful-tools/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.048, 'neu': 0.797, 'pos': 0.155, 'compound': 0.8807}",0.8807,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 20:06:55,"Qilin ransomware claims attack at Lee Enterprises, leaks stolen data
+https://www.bleepingcomputer.com/news/security/qilin-ransomware-claims-attack-at-lee-enterprises-leaks-stolen-data/
+
+The Qilin ransomware gang has claimed responsibility for the attack at Lee Enterprises that disrupted operations on February 3, leaking samples of data they claim was stolen from the company. [...]","{'neg': 0.384, 'neu': 0.616, 'pos': 0.0, 'compound': -0.9732}",-0.9732,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-28 20:04:56,"Serbian police used Cellebrite zero-day hack to unlock Android phones
+https://www.bleepingcomputer.com/news/security/serbian-police-used-cellebrite-zero-day-hack-to-unlock-android-phones/
+
+Serbian authorities have reportedly used an Android zero-day exploit chain developed by Cellebrite to unlock the device of a student activist in the country and attempt to install spyware. [...]","{'neg': 0.321, 'neu': 0.679, 'pos': 0.0, 'compound': -0.9584}",-0.9584,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-28 14:39:15,"New Pass-the-Cookie Attacks Bypass MFA, Giving Hackers Full Account Access
+https://gbhackers.com/new-pass-the-cookie-attacks-bypass-mfa/
+
+Multi-factor authentication (MFA), long considered a cornerstone of cybersecurity defense, is facing a formidable new threat: “Pass-the-Cookie” attacks. Recent findings reveal from Long Wall shows that threat actors exploit browser session cookies to bypass MFA entirely, granting full access to corporate accounts without requiring passwords or authentication tokens. This technique poses a significant risk to organizations […]
+The post New Pass-the-Cookie Attacks Bypass MFA, Giving Hackers Full Account Access (https://gbhackers.com/new-pass-the-cookie-attacks-bypass-mfa/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.173, 'neu': 0.616, 'pos': 0.211, 'compound': 0.3597}",0.3597,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 10:01:29,"Chinese Hackers Exploit Check Point VPN Zero-Day to Target Organizations Globally
+https://gbhackers.com/chinese-hackers-exploit-check-point-vpn-zero-day/
+
+A sophisticated cyberespionage campaign linked to Chinese state-sponsored actors has exploited a previously patched Check Point VPN vulnerability (CVE-2024-24919) to infiltrate organizations across Europe, Africa, and the Americas, according to cybersecurity researchers. The attacks, observed between June 2024 and January 2025, primarily targeted the manufacturing sector, deploying ShadowPad malware and, in limited cases, the NailaoLocker […]
+The post Chinese Hackers Exploit Check Point VPN Zero-Day to Target Organizations Globally (https://gbhackers.com/chinese-hackers-exploit-check-point-vpn-zero-day/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.241, 'neu': 0.648, 'pos': 0.111, 'compound': -0.959}",-0.959,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 10:00:28,"PingAM Java Agent Vulnerability Allows Attackers to Bypass Security
+https://gbhackers.com/pingam-java-agent-vulnerability/
+
+A critical security flaw (CVE-2025-20059) has been identified in supported versions of Ping Identity’s PingAM Java Agent, potentially enabling attackers to bypass policy enforcement and access protected resources. The vulnerability—classified as a Relative Path Traversal (CWE-23) weakness—affects all PingAM Java Agent deployments integrated with PingOne Advanced Identity Cloud, prompting urgent calls for remediation. Vulnerability Scope and Severity […]
+The post PingAM Java Agent Vulnerability Allows Attackers to Bypass Security (https://gbhackers.com/pingam-java-agent-vulnerability/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.113, 'neu': 0.624, 'pos': 0.262, 'compound': 0.9136}",0.9136,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 09:59:28,"New GitHub Scam Uses Fake “Mods” and “Cracks” to Steal User Data
+https://gbhackers.com/new-github-scam/
+
+A sophisticated malware campaign leveraging GitHub repositories disguised as game modifications and cracked software has been uncovered, exposing a dangerous convergence of social engineering tactics and automated credential harvesting. Security researchers identified over 1,100 malicious repositories distributing variants of the Redox stealer, a Python-based malware designed to exfiltrate sensitive data including cryptocurrency wallet keys, browser cookies, […]
+The post New GitHub Scam Uses Fake “Mods” and “Cracks” to Steal User Data (https://gbhackers.com/new-github-scam/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.295, 'neu': 0.606, 'pos': 0.099, 'compound': -0.9783}",-0.9783,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 09:58:29,"260 Domains Hosting 5,000 Malicious PDFs to Steal Credit Card Data
+https://gbhackers.com/260-domains-hosting-5000-malicious-pdfs/
+
+Netskope Threat Labs uncovered a sprawling phishing operation involving 260 domains hosting approximately 5,000 malicious PDF files. These documents, disguised as legitimate resources, employ fake CAPTCHA prompts to redirect victims to phishing sites designed to harvest credit card details and personal information. The campaign, active since the second half of 2024, has impacted over 1,150 […]
+The post 260 Domains Hosting 5,000 Malicious PDFs to Steal Credit Card Data (https://gbhackers.com/260-domains-hosting-5000-malicious-pdfs/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.205, 'neu': 0.65, 'pos': 0.145, 'compound': -0.8519}",-0.8519,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 07:57:46,"Winos4.0 Malware Targets Windows Users Through Malicious PDF Files
+https://gbhackers.com/winos4-0-malware-targets-windows/
+
+A new wave of cyberattacks leveraging the Winos4.0 malware framework has targeted organizations in Taiwan through malicious PDF attachments disguised as tax inspection alerts, according to a January 2025 threat analysis by FortiGuard Labs.  The campaign employs multi-stage payload delivery, anti-forensic techniques, and automated security bypass mechanisms to establish persistent access to victim networks while […]
+The post Winos4.0 Malware Targets Windows Users Through Malicious PDF Files (https://gbhackers.com/winos4-0-malware-targets-windows/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.177, 'neu': 0.72, 'pos': 0.103, 'compound': -0.875}",-0.875,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 07:56:48,"DeepSeek Data Leak Exposes 12,000 Hardcoded API Keys and Passwords
+https://gbhackers.com/deepseek-data-leak-exposes-api-keys/
+
+A sweeping analysis of the Common Crawl dataset—a cornerstone of training data for large language models (LLMs) like DeepSeek—has uncovered 11,908 live API keys, passwords, and credentials embedded in publicly accessible web pages.  The leaked secrets, which authenticate successfully with services ranging from AWS to Slack and Mailchimp, highlight systemic risks in AI development pipelines […]
+The post DeepSeek Data Leak Exposes 12,000 Hardcoded API Keys and Passwords (https://gbhackers.com/deepseek-data-leak-exposes-api-keys/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.114, 'neu': 0.745, 'pos': 0.142, 'compound': 0.6124}",0.6124,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 00:52:11,"Vo1d malware botnet grows to 1.6 million Android TVs worldwide
+https://www.bleepingcomputer.com/news/security/vo1d-malware-botnet-grows-to-16-million-android-tvs-worldwide/
+
+A new variant of the Vo1d malware botnet has grown to 1,590,299 infected Android TV devices across 226 countries, recruiting devices as part of anonymous proxy server networks. [...]","{'neg': 0.237, 'neu': 0.763, 'pos': 0.0, 'compound': -0.9042}",-0.9042,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-28 00:22:15,"New Malware Uses Legitimate Antivirus Driver to Bypass All System Protections
+https://gbhackers.com/new-malware-uses-legitimate-antivirus-driver/
+
+In a concerning development, cybersecurity researchers at Trellix have uncovered a sophisticated malware campaign that exploits a legitimate antivirus driver to bypass system protections. The malware, identified as “kill-floor.exe,” leverages the Avast Anti-Rootkit driver (aswArPot.sys) to gain kernel-level access, effectively neutralizing security software and taking control of infected systems. This tactic highlights the growing trend […]
+The post New Malware Uses Legitimate Antivirus Driver to Bypass All System Protections (https://gbhackers.com/new-malware-uses-legitimate-antivirus-driver/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.18, 'neu': 0.648, 'pos': 0.172, 'compound': -0.5994}",-0.5994,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 00:21:14,"VS Code Extension with 9 Million Installs Attacks Developers with Malicious Code
+https://gbhackers.com/vs-code-extension-with-9-million-installs-attacks/
+
+Microsoft has removed two widely-used Visual Studio Code (VS Code) extensions, “Material Theme Free” and “Material Theme Icons Free,” from its marketplace after cybersecurity researchers discovered malicious code embedded within them. These extensions, developed by Mattia Astorino (also known as equinusocio), had amassed nearly 9 million installations combined, with Astorino’s total extension downloads exceeding 13 […]
+The post VS Code Extension with 9 Million Installs Attacks Developers with Malicious Code (https://gbhackers.com/vs-code-extension-with-9-million-installs-attacks/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.057, 'neu': 0.873, 'pos': 0.07, 'compound': 0.0772}",0.0772,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 00:20:15,"New Anubis Ransomware Targets Windows, Linux, NAS, and ESXi x64/x32 Environments
+https://gbhackers.com/new-anubis-ransomware-targets-windows-linux-nas-and-esxi/
+
+A new ransomware group, dubbed Anubis, has emerged as a significant threat in the cybersecurity landscape. Active since late 2024, Anubis employs advanced techniques and operates across multiple platforms, including Windows, Linux, NAS, and ESXi environments. The group is leveraging ransomware-as-a-service (RaaS) and other affiliate-based monetization models to expand its reach and impact. Technical Capabilities […]
+The post New Anubis Ransomware Targets Windows, Linux, NAS, and ESXi x64/x32 Environments (https://gbhackers.com/new-anubis-ransomware-targets-windows-linux-nas-and-esxi/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.155, 'neu': 0.698, 'pos': 0.147, 'compound': -0.7906}",-0.7906,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 00:19:14,"WordPress Admins Warned of Fake Plugins Injecting Malicious Links into Websites
+https://gbhackers.com/wordpress-admins-warned-of-fake-plugins/
+
+A new wave of cyberattacks targeting WordPress websites has been uncovered, with attackers leveraging fake plugins to inject malicious links into site footers. These links, often promoting casino-related spam, compromise website integrity and can severely impact search engine optimization (SEO). The attackers use sophisticated techniques to disguise their malicious plugins, making detection and removal challenging […]
+The post WordPress Admins Warned of Fake Plugins Injecting Malicious Links into Websites (https://gbhackers.com/wordpress-admins-warned-of-fake-plugins/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.254, 'neu': 0.589, 'pos': 0.157, 'compound': -0.9246}",-0.9246,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-28 00:18:16,"LARVA-208 Hackers Compromise 618 Organizations Stealing Logins and Deploying Ransomware
+https://gbhackers.com/larva-208-hackers-compromise-618-organizations-stealing-logins/
+
+A newly identified cybercriminal group, LARVA-208, also known as EncryptHub, has successfully infiltrated 618 organizations globally since June 2024, leveraging advanced social engineering techniques to steal credentials and deploy ransomware. According to reports from cybersecurity firms CATALYST and Prodaft, the group has demonstrated a high level of sophistication in its operations, targeting corporate networks through […]
+The post LARVA-208 Hackers Compromise 618 Organizations Stealing Logins and Deploying Ransomware (https://gbhackers.com/larva-208-hackers-compromise-618-organizations-stealing-logins/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.271, 'neu': 0.63, 'pos': 0.099, 'compound': -0.9783}",-0.9783,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-27 22:17:25,"Privacy tech firms warn France’s encryption and VPN laws threaten privacy
+https://www.bleepingcomputer.com/news/security/privacy-tech-firms-warn-frances-encryption-and-vpn-laws-threaten-privacy/
+
+Privacy-focused email provider Tuta (previously Tutanota) and the VPN Trust Initiative (VTI) are raising concerns over proposed laws in France set to backdoor encrypted messaging systems and restrict internet access. [...]","{'neg': 0.197, 'neu': 0.686, 'pos': 0.117, 'compound': -0.5106}",-0.5106,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-27 19:47:12,"Microsoft names cybercriminals behind AI deepfake network
+https://www.bleepingcomputer.com/news/microsoft/microsoft-names-cybercriminals-behind-ai-deepfake-network/
+
+Microsoft has named multiple threat actors part of a cybercrime gang accused of developing malicious tools capable of bypassing generative AI guardrails to generate celebrity deepfakes and other illicit content. [...]","{'neg': 0.121, 'neu': 0.818, 'pos': 0.061, 'compound': -0.3818}",-0.3818,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-27 19:45:14,"Belgium probes if Chinese hackers breached its intelligence service
+https://www.bleepingcomputer.com/news/security/belgium-probes-if-chinese-hackers-breached-its-intelligence-service/
+
+​The Belgian federal prosecutor's office is investigating whether Chinese hackers were behind a breach of the country's State Security Service (VSSE). [...]","{'neg': 0.131, 'neu': 0.735, 'pos': 0.134, 'compound': -0.2263}",-0.2263,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-27 19:44:13,"Suspected Desorden hacker arrested for breaching 90 organizations
+https://www.bleepingcomputer.com/news/security/suspected-desorden-hacker-arrested-for-breaching-90-organizations/
+
+A suspected cyber criminal believed to have extorted companies under the name ""DESORDEN Group"" or ""ALTDOS"" has been arrested in Thailand for leaking the stolen data of over 90 organizations worldwide. [...]","{'neg': 0.328, 'neu': 0.672, 'pos': 0.0, 'compound': -0.9393}",-0.9393,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+604262457,2025-02-27 18:49:32,"CISA Releases Two Industrial Control Systems Advisories
+https://www.cisa.gov/news-events/alerts/2025/02/27/cisa-releases-two-industrial-control-systems-advisories
+
+CISA released two Industrial Control Systems (ICS) advisories on February 27, 2025. These advisories provide timely information about current security issues, vulnerabilities, and exploits surrounding ICS.
+
+ICSA-25-058-01 Schneider Electric Communication Modules for Modicon M580 and Quantum Controllers (https://www.cisa.gov/news-events/ics-advisories/icsa-25-058-01)
+ 
+ICSMA-25-058-01 Dario Health USB-C Blood Glucose Monitoring System Starter Kit Android Application (https://www.cisa.gov/news-events/ics-medical-advisories/icsma-25-058-01)
+ 
+
+CISA encourages users and administrators to review newly released ICS advisories for technical details and mitigations.","{'neg': 0.05, 'neu': 0.889, 'pos': 0.061, 'compound': 0.2263}",0.2263,Israel Cyber Alerts,,"https://www.cisa.gov,https://www.cisa.gov,https://www.cisa.gov",,
+478514542,2025-02-27 15:23:08,"Google’s SafetyCore App Secretly Scans All Photos on Android Devices
+https://gbhackers.com/googles-safetycore-app-secretly-scans/
+
+Recent revelations about Google’s SafetyCore app have ignited a firestorm of privacy debates, echoing Apple’s recent controversy over photo scanning. The app, silently installed on Android devices via system updates, enables on-device image analysis to detect sensitive content—a feature marketed as privacy-preserving but criticized for its lack of transparency. This incident underscores growing user unease […]
+The post Google’s SafetyCore App Secretly Scans All Photos on Android Devices (https://gbhackers.com/googles-safetycore-app-secretly-scans/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.092, 'neu': 0.802, 'pos': 0.106, 'compound': 0.1154}",0.1154,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-27 15:22:11,"New “nRootTag” Attack Turns 1.5 Billion iPhones into Free Tracking Tools
+https://gbhackers.com/new-nroottag-attack/
+
+Security researchers have uncovered a novel Bluetooth tracking vulnerability in Apple’s Find My network – the system powering AirTags and device-finding capabilities across iPhones, iPads, and Macs. Dubbed “nRootTag,” the attack transforms nearly any Bluetooth-enabled computer or smartphone into an invisible tracking beacon using Apple’s infrastructure. With over 1.5 billion active Apple devices globally, this […]
+The post New “nRootTag” Attack Turns 1.5 Billion iPhones into Free Tracking Tools (https://gbhackers.com/new-nroottag-attack/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.079, 'neu': 0.712, 'pos': 0.208, 'compound': 0.9136}",0.9136,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-27 12:44:16,"U.S. Soldier Charged in AT&T Hack Searched “Can Hacking Be Treason”
+https://krebsonsecurity.com/2025/02/u-s-soldier-charged-in-att-hack-searched-can-hacking-be-treason/
+
+A U.S. Army soldier who pleaded guilty last week to leaking phone records for high-ranking U.S. government officials searched online for non-extradition countries and for an answer to the question ""can hacking be treason?"" prosecutors in the case said Wednesday. The government disclosed the details in a court motion to keep the defendant in custody until he is discharged from the military.","{'neg': 0.099, 'neu': 0.901, 'pos': 0.0, 'compound': -0.765}",-0.765,Israel Cyber Alerts,,https://krebsonsecurity.com,,
+478514542,2025-02-27 12:18:23,"Authorities Arrested Hacker Behind 90 Major Data Breaches Worldwide
+https://gbhackers.com/authorities-arrested-hacker-2/
+
+Cybersecurity firm Group-IB, alongside the Royal Thai Police and Singapore Police Force, announced the arrest of a prolific hacker linked to over 90 major data breaches across 25 countries, including 65 attacks in the Asia-Pacific region. The cybercriminal, operating under aliases ALTDOS, DESORDEN, GHOSTR, and 0mid16B, exfiltrated 13 terabytes of sensitive data between 2020 and 2025, targeting industries from healthcare […]
+The post Authorities Arrested Hacker Behind 90 Major Data Breaches Worldwide (https://gbhackers.com/authorities-arrested-hacker-2/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.108, 'neu': 0.826, 'pos': 0.067, 'compound': -0.6597}",-0.6597,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-27 10:48:44,"Cisco Nexus Vulnerability Allows Attackers to Inject Malicious Commands
+https://gbhackers.com/cisco-nexus-vulnerability-2/
+
+Cisco Systems has issued a critical security advisory for a newly disclosed command injection vulnerability affecting its Nexus 3000 and 9000 Series Switches operating in standalone NX-OS mode. Tracked as CVE-2025-20161 (CVSSv3 score: 5.1), the flaw enables authenticated attackers with administrative privileges to execute arbitrary operating system commands with root-level permissions during software upgrade procedures. The vulnerability, […]
+The post Cisco Nexus Vulnerability Allows Attackers to Inject Malicious Commands (https://gbhackers.com/cisco-nexus-vulnerability-2/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.116, 'neu': 0.678, 'pos': 0.206, 'compound': 0.8074}",0.8074,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-27 10:47:44,"New Wi-Fi Jamming Attack Can Disable Specific Devices
+https://gbhackers.com/new-wi-fi-jamming-attack/
+
+A newly discovered Wi-Fi jamming technique enables attackers to selectively disconnect individual devices from networks with surgical precision, raising alarms across cybersecurity and telecommunications industries. Researchers from Northeastern University and the University of Chicago uncovered this vulnerability in IEEE 802.11 protocols that underpin all modern Wi-Fi systems, demonstrating how targeted de-authentication attacks could disrupt smart […]
+The post New Wi-Fi Jamming Attack Can Disable Specific Devices (https://gbhackers.com/new-wi-fi-jamming-attack/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.139, 'neu': 0.736, 'pos': 0.125, 'compound': -0.34}",-0.34,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-27 09:46:24,"FBI confirms Lazarus hackers were behind $1.5B Bybit crypto heist
+https://www.bleepingcomputer.com/news/security/fbi-confirms-lazarus-hackers-were-behind-15b-bybit-crypto-heist/
+
+FBI has confirmed that North Korean hackers stole $1.5 billion from cryptocurrency exchange Bybit on Friday in the largest crypto heist recorded until now. [...]","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-27 07:57:38,"GitLab Vulnerabilities Allow Attackers to Bypass Security and Run Arbitrary Scripts
+https://gbhackers.com/gitlab-vulnerabilities/
+
+GitLab has urgently released security updates to address multiple high-severity vulnerabilities in its platform that could allow attackers to bypass security mechanisms, execute malicious scripts, and access sensitive data. The patches, included in versions 17.9.1, 17.8.4, and 17.7.6 for both Community Edition (CE) and Enterprise Edition (EE), mitigate critical risks affecting Kubernetes integrations, dependency management, […]
+The post GitLab Vulnerabilities Allow Attackers to Bypass Security and Run Arbitrary Scripts (https://gbhackers.com/gitlab-vulnerabilities/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.172, 'neu': 0.652, 'pos': 0.176, 'compound': -0.3612}",-0.3612,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-27 07:56:39,"LibreOffice Flaws Allow Attackers to Run Malicious Files on Windows
+https://gbhackers.com/libreoffice-flaws/
+
+A high-severity security vulnerability (CVE-2025-0514) in LibreOffice, the widely used open-source office suite, has been patched after researchers discovered it could allow attackers to execute malicious files on Windows systems by exploiting hyperlink handling mechanisms. The flaw, which impacts versions before 24.8.5, revolves around improper validation of non-file URLs interpreted as Windows file paths through […]
+The post LibreOffice Flaws Allow Attackers to Run Malicious Files on Windows (https://gbhackers.com/libreoffice-flaws/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.125, 'neu': 0.716, 'pos': 0.159, 'compound': -0.0516}",-0.0516,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-27 07:55:38,"Cisco Nexus Switch Vulnerability Allows Attackers to Cause DoS
+https://gbhackers.com/cisco-nexus-switch-vulnerability/
+
+Cisco Systems has disclosed a high-severity vulnerability (CVE-2025-20111) in its Nexus 3000 and 9000 Series Switches operating in standalone NX-OS mode. The vulnerability enables unauthenticated attackers to trigger denial of service (DoS) conditions through crafted Ethernet frames. Rated 7.4 on the CVSS v3.1 scale, the flaw affects critical infrastructure components widely used in enterprise and […]
+The post Cisco Nexus Switch Vulnerability Allows Attackers to Cause DoS (https://gbhackers.com/cisco-nexus-switch-vulnerability/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.12, 'neu': 0.709, 'pos': 0.171, 'compound': 0.5719}",0.5719,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-27 01:03:37,"Southern Water says Black Basta ransomware attack cost £4.5M in expenses
+https://www.bleepingcomputer.com/news/security/southern-water-says-black-basta-ransomware-attack-cost-45m-in-expenses/
+
+United Kingdom water supplier Southern Water has disclosed that it incurred costs of £4.5 million ($5.7M) due to a cyberattack it suffered in February 2024. [...]","{'neg': 0.238, 'neu': 0.702, 'pos': 0.06, 'compound': -0.8555}",-0.8555,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-27 01:02:39,"GrassCall malware campaign drains crypto wallets via fake job interviews
+https://www.bleepingcomputer.com/news/security/grasscall-malware-campaign-drains-crypto-wallets-via-fake-job-interviews/
+
+A recent social engineering campaign targeted job seekers in the Web3 space with fake job interviews through a malicious ""GrassCall"" meeting app that installs information-stealing malware to steal cryptocurrency wallets. [...]","{'neg': 0.332, 'neu': 0.668, 'pos': 0.0, 'compound': -0.9545}",-0.9545,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-26 22:22:39,"Poseidon Mac Malware Hiding Within PKG Files to Evade Detections
+https://gbhackers.com/poseidon-mac-malware-hiding-within-pkg-files/
+
+A recent discovery by cybersecurity researchers has revealed that the Poseidon malware, a macOS-targeting trojan, is leveraging PKG files with preinstall scripts to infiltrate systems. This malware, weighing only 207 bytes, is currently undetected by VirusTotal and represents a significant threat to Mac users. The preinstall script embedded in the PKG file serves as a […]
+The post Poseidon Mac Malware Hiding Within PKG Files to Evade Detections (https://gbhackers.com/poseidon-mac-malware-hiding-within-pkg-files/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.212, 'neu': 0.707, 'pos': 0.081, 'compound': -0.9477}",-0.9477,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-26 22:21:39,"Windows Virtualization-Based Security Exploited to Develop Highly Evasive Malware
+https://gbhackers.com/windows-virtualization-based-security-exploited/
+
+In a groundbreaking development, researchers have uncovered how attackers are exploiting Windows Virtualization-Based Security (VBS) enclaves to create malware that is highly evasive and difficult to detect. VBS enclaves, designed as isolated and secure regions of memory within a process, are being weaponized to bypass traditional security mechanisms, posing a significant threat to enterprise systems. […]
+The post Windows Virtualization-Based Security Exploited to Develop Highly Evasive Malware (https://gbhackers.com/windows-virtualization-based-security-exploited/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.259, 'neu': 0.523, 'pos': 0.217, 'compound': -0.8551}",-0.8551,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-26 22:20:39,"Researchers Uncover $1.4B in Sensitive Data Tied to ByBit Hack by Lazarus Group
+https://gbhackers.com/researchers-uncover-1-4b-in-sensitive-data-tied/
+
+In a significant breakthrough, cybersecurity firm Silent Push has uncovered sensitive infrastructure tied to the Lazarus Group, a North Korean state-sponsored Advanced Persistent Threat (APT). This discovery sheds light on the group’s involvement in the historic $1.4 billion cryptocurrency heist targeting ByBit, one of the largest thefts in crypto history. The investigation revealed that the […]
+The post Researchers Uncover $1.4B in Sensitive Data Tied to ByBit Hack by Lazarus Group (https://gbhackers.com/researchers-uncover-1-4b-in-sensitive-data-tied/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.083, 'neu': 0.817, 'pos': 0.1, 'compound': -0.0258}",-0.0258,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-26 22:19:39,"Ransomware Group Data-Leak Sites Increasing as Six New Groups Emerge
+https://gbhackers.com/ransomware-group-data-leak-sites/
+
+The cybersecurity landscape has witnessed a significant uptick in ransomware activity, with six new data-leak sites (DLSs) linked to emerging ransomware groups identified in early 2025. According to Cyjax, these groups include Kraken, Morpheus, GD LockerSec, Babuk2, Linkc, and the newly surfaced Anubis. The latter operates as a sophisticated Ransomware-as-a-Service (RaaS) entity, offering affiliates tools […]
+The post Ransomware Group Data-Leak Sites Increasing as Six New Groups Emerge (https://gbhackers.com/ransomware-group-data-leak-sites/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.175, 'neu': 0.716, 'pos': 0.109, 'compound': -0.91}",-0.91,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-26 22:18:39,"Threat Actors Exploit DeepSeek Craze to Distribute Vidar Stealer Malware
+https://gbhackers.com/threat-actors-exploit-deepseek-craze/
+
+In a concerning new development, cybercriminals are exploiting the widespread popularity of the recently launched DeepSeek AI chatbot to distribute the Vidar Stealer malware. According to research by Zscaler ThreatLabz, attackers are using brand impersonation tactics to lure unsuspecting users into executing malicious code, thereby compromising sensitive data. Launched on January 20, 2025, DeepSeek quickly […]
+The post Threat Actors Exploit DeepSeek Craze to Distribute Vidar Stealer Malware (https://gbhackers.com/threat-actors-exploit-deepseek-craze/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.34, 'neu': 0.558, 'pos': 0.102, 'compound': -0.9858}",-0.9858,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-26 18:52:42,"Millions of WordPress Websites Vulnerable to Script Injection Due to Plugin Flaw
+https://gbhackers.com/millions-of-wordpress-websites-vulnerable/
+
+A critical security vulnerability in the Essential Addons for Elementor plugin, installed on over 2 million WordPress websites, has exposed sites to script injection attacks via malicious URL parameters. The flaw, tracked as CVE-2025-24752 and scoring 7.1 (High) on the CVSS scale, allowed attackers to execute reflected cross-site scripting (XSS) attacks by exploiting insufficient input sanitization in the plugin’s password reset […]
+The post Millions of WordPress Websites Vulnerable to Script Injection Due to Plugin Flaw (https://gbhackers.com/millions-of-wordpress-websites-vulnerable/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.165, 'neu': 0.734, 'pos': 0.101, 'compound': -0.7717}",-0.7717,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-26 18:51:42,"New Undetectable Batch Script Uses PowerShell and Visual Basic to Install XWorm
+https://gbhackers.com/powershell-and-visual-basic-to-install-xworm/
+
+A novel malware delivery framework employing advanced obfuscation techniques has evaded detection by security tools for over 48 hours. The attack chain centers around a Batch script that leverages PowerShell and Visual Basic Script (VBS) to deploy either the XWorm remote access trojan or AsyncRAT, marking a significant evolution in fileless attack methodologies, according to […]
+The post New Undetectable Batch Script Uses PowerShell and Visual Basic to Install XWorm (https://gbhackers.com/powershell-and-visual-basic-to-install-xworm/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.092, 'neu': 0.769, 'pos': 0.139, 'compound': 0.296}",0.296,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-26 18:50:43,"2,850+ Ivanti Connect Secure Devices Exposed to Potential Cyberattacks
+https://gbhackers.com/2850-ivanti-connect-secure-devices-exposed/
+
+A sweeping cybersecurity alert has emerged as researchers identify 2,850+ unpatched Ivanti Connect Secure devices worldwide, leaving organizations vulnerable to exploitation through the critical flaw designated CVE-2025-22467. The findings, published by cybersecurity watchdog Shadowserver Foundation, reveal systemic risks to virtual private network (VPN) infrastructures relied upon by enterprises and government agencies for secure remote access. Vulnerability Scope and […]
+The post 2,850+ Ivanti Connect Secure Devices Exposed to Potential Cyberattacks (https://gbhackers.com/2850-ivanti-connect-secure-devices-exposed/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.077, 'neu': 0.68, 'pos': 0.244, 'compound': 0.9698}",0.9698,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-26 18:49:42,"US Employee Background Check Firm Hacked, 3 Million Records Exposed
+https://gbhackers.com/us-employee-background-check-firm-hacked/
+
+DISA Global Solutions, a Houston-based provider of employee background checks and workplace safety services, disclosed a significant cybersecurity incident exposing the personal information of over 3.3 million individuals, including 15,198 Maine residents. The breach occurred on February 9, 2024, but was not detected until April 22, 2024, according to a data breach notification filed with the […]
+The post US Employee Background Check Firm Hacked, 3 Million Records Exposed (https://gbhackers.com/us-employee-background-check-firm-hacked/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.179, 'neu': 0.695, 'pos': 0.126, 'compound': -0.775}",-0.775,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-26 18:48:43,"Have I Been Pwned Reports Huge Data Leak, Adds 284 Million Stolen Accounts
+https://gbhackers.com/have-i-been-pwned-reports-huge-data-leak/
+
+Cybersecurity service Have I Been Pwned (HIBP) has disclosed one of the largest data exposure events in its 11-year history, integrating 23 billion rows of stolen credentials from a malware operation dubbed “ALIEN TXTBASE.” The breach corpus contains 493 million unique website-email pairs tied to 284 million unique email addresses, alongside 244 million new passwords added to HIBP’s […]
+The post Have I Been Pwned Reports Huge Data Leak, Adds 284 Million Stolen Accounts (https://gbhackers.com/have-i-been-pwned-reports-huge-data-leak/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.193, 'neu': 0.71, 'pos': 0.097, 'compound': -0.9287}",-0.9287,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-26 17:26:07,"Australian IVF giant Genea breached by Termite ransomware gang
+https://www.bleepingcomputer.com/news/security/australian-ivf-giant-genea-breached-by-termite-ransomware-gang/
+
+​The Termite ransomware gang has claimed responsibility for stealing sensitive healthcare data in a recent breach of Genea, one of Australia's largest fertility services providers. [...]","{'neg': 0.376, 'neu': 0.624, 'pos': 0.0, 'compound': -0.967}",-0.967,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-25 23:44:37,"Have I Been Pwned adds 284M accounts stolen by infostealer malware
+https://www.bleepingcomputer.com/news/security/have-i-been-pwned-adds-284m-accounts-stolen-by-infostealer-malware/
+
+​The Have I Been Pwned data breach notification service has added over 284 million accounts stolen by information stealer malware and found on a Telegram channel. [...]","{'neg': 0.424, 'neu': 0.576, 'pos': 0.0, 'compound': -0.9723}",-0.9723,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-25 23:41:37,"GitVenom attacks abuse hundreds of GitHub repos to steal crypto
+https://www.bleepingcomputer.com/news/security/gitvenom-attacks-abuse-hundreds-of-github-repos-to-steal-crypto/
+
+A malware campaign dubbed GitVenom uses hundreds of GitHub repositories to trick users into downloading info-stealers, remote access trojans (RATs), and clipboard hijackers to steal crypto and credentials. [...]","{'neg': 0.362, 'neu': 0.638, 'pos': 0.0, 'compound': -0.9565}",-0.9565,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-25 18:48:33,"US drug testing firm DISA says data breach impacts 3.3 million people
+https://www.bleepingcomputer.com/news/security/us-drug-testing-firm-disa-says-data-breach-impacts-33-million-people/
+
+DISA Global Solutions, a leading US background screening and drug and alcohol testing firm, has suffered a data breach impacting 3.3 million people. [...]","{'neg': 0.288, 'neu': 0.675, 'pos': 0.037, 'compound': -0.926}",-0.926,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+604262457,2025-02-25 16:59:39,"CISA Adds Two Known Exploited Vulnerabilities to Catalog
+https://www.cisa.gov/news-events/alerts/2025/02/25/cisa-adds-two-known-exploited-vulnerabilities-catalog
+
+CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog (https://www.cisa.gov/known-exploited-vulnerabilities-catalog), based on evidence of active exploitation.
+
+CVE-2024-49035 (https://www.cve.org/CVERecord?id=CVE-2024-49035) Microsoft Partner Center Improper Access Control Vulnerability
+CVE-2023-34192 (https://www.cve.org/CVERecord?id=CVE-2023-34192) Synacor Zimbra Collaboration Suite (ZCS) Cross-Site Scripting (XSS) Vulnerability
+
+Users and administrators are also encouraged to review the Palo Alto Threat Brief: Operation Lunar Peek (https://unit42.paloaltonetworks.com/cve-2024-0012-cve-2024-9474/) related to CVE-2024-0012, the Palo Alto Security Bulletin for CVE-2024-0012 (https://security.paloaltonetworks.com/CVE-2024-0012), and the Palo Alto Security Bulletin for CVE-2024-9474 (https://security.paloaltonetworks.com/CVE-2024-9474) for additional information. 
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities (https://www.cisa.gov/binding-operational-directive-22-01) established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet (https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf) for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities (https://www.cisa.gov/known-exploited-vulnerabilities-catalog) as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria (https://www.cisa.gov/known-exploited-vulnerabilities).","{'neg': 0.16, 'neu': 0.721, 'pos': 0.119, 'compound': -0.7236}",-0.7236,Israel Cyber Alerts,,"https://www.cisa.gov,https://www.cisa.gov,https://www.cve.org,https://www.cve.org,https://unit42.paloaltonetworks.com,https://security.paloaltonetworks.com,https://security.paloaltonetworks.com,https://www.cisa.gov,https://www.cisa.gov,https://www.cisa.gov,https://www.cisa.gov",,
+478514542,2025-02-25 16:45:44,"Researchers Jailbreak OpenAI o1/o3, DeepSeek-R1, and Gemini 2.0 Flash Models
+https://gbhackers.com/researchers-jailbreak-openai-deepseek-gemini/
+
+Researchers from Duke University and Carnegie Mellon University have demonstrated successful jailbreaks of OpenAI’s o1/o3, DeepSeek-R1, and Google’s Gemini 2.0 Flash models through a novel attack method called Hijacking Chain-of-Thought (H-CoT). The research reveals how advanced safety mechanisms designed to prevent harmful outputs can be systematically bypassed using the models’ reasoning processes, raising urgent questions […]
+The post Researchers Jailbreak OpenAI o1/o3, DeepSeek-R1, and Gemini 2.0 Flash Models (https://gbhackers.com/researchers-jailbreak-openai-deepseek-gemini/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.028, 'neu': 0.774, 'pos': 0.197, 'compound': 0.9313}",0.9313,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-25 16:44:45,"INE Secures Spot Top 50 Education Software Rankings 2025 in G2’s
+https://gbhackers.com/ine-secures-spot-top-50-education-software-rankings-2025-in-g2s/
+
+INE, the leading provider of networking and cybersecurity training and certifications, today announced its recognition as an enterprise and small business leader in online course providers and cybersecurity professional development, along with its designation as the recipient of G2’s 2025 Best Software Awards for Education Products. This category of awards ranks the world’s top 50 […]
+The post INE Secures Spot Top 50 Education Software Rankings 2025 in G2’s (https://gbhackers.com/ine-secures-spot-top-50-education-software-rankings-2025-in-g2s/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.0, 'neu': 0.755, 'pos': 0.245, 'compound': 0.9729}",0.9729,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-25 16:43:45,"Silent Killers Exploit Windows Policy Loophole to Evade Detections and Deploy Malware
+https://gbhackers.com/silent-killers-exploit-windows-policy-loophole/
+
+In a significant cybersecurity revelation, researchers have uncovered a large-scale campaign exploiting a Windows policy loophole to deploy malware while evading detection. The attack hinges on the abuse of a legacy driver, Truesight.sys (version 2.0.2), which contains vulnerabilities that allow attackers to bypass modern security measures. This driver, part of Adlice’s RogueKiller Antirootkit suite, has […]
+The post Silent Killers Exploit Windows Policy Loophole to Evade Detections and Deploy Malware (https://gbhackers.com/silent-killers-exploit-windows-policy-loophole/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.334, 'neu': 0.569, 'pos': 0.097, 'compound': -0.9884}",-0.9884,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-25 16:42:45,"200 Malicious GitHub Repositories Distributing Malware to Developers
+https://gbhackers.com/200-malicious-github-repositories-distributing-malware/
+
+A sophisticated malware campaign dubbed GitVenom has infected over 200 GitHub repositories, targeting developers with fake projects masquerading as legitimate tools. The repositories, active for nearly two years, deploy stealers, remote access Trojans (RATs), and clippers to compromise systems and steal sensitive data, including cryptocurrency wallets. According to the Kaspersky Report, Security researchers estimate the threat actors […]
+The post 200 Malicious GitHub Repositories Distributing Malware to Developers (https://gbhackers.com/200-malicious-github-repositories-distributing-malware/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.26, 'neu': 0.614, 'pos': 0.126, 'compound': -0.9601}",-0.9601,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-25 16:41:46,"Poseidon Stealer Targets Mac Users via Fake DeepSeek Website
+https://gbhackers.com/poseidon-stealer-targets-mac-users/
+
+Cybersecurity researchers uncovered a sophisticated malware campaign targeting macOS users through a fraudulent DeepSeek.ai interface. Dubbed “Poseidon Stealer,” this information-stealing malware employs advanced anti-analysis techniques and novel infection vectors to bypass Apple’s latest security protocols, marking a significant escalation in macOS-focused threats. Infection Vector and Social Engineering Tactics The attack begins with malvertising campaigns redirecting […]
+The post Poseidon Stealer Targets Mac Users via Fake DeepSeek Website (https://gbhackers.com/poseidon-stealer-targets-mac-users/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.242, 'neu': 0.6, 'pos': 0.159, 'compound': -0.9153}",-0.9153,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-25 14:02:01,"Orange Group confirms breach after hacker leaks company documents
+https://www.bleepingcomputer.com/news/security/orange-group-confirms-breach-after-hacker-leaks-company-documents/
+
+A hacker claims to have stolen thousands of internal documents with user records and employee data after breaching the systems of Orange Group, a leading French telecommunications operator and digital service provider. [...]","{'neg': 0.174, 'neu': 0.826, 'pos': 0.0, 'compound': -0.8481}",-0.8481,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-25 00:13:37,"OpenAI bans ChatGPT accounts used by North Korean hackers
+https://www.bleepingcomputer.com/news/security/openai-bans-chatgpt-accounts-used-by-north-korean-hackers/
+
+OpenAI says it blocked several North Korean hacking groups from using its ChatGPT platform to research future targets and find ways to hack into their networks. [...]","{'neg': 0.127, 'neu': 0.873, 'pos': 0.0, 'compound': -0.6249}",-0.6249,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-25 00:12:38,"Russia warns financial sector of major IT service provider hack
+https://www.bleepingcomputer.com/news/security/russia-warns-financial-sector-of-major-it-service-provider-hack/
+
+Russia's National Coordination Center for Computer Incidents (NKTsKI) is warning organizations in the country's credit and financial sector about a breach at LANIT, a major Russian IT service and software provider. [...]","{'neg': 0.234, 'neu': 0.714, 'pos': 0.052, 'compound': -0.8481}",-0.8481,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-24 22:51:32,"Cybercriminals Impersonate Windows “Commander Tool” to Launch LummaC2 Malware Attack
+https://gbhackers.com/cybercriminals-impersonate-windows-commander-tool/
+
+The AhnLab Security Intelligence Center (ASEC) has uncovered a new cyberattack campaign leveraging the LummaC2 malware, which is being distributed under the guise of a cracked version of Total Commander. Total Commander is a widely used Windows file management tool offering features like advanced search, folder synchronization, and FTP/SFTP support. While the legitimate software provides […]
+The post Cybercriminals Impersonate Windows “Commander Tool” to Launch LummaC2 Malware Attack (https://gbhackers.com/cybercriminals-impersonate-windows-commander-tool/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.157, 'neu': 0.673, 'pos': 0.17, 'compound': -0.3818}",-0.3818,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-24 22:50:32,"Android App on Google Play Targets Indian Users to Steal Login Credentials
+https://gbhackers.com/android-app-on-google-play-targets-indian-users/
+
+A malicious Android application, Finance Simplified (package: com.someca.count), has been identified on the Google Play Store, targeting Indian users under the guise of a financial management tool. The app, which claims to offer an EMI calculator, is instead a sophisticated malware platform facilitating predatory lending, data theft, and extortion. Rapid Spread and Exploitative Practices The […]
+The post Android App on Google Play Targets Indian Users to Steal Login Credentials (https://gbhackers.com/android-app-on-google-play-targets-indian-users/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.093, 'neu': 0.748, 'pos': 0.159, 'compound': 0.6705}",0.6705,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-24 22:49:33,"Industrial Organizations Under Siege: Chinese Hackers Wield Advanced FatalRAT Malware
+https://gbhackers.com/chinese-hackers-wield-advanced-fatalrat-malware/
+
+A recent investigation by Kaspersky ICS CERT has uncovered a sophisticated cyberattack targeting industrial organizations across the Asia-Pacific region, particularly those in Taiwan, Malaysia, China, Japan, Thailand, South Korea, Singapore, the Philippines, Vietnam, and Hong Kong. The attackers are using a highly advanced version of the FatalRAT malware, delivered through a complex multi-stage payload framework […]
+The post Industrial Organizations Under Siege: Chinese Hackers Wield Advanced FatalRAT Malware (https://gbhackers.com/chinese-hackers-wield-advanced-fatalrat-malware/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.142, 'neu': 0.705, 'pos': 0.154, 'compound': -0.4033}",-0.4033,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+604262457,2025-02-24 19:50:11,"CISA Adds Two Known Exploited Vulnerabilities to Catalog
+https://www.cisa.gov/news-events/alerts/2025/02/24/cisa-adds-two-known-exploited-vulnerabilities-catalog
+
+CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities Catalog (https://www.cisa.gov/known-exploited-vulnerabilities-catalog), based on evidence of active exploitation.
+
+CVE-2017-3066 (https://www.cve.org/CVERecord?id=CVE-2017-3066) Adobe ColdFusion Deserialization Vulnerability
+CVE-2024-20953 (https://www.cve.org/CVERecord?id=CVE-2024-20953) Oracle Agile Product Lifecycle Management (PLM) Deserialization Vulnerability
+
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities (https://www.cisa.gov/binding-operational-directive-22-01) established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet (https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf) for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities (https://www.cisa.gov/known-exploited-vulnerabilities-catalog) as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria (https://www.cisa.gov/known-exploited-vulnerabilities).","{'neg': 0.182, 'neu': 0.702, 'pos': 0.116, 'compound': -0.8205}",-0.8205,Israel Cyber Alerts,,"https://www.cisa.gov,https://www.cisa.gov,https://www.cve.org,https://www.cve.org,https://www.cisa.gov,https://www.cisa.gov,https://www.cisa.gov,https://www.cisa.gov",,
+478514542,2025-02-24 17:19:27,"North Korean hackers linked to $1.5 billion ByBit crypto heist
+https://www.bleepingcomputer.com/news/security/north-korean-hackers-linked-to-15-billion-bybit-crypto-heist/
+
+​Over the weekend, blockchain security companies and experts have linked North Korea's Lazarus hacking group to the theft of over $1.5 billion from cryptocurrency exchange Bybit. [...]","{'neg': 0.0, 'neu': 0.949, 'pos': 0.051, 'compound': 0.25}",0.25,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-24 17:18:30,"Exploits for unpatched Parallels Desktop flaw give root on Macs
+https://www.bleepingcomputer.com/news/security/exploits-for-unpatched-parallels-desktop-flaw-give-root-on-macs/
+
+Two different exploits for an unpatched Parallels Desktop privilege elevation vulnerability have been publicly disclosed, allowing users to gain root access on impacted Mac devices. [...]","{'neg': 0.105, 'neu': 0.7, 'pos': 0.195, 'compound': 0.6249}",0.6249,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-24 15:26:36,"Smart Bed Security Flaw Lets Hackers Access Other Network Devices
+https://gbhackers.com/smart-bed-security-flaw/
+
+A security researcher has uncovered critical vulnerabilities in Eight Sleep’s internet-connected smart beds, revealing exposed Amazon Web Services (AWS) credentials, remote SSH backdoors, and potential access to users’ entire home networks. The findings underscore growing concerns about IoT device security as consumers increasingly adopt connected appliances for everyday use. Researcher Discovers AWS Keys and Remote […]
+The post Smart Bed Security Flaw Lets Hackers Access Other Network Devices (https://gbhackers.com/smart-bed-security-flaw/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.047, 'neu': 0.694, 'pos': 0.258, 'compound': 0.959}",0.959,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-24 15:25:37,"Apple Removes Advanced Data Protection (ADP) for UK Users
+https://gbhackers.com/apple-removes-advanced-data-protection/
+
+Apple has discontinued its Advanced Data Protection (ADP) feature for UK users following a legal demand from the British government to access encrypted user data. The move marks a pivotal moment in the ongoing global debate over privacy rights and national security, with critics warning of far-reaching implications for consumer security and international tech policy. […]
+The post Apple Removes Advanced Data Protection (ADP) for UK Users (https://gbhackers.com/apple-removes-advanced-data-protection/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.06, 'neu': 0.757, 'pos': 0.183, 'compound': 0.8591}",0.8591,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-24 11:37:25,"Parallels Desktop 0-Day Exploit Enables Root Privileges – PoC Released
+https://gbhackers.com/parallels-desktop-0-day-exploit/
+
+A critical zero-day vulnerability in Parallels Desktop virtualization software has been publicly disclosed after seven months of unresolved reporting, enabling attackers to escalate privileges to the root level on macOS systems. The proof-of-concept (PoC) exploit code demonstrates two distinct bypass methods that circumvent existing patches for CVE-2024-34331, a previously addressed privilege escalation flaw. Technical Overview […]
+The post Parallels Desktop 0-Day Exploit Enables Root Privileges – PoC Released (https://gbhackers.com/parallels-desktop-0-day-exploit/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.194, 'neu': 0.633, 'pos': 0.172, 'compound': -0.765}",-0.765,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-24 11:36:26,"Exim Mail Transfer Vulnerability Allows Attackers to Inject Malicious SQL
+https://gbhackers.com/exim-mail-transfer-vulnerability/
+
+A newly disclosed vulnerability in the Exim mail transfer agent (CVE-2025-26794) has sent shockwaves through the cybersecurity community, revealing a critical SQL injection flaw that enables attackers to compromise email systems and manipulate underlying databases.  The vulnerability, confirmed in Exim Version 4.98 installations using SQLite for hints databases, represents one of the most severe email […]
+The post Exim Mail Transfer Vulnerability Allows Attackers to Inject Malicious SQL (https://gbhackers.com/exim-mail-transfer-vulnerability/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.173, 'neu': 0.664, 'pos': 0.163, 'compound': -0.4927}",-0.4927,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-24 11:35:26,"Biggest Crypto Hack in History –  Hackers Stolen $1.46 Billion Worth Crypto From Bybit
+https://gbhackers.com/bybit-hacked/
+
+In what has become the largest cryptocurrency theft in history, hackers infiltrated Bybit’s Ethereum cold wallet on February 21, 2025, siphoning approximately 401,346 ETH valued at $1.46 billion. The breach, attributed to North Korea’s Lazarus Group, exploited vulnerabilities in Bybit’s multisignature wallet interface, redirecting funds through a sophisticated smart contract manipulation. While Bybit assured users […]
+The post Biggest Crypto Hack in History –  Hackers Stolen $1.46 Billion Worth Crypto From Bybit (https://gbhackers.com/bybit-hacked/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.189, 'neu': 0.634, 'pos': 0.177, 'compound': -0.5574}",-0.5574,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-24 11:34:26,"PoC Exploit Released for F5 BIG-IP Command Injection Vulnerability
+https://gbhackers.com/f5-big-ip-command-injection-vulnerability/
+
+Security researchers have disclosed critical details about CVE-2025-20029, a command injection vulnerability in F5’s BIG-IP Traffic Management Shell (TMSH) command-line interface. The flaw enables authenticated attackers with low privileges to bypass security restrictions, execute arbitrary commands, and gain root-level access to vulnerable systems. A proof-of-concept (PoC) exploit demonstrating remote code execution was released on February 24, 2025, raising […]
+The post PoC Exploit Released for F5 BIG-IP Command Injection Vulnerability (https://gbhackers.com/f5-big-ip-command-injection-vulnerability/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.179, 'neu': 0.609, 'pos': 0.212, 'compound': 0.2732}",0.2732,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-24 11:33:28,"Google Introduces Quantum-Safe Digital Signatures in Cloud KMS
+https://gbhackers.com/google-introduces-quantum-safe-digital-signatures/
+
+Google Cloud has unveiled a critical cybersecurity upgrade: quantum-safe digital signatures via its Key Management Service (Cloud KMS), now available in preview. This move aligns with the National Institute of Standards and Technology’s (NIST) 2024 post-quantum cryptography (PQC) standards, offering developers tools to safeguard encryption against future quantum threats. Quantum-Resistant Signatures Enter the Mainstream Google’s latest update […]
+The post Google Introduces Quantum-Safe Digital Signatures in Cloud KMS (https://gbhackers.com/google-introduces-quantum-safe-digital-signatures/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.051, 'neu': 0.823, 'pos': 0.126, 'compound': 0.765}",0.765,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-23 12:47:27,"New Zhong Stealer Malware Exploit Zendesk to Attack Fintech and Cryptocurrency
+https://gbhackers.com/new-zhong-stealer-malware-exploit-zendesk/
+
+A newly identified malware, dubbed Zhong Stealer, has emerged as a significant threat to the fintech and cryptocurrency sectors. Any.run researchers discovered zhong malware during a phishing campaign between December 20 and 24, 2024, the malware exploits customer support platforms like Zendesk to infiltrate organizations. The attackers masquerade as customers, leveraging social engineering tactics to […]
+The post New Zhong Stealer Malware Exploit Zendesk to Attack Fintech and Cryptocurrency (https://gbhackers.com/new-zhong-stealer-malware-exploit-zendesk/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.396, 'neu': 0.503, 'pos': 0.101, 'compound': -0.9923}",-0.9923,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-23 01:22:35,"Beware: PayPal ""New Address"" feature abused to send phishing emails
+https://www.bleepingcomputer.com/news/security/beware-paypal-new-address-feature-abused-to-send-phishing-emails/
+
+An ongoing PayPal email scam exploits the platform's address settings to send fake purchase notifications, tricking users into granting remote access to scammers [...]","{'neg': 0.344, 'neu': 0.585, 'pos': 0.071, 'compound': -0.9337}",-0.9337,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-23 01:21:35,"Fake CS2 tournament streams used to steal crypto, Steam accounts
+https://www.bleepingcomputer.com/news/security/fake-cs2-tournament-streams-used-to-steal-crypto-steam-accounts/
+
+Threat actors are exploiting major Counter-Strike 2 (CS2) competitions, like IEM Katowice 2025 and PGL Cluj-Napoca 2025, to defraud gamers and steal their Steam accounts and cryptocurrency. [...]","{'neg': 0.309, 'neu': 0.641, 'pos': 0.05, 'compound': -0.9169}",-0.9169,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-21 21:51:25,"SPAWNCHIMERA Malware Exploits Ivanti Buffer Overflow Vulnerability by Applying a Critical Fix
+https://gbhackers.com/spawnchimera-malware-exploits-ivanti-buffer-overflow-vulnerability/
+
+In a recent development, the SPAWNCHIMERA malware family has been identified exploiting the buffer overflow vulnerability CVE-2025-0282 in Ivanti Connect Secure, as confirmed by JPCERT/CC. This vulnerability, disclosed in January 2025, had already been actively exploited since late December 2024, prior to its public announcement. The malware, an evolved variant of the SPAWN family, integrates […]
+The post SPAWNCHIMERA Malware Exploits Ivanti Buffer Overflow Vulnerability by Applying a Critical Fix (https://gbhackers.com/spawnchimera-malware-exploits-ivanti-buffer-overflow-vulnerability/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.238, 'neu': 0.569, 'pos': 0.193, 'compound': -0.7845}",-0.7845,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 21:50:25,"Sitevision Auto-Generated Password Vulnerability Lets Hackers Steal Signing Key
+https://gbhackers.com/sitevision-auto-generated-password-vulnerability/
+
+A significant vulnerability in Sitevision CMS, versions 10.3.1 and earlier, has been identified, allowing attackers to extract private keys used for signing SAML authentication requests. The flaw, tracked as CVE-2022-35202, stems from the use of a Java keystore accessible via WebDAV and protected by an auto-generated, low-complexity password. This vulnerability could potentially enable attackers to […]
+The post Sitevision Auto-Generated Password Vulnerability Lets Hackers Steal Signing Key (https://gbhackers.com/sitevision-auto-generated-password-vulnerability/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.119, 'neu': 0.649, 'pos': 0.232, 'compound': 0.875}",0.875,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 21:49:25,"NSA Allegedly Hacked Northwestern Polytechnical University, China Claims
+https://gbhackers.com/nsa-allegedly-hacked-northwestern-polytechnical-university/
+
+Chinese cybersecurity entities have accused the U.S. National Security Agency (NSA) of orchestrating a cyberattack on Northwestern Polytechnical University, a prominent Chinese institution specializing in aerospace and defense research. The allegations, published by organizations such as Qihoo 360 and the National Computer Virus Emergency Response Center (CVERC), claim that the NSA’s Tailored Access Operations (TAO) […]
+The post NSA Allegedly Hacked Northwestern Polytechnical University, China Claims (https://gbhackers.com/nsa-allegedly-hacked-northwestern-polytechnical-university/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.1, 'neu': 0.758, 'pos': 0.142, 'compound': 0.4939}",0.4939,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 21:48:27,"ACRStealer Malware Abuses Google Docs as C2 to Steal Login Credentials
+https://gbhackers.com/acrstealer-malware-abuses-google-docs/
+
+The ACRStealer malware, an infostealer disguised as illegal software such as cracks and keygens, has seen a significant increase in its distribution since the beginning of 2025. Initially distributed in limited volumes in mid-2024, this malware has now gained traction, with February’s activity levels matching those of January, signaling a sharp upward trend. Security researchers […]
+The post ACRStealer Malware Abuses Google Docs as C2 to Steal Login Credentials (https://gbhackers.com/acrstealer-malware-abuses-google-docs/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.291, 'neu': 0.586, 'pos': 0.123, 'compound': -0.9761}",-0.9761,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+604262457,2025-02-21 19:23:13,"CISA Adds One Known Exploited Vulnerability to Catalog
+https://www.cisa.gov/news-events/alerts/2025/02/21/cisa-adds-one-known-exploited-vulnerability-catalog
+
+CISA has added one new vulnerability to its Known Exploited Vulnerabilities Catalog (https://www.cisa.gov/known-exploited-vulnerabilities-catalog), based on evidence of active exploitation.
+
+CVE-2025-24989 (https://www.cve.org/CVERecord?id=CVE-2025-24989) Microsoft Power Pages Improper Access Control Vulnerability
+
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities (https://www.cisa.gov/binding-operational-directive-22-01) established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet (https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf) for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities (https://www.cisa.gov/known-exploited-vulnerabilities-catalog) as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria (https://www.cisa.gov/known-exploited-vulnerabilities).","{'neg': 0.171, 'neu': 0.695, 'pos': 0.134, 'compound': -0.4588}",-0.4588,Israel Cyber Alerts,,"https://www.cisa.gov,https://www.cisa.gov,https://www.cve.org,https://www.cisa.gov,https://www.cisa.gov,https://www.cisa.gov,https://www.cisa.gov",,
+478514542,2025-02-21 18:49:19,"SpyLend Android malware downloaded 100,000 times from Google Play
+https://www.bleepingcomputer.com/news/security/spylend-android-malware-downloaded-100-000-times-from-google-play/
+
+An Android malware app called SpyLend has been downloaded over 100,000 times from Google Play, where it masqueraded as a financial tool but became a predatory loan app for those in India. [...]","{'neg': 0.11, 'neu': 0.815, 'pos': 0.075, 'compound': -0.3818}",-0.3818,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-21 18:48:21,"Hacker steals record $1.46 billion from Bybit ETH cold wallet
+https://www.bleepingcomputer.com/news/security/hacker-steals-record-146-billion-from-bybit-eth-cold-wallet/
+
+Cryptocurrency exchange Bybit revealed today that an unknown attacker stole over $1.46 billion worth of cryptocurrency from one of its ETH cold wallets. [...]","{'neg': 0.171, 'neu': 0.782, 'pos': 0.046, 'compound': -0.7269}",-0.7269,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-21 16:13:14,"CISA flags Craft CMS code injection flaw as exploited in attacks
+https://www.bleepingcomputer.com/news/security/cisa-flags-craft-cms-code-injection-flaw-as-exploited-in-attacks/
+
+The U.S. Cybersecurity & Infrastructure Security Agency (CISA) warns that a Craft CMS remote code execution flaw is being exploited in attacks. [...]","{'neg': 0.313, 'neu': 0.64, 'pos': 0.047, 'compound': -0.8807}",-0.8807,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-21 16:04:27,"Nagios XI Flaw Exposes User Details and Emails to Unauthenticated Attackers”
+https://gbhackers.com/nagios-xi-flaw/
+
+A security vulnerability in Nagios XI 2024R1.2.2, tracked as CVE-2024-54961, has been disclosed, allowing unauthenticated attackers to retrieve sensitive user information, including usernames and email addresses, from the network monitoring platform. This high-severity flaw (CVSSv3 score: 6.5) exposes organizations to heightened risks of phishing campaigns, credential-stuffing attacks, and lateral movement within compromised networks. Technical Breakdown […]
+The post Nagios XI Flaw Exposes User Details and Emails to Unauthenticated Attackers” (https://gbhackers.com/nagios-xi-flaw/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.155, 'neu': 0.737, 'pos': 0.109, 'compound': -0.6249}",-0.6249,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 16:03:27,"Critical UniFi Protect Camera Vulnerability Enables Remote Code Execution Attacks
+https://gbhackers.com/unifi-protect-camera-vulnerability/
+
+Ubiquiti Networks has issued an urgent security advisory (Bulletin 046) warning of multiple critical vulnerabilities in its UniFi Protect camera ecosystem, including a high-severity remote code execution (RCE) flaw that could allow attackers to hijack devices and infiltrate network infrastructure. The vulnerabilities, discovered during the Pwn2Own 2025 hacking competition, affect UniFi Protect Cameras (firmware v4.74.88 […]
+The post Critical UniFi Protect Camera Vulnerability Enables Remote Code Execution Attacks (https://gbhackers.com/unifi-protect-camera-vulnerability/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.172, 'neu': 0.556, 'pos': 0.272, 'compound': 0.93}",0.93,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 16:02:26,"Critical Vulnerability in Fluent Bit Exposes Cloud Services to Potential Cyber Attacks
+https://gbhackers.com/vulnerability-in-fluent-bit/
+
+A critical security flaw in Fluent Bit, a widely adopted log processing and metrics collection tool part of the Cloud Native Computing Foundation (CNCF), has exposed enterprise cloud infrastructures to denial-of-service (DoS) attacks. Designated as CVE-2024-50608 and CVE-2024-50609, these vulnerabilities—scoring 8.9 on the CVSS v3.1 severity scale—stem from improper handling of HTTP headers in the […]
+The post Critical Vulnerability in Fluent Bit Exposes Cloud Services to Potential Cyber Attacks (https://gbhackers.com/vulnerability-in-fluent-bit/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.173, 'neu': 0.696, 'pos': 0.131, 'compound': -0.4215}",-0.4215,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 10:59:48,"New Darcula 3.0 Tool Generates Phishing Kits to Mimic Global Brands
+https://gbhackers.com/new-darcula-3-0-tool-generates-phishing-kits/
+
+The cybercriminal group behind the notorious “darcula-suite” platform has unveiled its latest iteration, darcula 3.0, which introduces groundbreaking capabilities for creating phishing kits targeting any brand globally. This “Phishing-as-a-Service” (PhaaS) platform lowers the technical barrier for bad actors by automating the cloning of legitimate websites and enabling non-technical users to deploy sophisticated phishing campaigns with […]
+The post New Darcula 3.0 Tool Generates Phishing Kits to Mimic Global Brands (https://gbhackers.com/new-darcula-3-0-tool-generates-phishing-kits/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.211, 'neu': 0.682, 'pos': 0.107, 'compound': -0.926}",-0.926,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 10:58:47,"Salt Typhoon Hackers Exploit Cisco Vulnerability to Gain Device Access on US.Telecom Networks
+https://gbhackers.com/salt-typhoon-hackers-exploit-cisco-vulnerability/
+
+A highly advanced threat actor, dubbed “Salt Typhoon,” has been implicated in a series of cyberattacks targeting major U.S. telecommunications networks, according to a report by Cisco Talos. The campaign, which began in late 2024 and was confirmed by the U.S. government, involves exploiting vulnerabilities in Cisco devices and leveraging stolen credentials to infiltrate critical […]
+The post Salt Typhoon Hackers Exploit Cisco Vulnerability to Gain Device Access on US.Telecom Networks (https://gbhackers.com/salt-typhoon-hackers-exploit-cisco-vulnerability/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.171, 'neu': 0.651, 'pos': 0.178, 'compound': -0.022}",-0.022,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 10:57:48,"CL0P Ransomware Launches Large-Scale Attacks on Telecom and Healthcare Sectors
+https://gbhackers.com/cl0p-ransomware-launches-large-scale-attacks/
+
+The notorious CL0P ransomware group has intensified its operations in early 2025, targeting critical sectors such as telecommunications and healthcare. Known for its sophisticated tactics, the group has exploited zero-day vulnerabilities to infiltrate systems, steal sensitive data, and extort victims. This resurgence follows a relatively quieter 2024, during which CL0P listed only 27 victims compared […]
+The post CL0P Ransomware Launches Large-Scale Attacks on Telecom and Healthcare Sectors (https://gbhackers.com/cl0p-ransomware-launches-large-scale-attacks/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.336, 'neu': 0.581, 'pos': 0.083, 'compound': -0.9869}",-0.9869,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 10:56:49,"Adversary-in-the-Middle Hackers Exploit Vulnerabilities to Deploy Advanced Malware
+https://gbhackers.com/adversary-in-the-middle-hackers-exploit-vulnerabilities/
+
+Cybercriminals are increasingly leveraging sophisticated Adversary-in-the-Middle (AiTM) phishing techniques, enabled by the rise of Phishing-as-a-Service (PhaaS) ecosystems. These operations target financial institutions globally, bypassing multi-factor authentication (MFA) by intercepting live authentication sessions. Threat actors use reverse proxy servers to relay user inputs to legitimate websites, capturing credentials and session cookies in real time. This allows […]
+The post Adversary-in-the-Middle Hackers Exploit Vulnerabilities to Deploy Advanced Malware (https://gbhackers.com/adversary-in-the-middle-hackers-exploit-vulnerabilities/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.219, 'neu': 0.609, 'pos': 0.173, 'compound': -0.8176}",-0.8176,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 09:42:53,"CISA Issues Seven ICS Advisories Highlighting Critical Vulnerabilities
+https://gbhackers.com/cisa-ics-vulnerabilities/
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) released seven Industrial Control Systems (ICS) advisories on February 20, 2025, addressing critical vulnerabilities in products from ABB, Siemens, Mitsubishi Electric, and other industrial technology providers. These advisories underscore escalating risks to operational technology (OT) environments, where flaws in safety controllers, human-machine interfaces (HMIs), and protocol analyzers […]
+The post CISA Issues Seven ICS Advisories Highlighting Critical Vulnerabilities (https://gbhackers.com/cisa-ics-vulnerabilities/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.134, 'neu': 0.75, 'pos': 0.116, 'compound': 0.0258}",0.0258,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 09:41:53,"Pegasus Spyware Now Targeting Business Executives and Financial Sector Professionals
+https://gbhackers.com/pegasus-spyware-business/
+
+The once-shadowy realm of Pegasus spyware has breached new frontiers, with forensic analyses revealing a stark pivot from targeting journalists and activists to infiltrating the private sector. In December 2024, mobile security firm iVerify detected 11 new Pegasus infections among 18,000 scanned devices—a 1.5 per 1,000 incidence rate—exposing finance, real estate, and logistics executives to […]
+The post Pegasus Spyware Now Targeting Business Executives and Financial Sector Professionals (https://gbhackers.com/pegasus-spyware-business/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.0, 'neu': 0.906, 'pos': 0.094, 'compound': 0.7964}",0.7964,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-21 00:24:47,"Black Basta ransomware gang's internal chat logs leak online
+https://www.bleepingcomputer.com/news/security/black-basta-ransomware-gang-s-internal-chat-logs-leak-online/
+
+An unknown leaker has released what they claim to be an archive of internal Matrix chat logs belonging to the Black Basta ransomware operation. [...]","{'neg': 0.279, 'neu': 0.721, 'pos': 0.0, 'compound': -0.9246}",-0.9246,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,

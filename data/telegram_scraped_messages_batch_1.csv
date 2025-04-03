@@ -1,0 +1,99 @@
+Sender ID,Date,Message,Sentiment,Compound_Sentiment,Channel Name,Affiliated Channel,URLs,IP_Addresses,Hashes
+-1001021156280,2022-06-03 07:24:01,"⚠️ Atlassian Confluence On-Premise (All recent versions) Remote Code Execution vulnerability!
+
+If your Confluence is reachable from the Internet, take immediate action and restrict access. This is being exploited in the wild! There is no patch available as of right now.
+
+Affected:  All recent On-Prem Confluence Servers & Data Center
+More Information (Advisory/Updates): https://yt.gl/f1kcv
+(severity: 🔶 very high) 
+
+#alert #vulnerability #severityhigh #exchange #CVE-2021-26855 #CVE-2021-26857 #CVE-2021-26858 #CVE-2021-27065.
+
+➡️ Feel free to discuss this issue in @itsectalk and do your colleagues a favor and forward them this critical vulnerability.","{'neg': 0.118, 'neu': 0.728, 'pos': 0.153, 'compound': 0.6766}",0.6766,IT Security Alerts,,https://yt.gl,,
+-1001021156280,2021-03-06 10:43:11,"⚠️ Microsoft Exchange Server - GENERAL ADVISORY - **UPDATE IMMEDIATELY!
+**Several new flaws (CVE-2021-26855, CVE-2021-26857, CVE-2021-26858, and CVE-2021-27065)  have been reported and Microsoft issued an emergency fix. It is reported that the vulnerabilities **are actively being exploited.
+
+**Affected:  Exchange Server 2013, Exchange Server 2016, and Exchange Server 2019.
+
+More Information (Advisory/Updates): https://yt.gl/exchangeexp
+
+(severity: 🔶 very high) 
+
+#alert #vulnerability #severityhigh #atlassian #confluence CVE-2022-26134.
+
+➡️ Feel free to discuss this issue in @itsectalk and do your colleagues a favor and forward them this critical vulnerability.","{'neg': 0.106, 'neu': 0.768, 'pos': 0.125, 'compound': 0.4151}",0.4151,IT Security Alerts,,https://yt.gl,,
+-1001021156280,2021-01-27 09:50:52,"⚠️Buffer overflow in sudo (linux utility) - ❗️ affects most distributions/versions - __CVE-____2021-3156____
+__While a local user is required to exploit this vulnerability, even the account 'nobody' can exploit this vulnerability. An unprivileged user can gain root privileges on affected hosts!
+
+**Check if you are affected!
+**To check if you are affected, run `sudoedit -s /` as **non-root user**. If the response is` sudoedit:` your system is vulnerable.
+
+**The following ""sudo"" versions are vulnerable
+*** All legacy versions from 1.8.2 to 1.8.31p2
+* All stable versions from 1.9.0 to 1.9.5p1
+
+**Severity:** 🔸High
+
+**Additional information
+**https://yt.gl/sudobufferoverflow
+
+#alert #severityHigh #vulnerability #linux #sudo 
+
+🌟 Feel free to discuss this issue in @itsectalk 👍 Please vote if this information was helpful to you.","{'neg': 0.12, 'neu': 0.706, 'pos': 0.174, 'compound': 0.8619}",0.8619,IT Security Alerts,,https://yt.gl,,
+-1001021156280,2020-10-16 22:59:55,"⚠️SonicWall VPN Portal Critical Flaw
+Tripwire VERT has identified a stack-based buffer overflow in SonicWall Network Security Appliance (NSA).
+A fix is available. 
+
+SonicWall has indicated that the following versions are vulnerable:
+* SonicOS 6.5.4.7-79n and earlier
+* SonicOS 6.5.1.11-4n and earlier
+* SonicOS 6.0.5.3-93o and earlier
+* SonicOSv 6.5.4.4-44v-21-794 and earlier
+* SonicOS 7.0.0.0-1
+
+(Severity: 🔸high)
+
+Additional information:
+https://www.tripwire.com/state-of-security/vert/sonicwall-vpn-portal-critical-flaw-cve-2020-5135/
+
+#alert #severityHigh #vulnerability #firewall #sonicwall
+#CVE2020-5135","{'neg': 0.068, 'neu': 0.9, 'pos': 0.032, 'compound': -0.296}",-0.296,IT Security Alerts,,https://www.tripwire.com,"6.5.4.7,6.5.1.11,6.0.5.3,6.5.4.4,7.0.0.0",
+-1001021156280,2020-04-22 22:03:05,"⚠️ iPhones/iPads Mail app vulnerable  
+
+""The flaws could eventually let remote hackers secretly take complete control over Apple devices just by sending an email to any targeted individual with his email account logged-in to the vulnerable app.""
+
+Severity: 🔶 High
+More Information: https://yt.gl/tjqz8
+
+#alert #severityhigh #vulnerability #apple #mailapp 
+
+📬 Spread the news, forward the message to your mobile management admins.
+❓ Questions? Feedback? Want to discuss? Join us at @itsectalk","{'neg': 0.061, 'neu': 0.889, 'pos': 0.049, 'compound': -0.212}",-0.212,IT Security Alerts,,https://yt.gl,,
+478514542,2025-03-28 00:33:20,"When Getting Phished Puts You in Mortal Danger
+https://krebsonsecurity.com/2025/03/when-getting-phished-puts-you-in-mortal-danger/
+
+Many successful phishing attacks result in a financial loss or malware infection. But falling for some phishing scams, like those currently targeting Russians searching online for organizations that are fighting the Kremlin war machine, can cost you your freedom or your life.","{'neg': 0.398, 'neu': 0.46, 'pos': 0.142, 'compound': -0.9615}",-0.9615,Israel Cyber Alerts,,https://krebsonsecurity.com,,
+478514542,2025-03-27 21:35:20,"The 4 WordPress flaws hackers targeted the most in Q1 2025
+https://www.bleepingcomputer.com/news/security/the-four-wordpress-flaws-hackers-targeted-the-most-in-q1-2025/
+
+A new report sheds light on the most targeted WordPress plugin vulnerabilities hackers used in the first quarter of 2025 to compromise sites. [...]","{'neg': 0.149, 'neu': 0.851, 'pos': 0.0, 'compound': -0.6808}",-0.6808,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-03-27 20:17:42,"Chinese FamousSparrow hackers deploy upgraded malware in attacks
+https://www.bleepingcomputer.com/news/security/chinese-famoussparrow-hackers-deploy-upgraded-malware-in-attacks/
+
+A China-linked cyberespionage group known as 'FamousSparrow' was observed using a new modular version of its signature backdoor 'SparrowDoor' against a US-based trade organization. [...]","{'neg': 0.28, 'neu': 0.72, 'pos': 0.0, 'compound': -0.8979}",-0.8979,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-03-27 19:30:24,"Classiscam Operators Use Automated Malicious Sites to Steal Financial Data
+https://gbhackers.com/classiscam-operators-use-automated-malicious-sites/
+
+Classiscam, an automated scam-as-a-service operation, has been identified as a significant threat in Central Asia, leveraging sophisticated techniques to defraud users of online marketplaces and e-commerce platforms. This fraudulent scheme, highlighted in the High-Tech Crime Trends Report 2025, utilizes Telegram bots to generate fake websites that mimic legitimate services, effectively deceiving victims into sharing their […]
+The post Classiscam Operators Use Automated Malicious Sites to Steal Financial Data (https://gbhackers.com/classiscam-operators-use-automated-malicious-sites/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.201, 'neu': 0.647, 'pos': 0.153, 'compound': -0.7717}",-0.7717,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-27 19:14:54,"Blacklock Ransomware Infrastructure Breached, Revealing Planned Attacks
+https://gbhackers.com/blacklock-ransomware-infrastructure-breached/
+
+Resecurity, a prominent cybersecurity firm, has successfully exploited a vulnerability in the Data Leak Site (DLS) of Blacklock Ransomware, gaining unprecedented access to the group’s infrastructure. This breach, occurring during the winter of 2024-2025, allowed researchers to collect substantial intelligence about the ransomware group’s activities and planned attacks. Exploitation of Local File Include Vulnerability The […]
+The post Blacklock Ransomware Infrastructure Breached, Revealing Planned Attacks (https://gbhackers.com/blacklock-ransomware-infrastructure-breached/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.3, 'neu': 0.498, 'pos': 0.202, 'compound': -0.9571}",-0.9571,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-03-27 17:19:00,"G2 Names INE 2025 Cybersecurity Training Leader
+https://gbhackers.com/g2-names-ine-2025-cybersecurity-training-leader/
+
+INE, a global leader in networking and cybersecurity training and certifications, is proud to announce it is the recipient of twelve badges in G2’s Spring 2025 Report, including Grid Leader for Cybersecurity Professional Development, Online Course Providers, and Technical Skills Development, which highlight INE’s superior performance relative to competitors.  “INE solves the problem of accessible, […]
+The post G2 Names INE 2025 Cybersecurity Training Leader (https://gbhackers.com/g2-names-ine-2025-cybersecurity-training-leader/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.027, 'neu': 0.789, 'pos': 0.184, 'compound': 0.926}",0.926,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+7450844921,2025-03-03 02:07:55,Who can help me remove the UI from a old door dash table?? I have a kali Linux virtual machine that I can use for hacking it but I can’t get the table to connect to the VM so I can do an ADB,"{'neg': 0.0, 'neu': 0.944, 'pos': 0.056, 'compound': 0.2982}",0.2982,IT Security Talk,,,,

