@@ -3,9 +3,11 @@ services:
   connector-telegram:
     build: .
     environment:
-      - OPENCTI_URL=http://localhost:8080
-      - OPENCTI_TOKEN=${OPENCTI_ADMIN_TOKEN}
-      - CONNECTOR_ID=${CONNECTOR_TELEGRAM_ID}
+      # OpenCTI configuration
+      - OPENCTI_URL=${OPENCTI_URL:-http://localhost:8080}
+      - OPENCTI_TOKEN=${OPENCTI_TOKEN}
+      # Connector configuration
+      - CONNECTOR_ID=${CONNECTOR_ID:-xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx}
       - CONNECTOR_TYPE=EXTERNAL_IMPORT
       - CONNECTOR_NAME=Telegram Threat Intelligence
       - CONNECTOR_SCOPE=telegram
@@ -13,8 +15,15 @@ services:
       - CONNECTOR_UPDATE_EXISTING_DATA=true
       - CONNECTOR_LOG_LEVEL=info
       - CONNECTOR_RUN_AND_TERMINATE=false
+      # Telegram configuration
       - CONNECTOR_TELEGRAM_CHANNELS=${TELEGRAM_CHANNELS}
       - TELEGRAM_API_ID=${TELEGRAM_API_ID}
       - TELEGRAM_API_HASH=${TELEGRAM_API_HASH}
       - TELEGRAM_SESSION_STRING=${TELEGRAM_SESSION_STRING}
     restart: always
+    networks:
+      - opencti_default
+
+networks:
+  opencti_default:
+    external: true
